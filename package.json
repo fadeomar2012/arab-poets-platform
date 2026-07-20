@@ -1,26 +1,51 @@
 {
   "name": "arab-poets-platform",
-  "version": "0.1.0",
+  "version": "0.3.1",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "payload": "node scripts/payload-cli.mjs",
+    "generate:types": "node scripts/payload-cli.mjs generate:types",
+    "generate:importmap": "node scripts/payload-cli.mjs generate:importmap",
+    "migrate:create": "node scripts/payload-cli.mjs migrate:create",
+    "migrate": "node scripts/payload-cli.mjs migrate",
+    "migrate:status": "node scripts/payload-cli.mjs migrate:status",
+    "seed": "node --import tsx scripts/seed.ts",
+    "check": "npm run lint && npm run typecheck",
+    "migrate:down": "node scripts/payload-cli.mjs migrate:down",
+    "seed:verify": "node --import tsx scripts/verify-seed.ts",
+    "verify": "npm run generate:types && npm run generate:importmap && npm run lint && npm run typecheck && npm run build",
+    "predev": "npm run generate:importmap",
+    "prebuild": "npm run generate:importmap"
   },
   "dependencies": {
+    "@payloadcms/db-postgres": "3.86.0",
+    "@payloadcms/next": "3.86.0",
+    "@payloadcms/plugin-cloud-storage": "3.86.0",
+    "@payloadcms/richtext-lexical": "3.86.0",
+    "@payloadcms/translations": "3.86.0",
+    "cloudinary": "2.10.0",
+    "graphql": "16.11.0",
     "next": "16.2.10",
+    "payload": "3.86.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "sharp": "0.34.5",
+    "zod": "4.4.3"
   },
   "devDependencies": {
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "dotenv": "17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
+    "tsx": "4.22.4",
     "typescript": "^5.8.3"
   },
   "engines": {

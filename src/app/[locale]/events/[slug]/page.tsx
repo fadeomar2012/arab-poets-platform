@@ -4,14 +4,157 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Gallery } from "@/components/gallery/Gallery";
 import { PersonCard } from "@/components/people/PersonCard";
-import { isLocale, locales } from "@/i18n/config";
-import { getEventBySlug, getEvents, getPeopleBySlugs } from "@/lib/content";
+import { isLocale } from "@/i18n/config";
+import { getEventBySlug, getPeopleBySlugs } from "@/lib/content";
+import type { EventStatus } from "@/lib/content/types";
 import { localize } from "@/lib/content/types";
 import { attendanceLabel, formatDateRange } from "@/lib/format";
 
-export async function generateStaticParams() { const events = await getEvents(); return locales.flatMap((locale) => events.map((event) => ({ locale, slug: event.slug }))); }
-export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> { const { locale, slug } = await params; if (!isLocale(locale)) return {}; const event = await getEventBySlug(slug); return event ? { title: localize(event.title, locale), description: localize(event.shortDescription, locale) } : {}; }
-export default async function EventPage({ params }: { params: Promise<{ locale: string; slug: string }> }) { const { locale: raw, slug } = await params; if (!isLocale(raw)) notFound(); const event = await getEventBySlug(slug); if (!event) notFound(); const participants = await getPeopleBySlugs(event.participantSlugs); return <main>
-  <section className="event-hero"><div className="container event-hero-grid"><div><div className="pill-row"><span className="pill">{localize(event.type, raw)}</span><span className="pill">{event.status === "upcoming" ? (raw === "ar" ? "فعالية قادمة" : "Upcoming") : (raw === "ar" ? "فعالية سابقة" : "Past event")}</span></div><h1>{localize(event.title, raw)}</h1><p>{localize(event.shortDescription, raw)}</p><div className="event-facts"><span>{formatDateRange(event.startDate, event.endDate, raw)}</span><span>{localize(event.city, raw)}, {localize(event.country, raw)}</span><span>{attendanceLabel(event.attendance, raw)}</span></div></div><div className="event-cover"><Image src={event.image} alt="" fill priority sizes="(max-width: 760px) 100vw, 45vw" /></div></div></section>
-  <section className="section"><div className="container detail-layout"><article><h2>{raw === "ar" ? "نبذة عن الفعالية" : "About the event"}</h2><p className="prose">{localize(event.fullDescription, raw)}</p>{event.program.length ? <section className="content-section"><h2>{raw === "ar" ? "البرنامج" : "Program"}</h2><div className="timeline">{event.program.map((item, index) => <article className="timeline-item" key={`${localize(item.title, raw)}-${index}`}><div className="timeline-marker" /><div className="timeline-card card"><strong>{item.time}{item.duration ? ` · ${item.duration} ${raw === "ar" ? "دقيقة" : "min"}` : ""}</strong><h3>{localize(item.title, raw)}</h3>{item.description ? <p>{localize(item.description, raw)}</p> : null}</div></article>)}</div></section> : null}{participants.length ? <section className="content-section"><h2>{raw === "ar" ? "المشاركون" : "Participants"}</h2><div className="people-grid">{participants.map((person) => <PersonCard person={person} locale={raw} key={person.slug} />)}</div></section> : null}{event.gallery.length ? <section className="content-section"><h2>{raw === "ar" ? "معرض الفعالية" : "Event gallery"}</h2><Gallery images={event.gallery} /></section> : null}</article><aside><div className="sidebar-card card"><h3>{raw === "ar" ? "معلومات الفعالية" : "Event information"}</h3><dl><div><dt>{raw === "ar" ? "التاريخ" : "Date"}</dt><dd>{formatDateRange(event.startDate, event.endDate, raw)}</dd></div><div><dt>{raw === "ar" ? "المكان" : "Location"}</dt><dd>{localize(event.city, raw)}, {localize(event.country, raw)}</dd></div><div><dt>{raw === "ar" ? "الحضور" : "Attendance"}</dt><dd>{attendanceLabel(event.attendance, raw)}</dd></div></dl></div><div className="sidebar-card card"><h3>{raw === "ar" ? "طلب المشاركة" : "Participation request"}</h3><p>{raw === "ar" ? "أرسل طلبًا أوليًا وستستكمل الإدارة التواصل خارج المنصة." : "Send an initial request; the team will follow up outside the platform."}</p><Link className="button button-primary button-full" href={`/${raw}/participate`}>{raw === "ar" ? "إرسال طلب" : "Send request"}</Link></div></aside></div></section>
-</main>; }
+export const dynamic = "force-dynamic";
+export const dynamicParams = true;
+
+const statusLabel = (status: EventStatus, locale: "ar" | "en") => {
+  const labels = {
+    upcoming: { ar: "فعالية قادمة", en: "Upcoming" },
+    ongoing: { ar: "جارية الآن", en: "Ongoing" },
+    past: { ar: "فعالية سابقة", en: "Past event" },
+  } as const;
+  return labels[status][locale];
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}): Promise<Metadata> {
+  const { locale, slug } = await params;
+  if (!isLocale(locale)) return {};
+  const event = await getEventBySlug(slug, locale);
+  return event
+    ? {
+        title: localize(event.title, locale),
+        description: localize(event.shortDescription, locale),
+      }
+    : {};
+}
+
+export default async function EventPage({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale: raw, slug } = await params;
+  if (!isLocale(raw)) notFound();
+  const event = await getEventBySlug(slug, raw);
+  if (!event) notFound();
+  const participants = await getPeopleBySlugs(event.participantSlugs, raw);
+
+  return (
+    <main>
+      <section className="event-hero">
+        <div className="container event-hero-grid">
+          <div>
+            <div className="pill-row">
+              <span className="pill">{localize(event.type, raw)}</span>
+              <span className="pill">{statusLabel(event.status, raw)}</span>
+            </div>
+            <h1>{localize(event.title, raw)}</h1>
+            <p>{localize(event.shortDescription, raw)}</p>
+            <div className="event-facts">
+              <span>{formatDateRange(event.startDate, event.endDate, raw)}</span>
+              <span>
+                {localize(event.city, raw)}, {localize(event.country, raw)}
+              </span>
+              <span>{attendanceLabel(event.attendance, raw)}</span>
+            </div>
+          </div>
+          <div className="event-cover">
+            <Image
+              src={event.image.url}
+              alt={localize(event.image.alt, raw)}
+              fill
+              priority
+              sizes="(max-width: 760px) 100vw, 45vw"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container detail-layout">
+          <article>
+            <h2>{raw === "ar" ? "نبذة عن الفعالية" : "About the event"}</h2>
+            <p className="prose">{localize(event.fullDescription, raw)}</p>
+
+            {event.program.length ? (
+              <section className="content-section">
+                <h2>{raw === "ar" ? "البرنامج" : "Program"}</h2>
+                <div className="timeline">
+                  {event.program.map((item, index) => (
+                    <article
+                      className="timeline-item"
+                      key={`${localize(item.title, raw)}-${index}`}
+                    >
+                      <div className="timeline-marker" />
+                      <div className="timeline-card card">
+                        <strong>
+                          {item.time}
+                          {item.duration
+                            ? ` · ${item.duration} ${raw === "ar" ? "دقيقة" : "min"}`
+                            : ""}
+                        </strong>
+                        <h3>{localize(item.title, raw)}</h3>
+                        {item.description ? <p>{localize(item.description, raw)}</p> : null}
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+
+            {participants.length ? (
+              <section className="content-section">
+                <h2>{raw === "ar" ? "المشاركون" : "Participants"}</h2>
+                <div className="people-grid">
+                  {participants.map((person) => (
+                    <PersonCard person={person} locale={raw} key={person.slug} />
+                  ))}
+                </div>
+              </section>
+            ) : null}
+
+            {event.gallery.length ? (
+              <section className="content-section">
+                <h2>{raw === "ar" ? "معرض الفعالية" : "Event gallery"}</h2>
+                <Gallery images={event.gallery} locale={raw} />
+              </section>
+            ) : null}
+          </article>
+
+          <aside>
+            <div className="sidebar-card card">
+              <h3>{raw === "ar" ? "معلومات الفعالية" : "Event information"}</h3>
+              <dl>
+                <div><dt>{raw === "ar" ? "التاريخ" : "Date"}</dt><dd>{formatDateRange(event.startDate, event.endDate, raw)}</dd></div>
+                <div><dt>{raw === "ar" ? "المكان" : "Location"}</dt><dd>{localize(event.city, raw)}, {localize(event.country, raw)}</dd></div>
+                <div><dt>{raw === "ar" ? "الحضور" : "Attendance"}</dt><dd>{attendanceLabel(event.attendance, raw)}</dd></div>
+                <div><dt>{raw === "ar" ? "المنطقة الزمنية" : "Timezone"}</dt><dd>{event.timezone}</dd></div>
+              </dl>
+            </div>
+            <div className="sidebar-card card">
+              <h3>{raw === "ar" ? "طلب المشاركة" : "Participation request"}</h3>
+              <p>
+                {raw === "ar"
+                  ? "أرسل طلبًا أوليًا وستستكمل الإدارة التواصل خارج المنصة."
+                  : "Send an initial request; the team will follow up outside the platform."}
+              </p>
+              <Link className="button button-primary button-full" href={`/${raw}/participate`}>
+                {raw === "ar" ? "إرسال طلب" : "Send request"}
+              </Link>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+  );
+}

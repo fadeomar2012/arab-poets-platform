@@ -1,4 +1,9 @@
-import type { Event, Person } from "./types";
+import type { Event, MediaAsset, Person } from "./types";
+
+const media = (url: string, ar: string, en: string): MediaAsset => ({
+  url,
+  alt: { ar, en },
+});
 
 export const people: Person[] = [
   {
@@ -90,7 +95,7 @@ export const events: Event[] = [
     city: { ar: "إسطنبول", en: "Istanbul" },
     venue: { ar: "قاعة ثقافية في إسطنبول", en: "A cultural venue in Istanbul" },
     attendance: "requestApproval",
-    image: "/images/istanbul-event.png",
+    image: media("/images/istanbul-event.png", "صورة الفعالية", "Event image"),
     featured: true,
     participantSlugs: ["mustafa-matar", "ibtisam-al-samadi", "khaled-al-yasari"],
     program: [
@@ -99,7 +104,7 @@ export const events: Event[] = [
       { time: "16:50", duration: "30", title: { ar: "أقلام واعدة", en: "Emerging Voices" }, description: { ar: "تقديم تجارب أدبية وشعرية جديدة.", en: "Introducing new literary voices." } },
       { time: "17:20", duration: "10", title: { ar: "التكريم والختام", en: "Recognition and closing" }, description: { ar: "تكريم المشاركين واختتام البرنامج.", en: "Recognition of participants and closing remarks." } },
     ],
-    gallery: ["/images/association-photo.png", "/images/istanbul-event.png", "/images/poets-poster.png"],
+    gallery: [media("/images/association-photo.png", "صورة من الفعالية", "Event gallery image"), media("/images/istanbul-event.png", "صورة من الفعالية", "Event gallery image"), media("/images/poets-poster.png", "صورة من الفعالية", "Event gallery image")],
   },
   {
     slug: "contemporary-arabic-poetry-evening",
@@ -113,10 +118,10 @@ export const events: Event[] = [
     country: { ar: "مصر", en: "Egypt" },
     city: { ar: "القاهرة", en: "Cairo" },
     attendance: "open",
-    image: "/images/event-square.png",
+    image: media("/images/event-square.png", "صورة الفعالية", "Event image"),
     participantSlugs: ["hassan-talab"],
     program: [],
-    gallery: ["/images/event-square.png"],
+    gallery: [media("/images/event-square.png", "صورة من الفعالية", "Event gallery image")],
   },
   {
     slug: "young-poets-bridges",
@@ -130,10 +135,10 @@ export const events: Event[] = [
     country: { ar: "الأردن", en: "Jordan" },
     city: { ar: "عمّان", en: "Amman" },
     attendance: "invitation",
-    image: "/images/poets-poster.png",
+    image: media("/images/poets-poster.png", "صورة الفعالية", "Event image"),
     participantSlugs: ["sumaya-wadi"],
     program: [],
-    gallery: ["/images/poets-poster.png"],
+    gallery: [media("/images/poets-poster.png", "صورة من الفعالية", "Event gallery image")],
   },
   {
     slug: "arab-poetry-festival-eighth",
@@ -148,9 +153,9 @@ export const events: Event[] = [
     country: { ar: "تركيا", en: "Türkiye" },
     city: { ar: "إسطنبول", en: "Istanbul" },
     attendance: "invitation",
-    image: "/images/poets-poster.png",
+    image: media("/images/poets-poster.png", "صورة الفعالية", "Event image"),
     participantSlugs: ["mustafa-matar", "ibtisam-al-samadi", "khaled-al-yasari"],
     program: [],
-    gallery: ["/images/poets-poster.png", "/images/association-photo.png"],
+    gallery: [media("/images/poets-poster.png", "صورة من الفعالية", "Event gallery image"), media("/images/association-photo.png", "صورة من الفعالية", "Event gallery image")],
   },
 ];

@@ -1,37 +1,31 @@
-# Payload Integration Plan
+# Payload Integration Status — v0.2
 
-The frontend is intentionally built first with a typed content adapter.
-
-## Current data flow
+## Implemented
 
 ```text
-Page / Component
-  → src/lib/content/index.ts
-  → mock adapter
-  → typed mock records
-```
-
-## Future data flow
-
-```text
-Page / Component
+Public pages
   → src/lib/content/index.ts
   → Payload Local API adapter
-  → PostgreSQL
+  → Supabase PostgreSQL
 ```
 
-## Integration steps
+Also implemented:
 
-1. Install Payload into this existing supported Next.js application.
-2. Add the `(payload)` route group and `payload.config.ts`.
-3. Add PostgreSQL and environment variables.
-4. Apply Events, People, Media, Partners, Requests, Messages, and Globals collections.
-5. Create `src/lib/content/payload-adapter.ts`.
-6. Replace exports in `src/lib/content/index.ts`.
-7. Add draft preview and publish revalidation.
-8. Replace demo forms with server actions or route handlers.
-9. Add external media storage and transactional email.
+- Payload Admin routes under `/admin`
+- Users and roles
+- Draft-enabled content collections
+- Arabic and English localization
+- Cloudinary-backed Media collection
+- Contact and participation persistence
+- Mock-data fallback when CMS access fails
 
-## Compatibility
+## Remaining backend work
 
-This project pins Next.js `16.2.10`, which is within Payload's currently documented `16.2.6+` compatible range. Recheck the official Payload compatibility requirements before installation.
+- Email notifications and password-reset delivery through Resend
+- Distributed form rate limiting
+- Preview-mode links from Admin to public draft pages
+- Targeted cache revalidation hooks
+- Production seed/import workflow
+- Historical Facebook content migration
+- Generated Payload types committed after installation
+- Automated integration and access-control tests
