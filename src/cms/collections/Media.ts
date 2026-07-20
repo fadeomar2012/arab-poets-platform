@@ -1,11 +1,16 @@
 import type { CollectionConfig } from "payload";
 import { adminDeleteOnly, adminOrEditor } from "../access";
 import { adminGroups, bilingual, collectionLabels } from "../i18n";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
 
 export const Media: CollectionConfig = {
   slug: "media",
   labels: collectionLabels("ملف وسائط", "مكتبة الوسائط", "Media item", "Media library"),
   admin: { useAsTitle: "filename", group: adminGroups.content },
+  hooks: collectionRevalidationHooks({
+    areas: ["home", "about", "events", "people", "gallery"],
+    invalidateLayout: true,
+  }),
   access: {
     create: adminOrEditor,
     read: () => true,

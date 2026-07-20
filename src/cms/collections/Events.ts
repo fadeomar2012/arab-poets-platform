@@ -9,6 +9,8 @@ import { seoFields, slugField } from "../fields";
 import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
 import { validateCityCountry } from "../relations";
 import { validateOptionalURL } from "../validators";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
+import { collectionPreview } from "../preview";
 
 const validateEnd = (
   value: unknown,
@@ -26,6 +28,7 @@ export const Events: CollectionConfig = {
     useAsTitle: "title",
     group: adminGroups.events,
     defaultColumns: ["title", "eventType", "startDateTime", "country", "_status"],
+    preview: collectionPreview("events"),
   },
   access: {
     create: adminOrEditor,
@@ -35,6 +38,10 @@ export const Events: CollectionConfig = {
   },
   versions: { drafts: { autosave: { interval: 15000 }, localizeStatus: true }, maxPerDoc: 30 },
   hooks: {
+    ...collectionRevalidationHooks({
+      areas: ["home", "events", "gallery", "participate"],
+      detailArea: "events",
+    }),
     beforeChange: [
       async ({ data, req }) => {
         await validateCityCountry({

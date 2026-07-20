@@ -4,6 +4,8 @@ import { seoFields, slugField } from "../fields";
 import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
 import { validateCityCountry } from "../relations";
 import { validateOptionalURL } from "../validators";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
+import { collectionPreview } from "../preview";
 
 export const People: CollectionConfig = {
   slug: "people",
@@ -12,6 +14,7 @@ export const People: CollectionConfig = {
     useAsTitle: "name",
     group: adminGroups.people,
     defaultColumns: ["name", "country", "showInPublicDirectory", "_status"],
+    preview: collectionPreview("people"),
   },
   access: {
     create: adminOrEditor,
@@ -21,6 +24,10 @@ export const People: CollectionConfig = {
   },
   versions: { drafts: { autosave: { interval: 15000 }, localizeStatus: true }, maxPerDoc: 30 },
   hooks: {
+    ...collectionRevalidationHooks({
+      areas: ["home", "about", "people", "events"],
+      detailArea: "people",
+    }),
     beforeChange: [
       async ({ data, req }) => {
         await validateCityCountry({

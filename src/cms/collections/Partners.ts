@@ -3,11 +3,13 @@ import { activeOrAuthenticated, adminDeleteOnly, adminOrEditor } from "../access
 import { slugField } from "../fields";
 import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
 import { validateOptionalURL } from "../validators";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
 
 export const Partners: CollectionConfig = {
   slug: "partners",
   labels: collectionLabels("شريك", "الشركاء", "Partner", "Partners"),
   admin: { useAsTitle: "name", group: adminGroups.content },
+  hooks: collectionRevalidationHooks({ areas: ["home"] }),
   access: {
     create: adminOrEditor,
     read: activeOrAuthenticated,

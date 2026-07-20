@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
-    loader: "custom",
-    loaderFile: "./src/lib/image-loader.ts",
+    // The Cloudinary loader is applied per-image via SmartImage, not globally,
+    // so local /images/* assets keep the default optimization pipeline.
     remotePatterns: [
       { protocol: "https", hostname: "res.cloudinary.com" },
     ],

@@ -2,11 +2,13 @@ import type { CollectionConfig } from "payload";
 import { adminDeleteOnly, adminOrEditor, publishedOrAuthenticated } from "../access";
 import { slugField } from "../fields";
 import { adminGroups, bilingual, collectionLabels } from "../i18n";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
 
 export const EventSeries: CollectionConfig = {
   slug: "event-series",
   labels: collectionLabels("سلسلة فعاليات", "سلاسل الفعاليات", "Event series", "Event series"),
   admin: { useAsTitle: "name", group: adminGroups.events },
+  hooks: collectionRevalidationHooks({ areas: ["home", "events"], detailArea: "events" }),
   versions: { drafts: { localizeStatus: true }, maxPerDoc: 30 },
   access: {
     create: adminOrEditor,

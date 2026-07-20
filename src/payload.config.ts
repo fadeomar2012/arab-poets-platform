@@ -1,4 +1,5 @@
 import { postgresAdapter } from "@payloadcms/db-postgres";
+import { nodemailerAdapter } from "@payloadcms/email-nodemailer";
 import { cloudStoragePlugin } from "@payloadcms/plugin-cloud-storage";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import { ar } from "@payloadcms/translations/languages/ar";
@@ -40,6 +41,45 @@ const cloudinaryEnabled = Boolean(
     process.env.CLOUDINARY_API_SECRET,
 );
 
+const smtpConfigured = Boolean(
+  process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS,
+);
+
+const fromAddress = process.env.SMTP_FROM_ADDRESS || "no-reply@arabpoets.org";
+const fromName = process.env.SMTP_FROM_NAME || "Arab Poets Association";
+
+/**
+ * Production/staging: real SMTP transport only when all credentials exist.
+ * Development / missing credentials: a console (streamTransport) transport that
+ * never sends real mail and needs no credentials, so password-reset flows keep
+ * working locally without a warning about a missing adapter.
+ */
+const emailAdapter = nodemailerAdapter(
+  smtpConfigured
+    ? {
+        defaultFromAddress: fromAddress,
+        defaultFromName: fromName,
+        transportOptions: {
+          host: process.env.SMTP_HOST,
+          port: Number(process.env.SMTP_PORT) || 587,
+          secure: process.env.SMTP_SECURE === "true",
+          auth: {
+            user: process.env.SMTP_USER,
+            pass: process.env.SMTP_PASS,
+          },
+        },
+      }
+    : {
+        defaultFromAddress: fromAddress,
+        defaultFromName: fromName,
+        transportOptions: {
+          streamTransport: true,
+          newline: "unix",
+          buffer: true,
+        },
+      },
+);
+
 const allowedOrigins = new Set([
   serverURL,
   process.env.NEXT_PUBLIC_SITE_URL,
@@ -49,12 +89,30 @@ const allowedOrigins = new Set([
 
 export default buildConfig({
   serverURL,
+  email: emailAdapter,
   cors: [...allowedOrigins].filter((origin): origin is string => Boolean(origin)),
   csrf: [...allowedOrigins].filter((origin): origin is string => Boolean(origin)),
   admin: {
     user: Users.slug,
     importMap: { baseDir: path.resolve(dirname) },
     meta: { titleSuffix: "— Arab Poets CMS" },
+    components: {
+      graphics: {
+        Logo: "./components/admin/AdminLogo#default",
+        Icon: "./components/admin/AdminIcon#default",
+      },
+    },
+    dashboard: {
+      widgets: [
+        {
+          slug: "editorial-overview",
+          Component: "./components/admin/EditorialDashboard#default",
+          minWidth: "full",
+          maxWidth: "full",
+        },
+      ],
+      defaultLayout: [{ widgetSlug: "editorial-overview", width: "full" }] as never,
+    },
   },
   i18n: {
     fallbackLanguage: "ar",

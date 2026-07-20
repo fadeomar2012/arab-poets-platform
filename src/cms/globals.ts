@@ -2,12 +2,22 @@ import type { GlobalConfig } from "payload";
 import { adminOnly, adminOrEditor } from "./access";
 import { adminGroups, bilingual, option } from "./i18n";
 import { validateOptionalURL } from "./validators";
+import { globalRevalidationHook } from "./hooks/revalidate";
+import { homepagePreview } from "./preview";
 
 export const SiteSettings: GlobalConfig = {
   slug: "site-settings",
   label: bilingual("إعدادات الموقع", "Site settings"),
-  admin: { group: adminGroups.content },
+  admin: { group: adminGroups.content, preview: homepagePreview },
   access: { read: () => true, update: adminOnly },
+  hooks: {
+    afterChange: [
+      globalRevalidationHook({
+        areas: ["home", "about", "contact", "participate"],
+        invalidateLayout: true,
+      }),
+    ],
+  },
   fields: [
     {
       name: "associationName",
@@ -68,8 +78,13 @@ export const SiteSettings: GlobalConfig = {
 export const Homepage: GlobalConfig = {
   slug: "homepage",
   label: bilingual("الصفحة الرئيسية", "Homepage"),
-  admin: { group: adminGroups.content },
+  admin: { group: adminGroups.content, preview: homepagePreview },
   access: { read: () => true, update: adminOrEditor },
+  hooks: {
+    afterChange: [
+      globalRevalidationHook({ areas: ["home", "about"] }),
+    ],
+  },
   versions: { drafts: { localizeStatus: true }, max: 30 },
   fields: [
     {
@@ -122,10 +137,50 @@ export const Homepage: GlobalConfig = {
       hasMany: true,
     },
     {
+      name: "associationTeam",
+      label: bilingual("إدارة الجمعية", "Association team"),
+      type: "relationship",
+      relationTo: "people",
+      hasMany: true,
+      admin: {
+        description: "اختر الأشخاص الذين يظهرون في قسم إدارة الجمعية / Select the people shown in the association team section.",
+      },
+    },
+    {
+      name: "statistics",
+      label: bilingual("إحصاءات الصفحة الرئيسية", "Homepage statistics"),
+      type: "array",
+      maxRows: 4,
+      fields: [
+        {
+          name: "value",
+          label: bilingual("القيمة", "Value"),
+          type: "text",
+          required: true,
+          maxLength: 20,
+        },
+        {
+          name: "label",
+          label: bilingual("الوصف", "Label"),
+          type: "text",
+          localized: true,
+          required: true,
+          maxLength: 80,
+        },
+      ],
+      admin: {
+        description: "اتركها فارغة ليحسب الموقع الإحصاءات من المحتوى المنشور / Leave empty to calculate statistics from published content.",
+      },
+    },
+    {
       name: "showNews",
       label: bilingual("إظهار قسم الأخبار", "Show news section"),
       type: "checkbox",
       defaultValue: false,
+      admin: {
+        hidden: true,
+        description: "محجوز لمرحلة الأخبار المستقبلية / Reserved for a future news module.",
+      },
     },
   ],
 };

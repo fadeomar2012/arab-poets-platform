@@ -117,6 +117,7 @@ export interface Config {
   };
   locale: 'ar' | 'en';
   widgets: {
+    'editorial-overview': EditorialOverviewWidget;
     collections: CollectionsWidget;
   };
   strictDraftTypes: true;
@@ -334,6 +335,8 @@ export interface Event {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * تُستخدم أنواع الفعاليات في الفلاتر ومفتاح ألوان الروزنامة / Event types power calendar filters and colors.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "event-types".
  */
@@ -346,6 +349,11 @@ export interface EventType {
   slug: string;
   isActive: boolean;
   order?: number | null;
+  /**
+   * لون النقطة والوسم داخل الروزنامة. مثال: #B88A2C / Dot and badge color in the calendar.
+   */
+  calendarColor?: string | null;
+  showInCalendarLegend?: boolean | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -729,6 +737,8 @@ export interface EventTypesSelect<T extends boolean = true> {
   slug?: T;
   isActive?: T;
   order?: T;
+  calendarColor?: T;
+  showInCalendarLegend?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -1048,6 +1058,23 @@ export interface Homepage {
   };
   featuredPeople?: (number | Person)[] | null;
   selectedPartners?: (number | Partner)[] | null;
+  /**
+   * اختر الأشخاص الذين يظهرون في قسم إدارة الجمعية / Select the people shown in the association team section.
+   */
+  associationTeam?: (number | Person)[] | null;
+  /**
+   * اتركها فارغة ليحسب الموقع الإحصاءات من المحتوى المنشور / Leave empty to calculate statistics from published content.
+   */
+  statistics?:
+    | {
+        value: string;
+        label: string;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * محجوز لمرحلة الأخبار المستقبلية / Reserved for a future news module.
+   */
   showNews?: boolean | null;
   _status?: ('draft' | 'published') | null;
   updatedAt?: string | null;
@@ -1091,11 +1118,29 @@ export interface HomepageSelect<T extends boolean = true> {
       };
   featuredPeople?: T;
   selectedPartners?: T;
+  associationTeam?: T;
+  statistics?:
+    | T
+    | {
+        value?: T;
+        label?: T;
+        id?: T;
+      };
   showNews?: T;
   _status?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "editorial-overview_widget".
+ */
+export interface EditorialOverviewWidget {
+  data?: {
+    [k: string]: unknown;
+  };
+  width: 'full';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

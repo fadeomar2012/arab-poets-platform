@@ -9,6 +9,13 @@ export type MediaAsset = {
   credit?: string;
 };
 
+export type GalleryItem = MediaAsset & {
+  eventSlug?: string;
+  eventTitle?: LocalizedText;
+  eventDate?: string;
+  eventLocation?: LocalizedText;
+};
+
 export type EventStatus = "upcoming" | "ongoing" | "past";
 export type AttendanceMode = "open" | "invitation" | "requestApproval";
 
@@ -27,6 +34,7 @@ export type PersonSummary = {
   initials: LocalizedText;
   image?: MediaAsset;
   visible: boolean;
+  shortBio?: LocalizedText;
 };
 
 export type LiteraryWork = {
@@ -50,6 +58,10 @@ export type Event = {
   status: EventStatus;
   title: LocalizedText;
   type: LocalizedText;
+  typeSlug?: string;
+  typeColor?: string;
+  typeShowInLegend?: boolean;
+  series?: LocalizedText;
   shortDescription: LocalizedText;
   fullDescription: LocalizedText;
   startDate: string;
@@ -67,11 +79,31 @@ export type Event = {
   gallery: MediaAsset[];
 };
 
+export type Partner = {
+  slug: string;
+  name: LocalizedText;
+  logo?: MediaAsset;
+  website?: string;
+  relationshipType?: string;
+};
+
+export type SocialLink = {
+  platform: "facebook" | "instagram" | "youtube" | "x" | "other";
+  url: string;
+};
+
 export type SiteSettings = {
   associationName: LocalizedText;
   slogan?: LocalizedText;
   officialEmail?: string;
   whatsapp?: string;
+  logo?: MediaAsset;
+  socialLinks: SocialLink[];
+};
+
+export type HomepageStatistic = {
+  value: string;
+  label: LocalizedText;
 };
 
 export type HomepageSettings = {
@@ -79,6 +111,11 @@ export type HomepageSettings = {
   featuredEventSlug?: string;
   institutionalTitle?: LocalizedText;
   institutionalDescription?: LocalizedText;
+  institutionalImage?: MediaAsset;
+  featuredPeopleSlugs: string[];
+  selectedPartnerSlugs: string[];
+  associationTeamSlugs: string[];
+  statistics: HomepageStatistic[];
 };
 
 export function localize<T extends LocalizedText>(value: T, locale: Locale): string {

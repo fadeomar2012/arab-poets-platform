@@ -3,11 +3,13 @@ import { adminDeleteOnly, adminOrEditor, publishedOrAuthenticated } from "../acc
 import { slugField } from "../fields";
 import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
 import { validateOptionalURL } from "../validators";
+import { collectionRevalidationHooks } from "../hooks/revalidate";
 
 export const LiteraryWorks: CollectionConfig = {
   slug: "literary-works",
   labels: collectionLabels("عمل أدبي", "الأعمال الأدبية", "Literary work", "Literary works"),
   admin: { useAsTitle: "title", group: adminGroups.people },
+  hooks: collectionRevalidationHooks({ areas: ["people"], detailArea: "people" }),
   versions: { drafts: { localizeStatus: true }, maxPerDoc: 30 },
   access: {
     create: adminOrEditor,

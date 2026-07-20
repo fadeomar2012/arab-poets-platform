@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import Image from "@/components/ui/SmartImage";
 import { notFound } from "next/navigation";
 import { EventCard } from "@/components/events/EventCard";
+import { ArrowLink } from "@/components/ui/ArrowLink";
+import { Icon } from "@/components/ui/Icon";
 import { isLocale } from "@/i18n/config";
 import { getEvents, getPersonBySlug } from "@/lib/content";
 import { localize } from "@/lib/content/types";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 export const dynamicParams = true;
 
 export async function generateMetadata({
@@ -34,7 +36,7 @@ export default async function PersonPage({
   if (!isLocale(raw)) notFound();
   const [person, events] = await Promise.all([getPersonBySlug(slug, raw), getEvents(raw)]);
   if (!person) notFound();
-  const appearances = events.filter((event) => event.participantSlugs.includes(person.slug));
+  const appearances = events.filter((event) => person.eventSlugs.includes(event.slug));
 
   return (
     <main>
@@ -54,6 +56,7 @@ export default async function PersonPage({
             <div className="profile-avatar">{localize(person.initials, raw)}</div>
           )}
           <div>
+            <ArrowLink className="person-back-link" href={`/${raw}/people`}>{raw === "ar" ? "العودة إلى دليل الشعراء" : "Back to directory"}</ArrowLink>
             <span className="pill">{localize(person.role, raw)}</span>
             <h1>{localize(person.name, raw)}</h1>
             <p>{localize(person.shortBio, raw)}</p>
@@ -78,20 +81,15 @@ export default async function PersonPage({
                 <div className="works-grid">
                   {person.works.map((work) => (
                     <article className="work-card card" key={localize(work.title, raw)}>
-                      <div className="work-symbol">✒</div>
+                      <div className="work-symbol"><Icon name="sparkle" /></div>
                       <div>
                         <span className="pill">{localize(work.type, raw)}</span>
                         <h3>{localize(work.title, raw)}</h3>
                         {work.year ? <p>{work.year}</p> : null}
                         {work.externalUrl ? (
-                          <a
-                            className="text-link"
-                            href={work.externalUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {raw === "ar" ? "فتح الرابط ←" : "Open link →"}
-                          </a>
+                          <ArrowLink href={work.externalUrl} external>
+                            {raw === "ar" ? "فتح العمل" : "Open work"}
+                          </ArrowLink>
                         ) : null}
                       </div>
                     </article>

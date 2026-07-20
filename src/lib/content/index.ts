@@ -4,13 +4,15 @@ import { events, people } from "./mock-data";
 import {
   loadEventBySlug,
   loadEvents,
+  loadGalleryItems,
   loadHomepageSettings,
   loadPeople,
+  loadPartnersBySlugs,
   loadPersonBySlug,
   loadSiteSettings,
   payloadReady,
 } from "./payload";
-import type { Event, HomepageSettings, Person, SiteSettings } from "./types";
+import type { Event, GalleryItem, HomepageSettings, Partner, Person, SiteSettings } from "./types";
 
 
 const cachedLoadEvents = cache(loadEvents);
@@ -19,6 +21,8 @@ const cachedLoadPeople = cache(loadPeople);
 const cachedLoadPersonBySlug = cache(loadPersonBySlug);
 const cachedLoadSiteSettings = cache(loadSiteSettings);
 const cachedLoadHomepageSettings = cache(loadHomepageSettings);
+const cachedLoadPartnersBySlugs = cache(loadPartnersBySlugs);
+const cachedLoadGalleryItems = cache(loadGalleryItems);
 
 let warned = false;
 
@@ -113,6 +117,30 @@ export async function getPeopleBySlugs(
   );
 }
 
+
+export async function getGalleryItems(locale: Locale = "ar"): Promise<GalleryItem[]> {
+  if (payloadReady()) {
+    try {
+      return await cachedLoadGalleryItems(locale);
+    } catch (error) {
+      handleFailure(error);
+    }
+  } else if (!allowMockFallback()) {
+    throw new Error("Payload is not configured and mock fallback is disabled.");
+  }
+  return structuredClone(
+    events.flatMap((event) =>
+      event.gallery.map((image) => ({
+        ...image,
+        eventSlug: event.slug,
+        eventTitle: event.title,
+        eventDate: event.startDate,
+        eventLocation: event.city,
+      })),
+    ),
+  );
+}
+
 export async function getSiteSettings(
   locale: Locale = "ar",
 ): Promise<SiteSettings | null> {
@@ -134,5 +162,19 @@ export async function getHomepageSettings(
   } catch (error) {
     handleFailure(error);
     return null;
+  }
+}
+
+
+export async function getPartnersBySlugs(
+  slugs: string[],
+  locale: Locale = "ar",
+): Promise<Partner[]> {
+  if (!slugs.length || !payloadReady()) return [];
+  try {
+    return await cachedLoadPartnersBySlugs(slugs, locale);
+  } catch (error) {
+    handleFailure(error);
+    return [];
   }
 }

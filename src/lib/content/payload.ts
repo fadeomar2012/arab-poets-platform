@@ -4,13 +4,16 @@ import { getPayload } from "payload";
 import type { Config as GeneratedConfig } from "@/payload-types";
 import type {
   Event,
+  GalleryItem,
   HomepageSettings,
   LiteraryWork,
   LocalizedText,
   MediaAsset,
+  Partner,
   Person,
   ProgramItem,
   SiteSettings,
+  SocialLink,
 } from "./types";
 
 type Doc = Record<string, unknown>;
@@ -156,6 +159,9 @@ const findDocuments = async (
     limit?: number;
     sort?: string;
     depth?: number;
+    select?: Record<string, unknown>;
+    populate?: Record<string, unknown>;
+    pagination?: boolean;
   } = {},
 ): Promise<Doc[]> => {
   const payload = await getPayload({ config });
@@ -165,6 +171,9 @@ const findDocuments = async (
     fallbackLocale: false,
     depth: options.depth ?? 1,
     limit: options.limit ?? 100,
+    pagination: options.pagination ?? false,
+    select: options.select as never,
+    populate: options.populate as never,
     sort: options.sort as never,
     overrideAccess: false,
     draft: false,
@@ -193,6 +202,7 @@ const findGlobal = async (
 };
 
 export const payloadReady = (): boolean =>
+  process.env.CMS_USE_MOCK_CONTENT !== "true" &&
   Boolean(process.env.DATABASE_URL && process.env.PAYLOAD_SECRET);
 
 const mapProgram = (
@@ -276,6 +286,20 @@ const mapEvent = (
       relationField(arabicEvent.eventType, "name"),
       relationField(englishEvent.eventType, "name"),
     ),
+    typeSlug:
+      asString(relationField(baseEvent.eventType, "slug")) ||
+      relationID(baseEvent.eventType) ||
+      undefined,
+    typeColor:
+      asString(relationField(baseEvent.eventType, "calendarColor")) || undefined,
+    typeShowInLegend: relationField(baseEvent.eventType, "showInCalendarLegend") !== false,
+    series:
+      relationField(arabicEvent.series, "name") || relationField(englishEvent.series, "name")
+        ? localized(
+            relationField(arabicEvent.series, "name"),
+            relationField(englishEvent.series, "name"),
+          )
+        : undefined,
     shortDescription: localized(
       arabicEvent.shortDescription,
       englishEvent.shortDescription,
@@ -332,9 +356,57 @@ export async function loadEvents(locale: Locale = "ar"): Promise<Event[]> {
     limit: 200,
     sort: "startDateTime",
     depth: 1,
+    select: {
+      slug: true,
+      title: true,
+      eventType: true,
+      series: true,
+      shortDescription: true,
+      startDateTime: true,
+      endDateTime: true,
+      timezone: true,
+      country: true,
+      city: true,
+      venueName: true,
+      attendanceMode: true,
+      coverImage: true,
+      featuredOnHomepage: true,
+    },
   });
 
   return documents.map((document) => mapEvent(document, document, locale));
+}
+
+export async function loadGalleryItems(locale: Locale = "ar"): Promise<GalleryItem[]> {
+  const documents = await findDocuments("events", locale, {
+    limit: 200,
+    sort: "-startDateTime",
+    depth: 1,
+    select: {
+      slug: true,
+      title: true,
+      startDateTime: true,
+      city: true,
+      gallery: true,
+    },
+  });
+
+  return documents.flatMap((event) => {
+    const title = localized(event.title, event.title);
+    const location = localized(
+      relationField(event.city, "name"),
+      relationField(event.city, "name"),
+    );
+    return asDocs(event.gallery)
+      .map((item) => ({
+        ...mediaAsset(item, item, "", title),
+        eventSlug: asString(event.slug) || undefined,
+        eventTitle: title,
+        eventDate: asString(event.startDateTime) || undefined,
+        eventLocation: location,
+      }))
+      .filter((item) => Boolean(item.url));
+  });
 }
 
 export async function loadEventBySlug(
@@ -489,12 +561,21 @@ export async function loadPersonBySlug(
   const person = people[0];
   if (!person) return null;
 
-  const works = await findDocuments("literary-works", locale, {
-    where: { person: { equals: String(person.id) } },
-    limit: 200,
-    sort: "order",
-    depth: 0,
-  });
+  const [works, appearances] = await Promise.all([
+    findDocuments("literary-works", locale, {
+      where: { person: { equals: String(person.id) } },
+      limit: 200,
+      sort: "order",
+      depth: 0,
+    }),
+    findDocuments("events", locale, {
+      where: { "participants.person": { equals: String(person.id) } },
+      limit: 200,
+      sort: "-startDateTime",
+      depth: 0,
+      select: { slug: true, participants: true },
+    }),
+  ]);
 
   return mapPerson({
     arabicPerson: person,
@@ -502,19 +583,73 @@ export async function loadPersonBySlug(
     arabicWorks: works,
     englishWorks: works,
     locale,
+    events: appearances,
   });
+}
+
+
+export async function loadPartnersBySlugs(
+  slugs: string[],
+  locale: Locale = "ar",
+): Promise<Partner[]> {
+  if (!slugs.length) return [];
+  const documents = await findDocuments("partners", locale, {
+    where: { slug: { in: slugs }, isActive: { equals: true } },
+    limit: slugs.length,
+    sort: "order",
+    depth: 1,
+    select: {
+      slug: true,
+      name: true,
+      logo: true,
+      website: true,
+      relationshipType: true,
+      isActive: true,
+      order: true,
+    },
+  });
+
+  const bySlug = new Map(
+    documents.map((document) => {
+      const name = localized(document.name, document.name);
+      const partner: Partner = {
+        slug: asString(document.slug),
+        name,
+        website: asString(document.website) || undefined,
+        relationshipType: asString(document.relationshipType) || undefined,
+        logo: mediaURL(document.logo)
+          ? mediaAsset(document.logo, document.logo, "", name)
+          : undefined,
+      };
+      return [partner.slug, partner] as const;
+    }),
+  );
+
+  return slugs.map((slug) => bySlug.get(slug)).filter((item): item is Partner => Boolean(item));
 }
 
 export async function loadSiteSettings(locale: Locale = "ar"): Promise<SiteSettings> {
   const settings = await findGlobal("site-settings", locale);
+  const associationName = localized(settings.associationName, settings.associationName);
+  const socialLinks: SocialLink[] = asDocs(settings.socialLinks)
+    .map((item) => ({
+      platform: asString(item.platform) as SocialLink["platform"],
+      url: asString(item.url),
+    }))
+    .filter((item) => Boolean(item.url));
 
   return {
-    associationName: localized(settings.associationName, settings.associationName),
+    associationName,
     slogan: settings.slogan
       ? localized(settings.slogan, settings.slogan)
       : undefined,
     officialEmail: asString(settings.officialEmail) || undefined,
     whatsapp: asString(settings.whatsapp) || undefined,
+    logo:
+      mediaURL(settings.logo)
+        ? mediaAsset(settings.logo, settings.logo, "/images/logo.png", associationName)
+        : undefined,
+    socialLinks,
   };
 }
 
@@ -522,10 +657,32 @@ export async function loadHomepageSettings(
   locale: Locale = "ar",
 ): Promise<HomepageSettings> {
   const homepage = await findGlobal("homepage", locale);
-  if (!homepage.id) return { heroMode: "automatic" };
+  if (!homepage.id) return { heroMode: "automatic", featuredPeopleSlugs: [], selectedPartnerSlugs: [], associationTeamSlugs: [], statistics: [] };
 
   const hero = asDoc(homepage.institutionalHero) ?? {};
   const heroMode = asString(homepage.heroMode);
+
+  const featuredPeopleSlugs = (Array.isArray(homepage.featuredPeople)
+    ? homepage.featuredPeople
+    : [])
+    .map((person) => asString(relationField(person, "slug")))
+    .filter(Boolean);
+  const selectedPartnerSlugs = (Array.isArray(homepage.selectedPartners)
+    ? homepage.selectedPartners
+    : [])
+    .map((partner) => asString(relationField(partner, "slug")))
+    .filter(Boolean);
+  const associationTeamSlugs = (Array.isArray(homepage.associationTeam)
+    ? homepage.associationTeam
+    : [])
+    .map((person) => asString(relationField(person, "slug")))
+    .filter(Boolean);
+  const statistics = asDocs(homepage.statistics)
+    .map((item) => ({
+      value: asString(item.value),
+      label: localized(item.label, item.label),
+    }))
+    .filter((item) => Boolean(item.value && item.label.ar));
 
   return {
     heroMode:
@@ -540,5 +697,18 @@ export async function loadHomepageSettings(
     institutionalDescription: hero.description
       ? localized(hero.description, hero.description)
       : undefined,
+    institutionalImage:
+      mediaURL(hero.image)
+        ? mediaAsset(
+            hero.image,
+            hero.image,
+            "",
+            localized(hero.title || "", hero.title || ""),
+          )
+        : undefined,
+    featuredPeopleSlugs,
+    selectedPartnerSlugs,
+    associationTeamSlugs,
+    statistics,
   };
 }
