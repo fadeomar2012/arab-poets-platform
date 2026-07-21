@@ -1,6 +1,6 @@
 {
   "name": "arab-poets-platform",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "private": true,
   "type": "module",
   "scripts": {
@@ -15,6 +15,11 @@
     "migrate:create": "node scripts/payload-cli.mjs migrate:create",
     "migrate": "node scripts/payload-cli.mjs migrate",
     "migrate:status": "node scripts/payload-cli.mjs migrate:status",
+    "doctor": "node scripts/doctor.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "package:release": "node scripts/package-release.mjs",
+    "test:e2e": "playwright test",
+    "e2e:cleanup": "node --import tsx scripts/e2e-db.mjs cleanup",
     "seed": "node --import tsx scripts/seed.ts",
     "check": "npm run lint && npm run typecheck",
     "migrate:down": "node scripts/payload-cli.mjs migrate:down",
@@ -40,9 +45,12 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.12.1",
+    "@playwright/test": "^1.61.1",
     "@types/node": "^22",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "axe-core": "^4.12.1",
     "dotenv": "17.2.3",
     "eslint": "^9",
     "eslint-config-next": "16.2.10",

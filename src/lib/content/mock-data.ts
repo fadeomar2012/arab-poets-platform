@@ -22,7 +22,6 @@ export const people: Person[] = [
       ar: "يهتم بتجارب الشعر العربي المعاصر وبناء الجسور الثقافية بين الشعراء والجمهور. شارك في مهرجانات وملتقيات داخل المنطقة العربية وخارجها، وأسهم في فعاليات تجمع بين الإلقاء والحوار الأدبي.",
       en: "His work explores contemporary Arabic poetry and cultural exchange between poets and audiences. He has participated in festivals and forums across the Arab region and abroad.",
     },
-    website: "https://example.org",
     works: [
       { title: { ar: "على حافة الضوء", en: "At the Edge of Light" }, type: { ar: "ديوان", en: "Poetry collection" }, year: 2024 },
       { title: { ar: "ذاكرة المدن", en: "Memory of Cities" }, type: { ar: "قصيدة", en: "Poem" } },

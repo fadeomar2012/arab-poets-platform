@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Image from "@/components/ui/SmartImage";
+import { draftMode } from "next/headers";
 import { notFound } from "next/navigation";
 import { EventCard } from "@/components/events/EventCard";
 import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Icon } from "@/components/ui/Icon";
 import { isLocale } from "@/i18n/config";
-import { getEvents, getPersonBySlug } from "@/lib/content";
+import { getEventsBySlugs, getPersonBySlug } from "@/lib/content";
 import { localize } from "@/lib/content/types";
 
 export const revalidate = 300;
@@ -34,9 +35,12 @@ export default async function PersonPage({
 }) {
   const { locale: raw, slug } = await params;
   if (!isLocale(raw)) notFound();
-  const [person, events] = await Promise.all([getPersonBySlug(slug, raw), getEvents(raw)]);
+  const { isEnabled: preview } = await draftMode();
+  const person = await getPersonBySlug(slug, raw, preview);
   if (!person) notFound();
-  const appearances = events.filter((event) => person.eventSlugs.includes(event.slug));
+  // Fetch only this poet's appearances by slug rather than scanning the whole
+  // events archive and filtering on the server.
+  const appearances = await getEventsBySlugs(person.eventSlugs, raw);
 
   return (
     <main>

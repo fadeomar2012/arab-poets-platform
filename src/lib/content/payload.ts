@@ -29,6 +29,46 @@ const asDocs = (value: unknown): Doc[] =>
     : [];
 
 const asString = (value: unknown): string => (typeof value === "string" ? value : "");
+
+// Seed/demo fixtures used example.org URLs, info@example.org, and an all-zero
+// phone number. These must never render as real, clickable public links, so
+// they are treated as absent here (intentional empty state) without deleting
+// any CMS data. Real editor-provided values pass through untouched.
+const PLACEHOLDER_HOSTS = /(^|\.)(example\.(org|com|net)|test\.invalid)$/i;
+
+const isPlaceholderUrl = (value: string): boolean => {
+  try {
+    return PLACEHOLDER_HOSTS.test(new URL(value).hostname);
+  } catch {
+    return false;
+  }
+};
+
+const cleanUrl = (value: unknown): string | undefined => {
+  const url = asString(value).trim();
+  if (!url || isPlaceholderUrl(url)) return undefined;
+  return url;
+};
+
+const cleanEmail = (value: unknown): string | undefined => {
+  const email = asString(value).trim();
+  if (!email) return undefined;
+  const domain = email.split("@")[1] ?? "";
+  if (PLACEHOLDER_HOSTS.test(domain)) return undefined;
+  return email;
+};
+
+const cleanPhone = (value: unknown): string | undefined => {
+  const phone = asString(value).trim();
+  if (!phone) return undefined;
+  const digits = phone.replace(/\D/g, "");
+  // Placeholders: empty, too short, all zeros, or a long run of zeros
+  // (e.g. +970000000000, which is a country code followed by nine zeros).
+  if (!digits || digits.length < 6 || /^0+$/.test(digits) || /0{5,}/.test(digits)) {
+    return undefined;
+  }
+  return phone;
+};
 const asNumber = (value: unknown): number | undefined =>
   typeof value === "number" ? value : undefined;
 
@@ -162,6 +202,7 @@ const findDocuments = async (
     select?: Record<string, unknown>;
     populate?: Record<string, unknown>;
     pagination?: boolean;
+    draft?: boolean;
   } = {},
 ): Promise<Doc[]> => {
   const payload = await getPayload({ config });
@@ -175,8 +216,10 @@ const findDocuments = async (
     select: options.select as never,
     populate: options.populate as never,
     sort: options.sort as never,
-    overrideAccess: false,
-    draft: false,
+    // Draft preview runs only inside secret-gated Draft Mode, so it may read
+    // unpublished versions; the public path always stays published-only.
+    overrideAccess: options.draft === true,
+    draft: options.draft === true,
     where: options.where as never,
   });
 
@@ -187,6 +230,7 @@ const findGlobal = async (
   slug: GlobalSlug,
   locale: Locale,
   depth = 1,
+  draft = false,
 ): Promise<Doc> => {
   const payload = await getPayload({ config });
   return asDoc(
@@ -195,8 +239,8 @@ const findGlobal = async (
       locale,
       fallbackLocale: false,
       depth,
-      overrideAccess: false,
-      draft: false,
+      overrideAccess: draft,
+      draft,
     }),
   ) ?? {};
 };
@@ -377,6 +421,132 @@ export async function loadEvents(locale: Locale = "ar"): Promise<Event[]> {
   return documents.map((document) => mapEvent(document, document, locale));
 }
 
+// Targeted lookup used by Person Detail to render a poet's appearances without
+// scanning the entire events archive. Only the lightweight card fields are
+// selected; the `slug in [...]` filter keeps the query scoped to the exact set.
+export async function loadEventsBySlugs(
+  slugs: string[],
+  locale: Locale = "ar",
+): Promise<Event[]> {
+  if (!slugs.length) return [];
+  const documents = await findDocuments("events", locale, {
+    where: { slug: { in: slugs } },
+    limit: slugs.length,
+    sort: "-startDateTime",
+    depth: 1,
+    select: {
+      slug: true,
+      title: true,
+      eventType: true,
+      series: true,
+      shortDescription: true,
+      startDateTime: true,
+      endDateTime: true,
+      timezone: true,
+      country: true,
+      city: true,
+      venueName: true,
+      attendanceMode: true,
+      coverImage: true,
+      featuredOnHomepage: true,
+    },
+  });
+
+  return documents.map((document) => mapEvent(document, document, locale));
+}
+
+const CALENDAR_SELECT = {
+  slug: true,
+  title: true,
+  eventType: true,
+  series: true,
+  shortDescription: true,
+  startDateTime: true,
+  endDateTime: true,
+  timezone: true,
+  country: true,
+  city: true,
+  venueName: true,
+  attendanceMode: true,
+  coverImage: true,
+  featuredOnHomepage: true,
+} as const;
+
+// Month/range-scoped calendar query. Returns every event whose interval
+// overlaps [from, to): startDateTime <= to AND endDateTime >= from. Single-day
+// events (no endDateTime) are treated as end = start. Only lightweight card
+// fields are selected — no program blocks, gallery arrays, or long descriptions.
+export async function loadEventsInRange(
+  from: string,
+  to: string,
+  locale: Locale = "ar",
+): Promise<Event[]> {
+  const documents = await findDocuments("events", locale, {
+    where: {
+      and: [
+        { startDateTime: { less_than_equal: to } },
+        {
+          or: [
+            { endDateTime: { greater_than_equal: from } },
+            {
+              and: [
+                { endDateTime: { exists: false } },
+                { startDateTime: { greater_than_equal: from } },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    limit: 500,
+    sort: "startDateTime",
+    depth: 1,
+    select: CALENDAR_SELECT as unknown as Record<string, unknown>,
+  });
+
+  return documents.map((document) => mapEvent(document, document, locale));
+}
+
+// Distinct filter facets for the calendar dropdowns. Kept server-side and tiny:
+// only taxonomy names travel to the client, never full event records.
+export async function loadEventFacets(
+  locale: Locale = "ar",
+): Promise<{ countries: string[]; cities: { country: string; city: string }[]; types: { key: string; label: string; color?: string; showInLegend: boolean }[] }> {
+  const documents = await findDocuments("events", locale, {
+    limit: 500,
+    depth: 1,
+    select: { eventType: true, country: true, city: true },
+  });
+
+  const countrySet = new Set<string>();
+  const cityPairs = new Map<string, { country: string; city: string }>();
+  const types = new Map<string, { key: string; label: string; color?: string; showInLegend: boolean }>();
+
+  for (const document of documents) {
+    const country = asString(relationField(document.country, "name"));
+    const city = asString(relationField(document.city, "name"));
+    if (country) countrySet.add(country);
+    if (city) cityPairs.set(`${country}::${city}`, { country, city });
+    const typeKey =
+      asString(relationField(document.eventType, "slug")) || relationID(document.eventType);
+    const typeLabel = asString(relationField(document.eventType, "name"));
+    if (typeKey && !types.has(typeKey)) {
+      types.set(typeKey, {
+        key: typeKey,
+        label: typeLabel || typeKey,
+        color: asString(relationField(document.eventType, "calendarColor")) || undefined,
+        showInLegend: relationField(document.eventType, "showInCalendarLegend") !== false,
+      });
+    }
+  }
+
+  return {
+    countries: [...countrySet].sort(),
+    cities: [...cityPairs.values()],
+    types: [...types.values()],
+  };
+}
+
 export async function loadGalleryItems(locale: Locale = "ar"): Promise<GalleryItem[]> {
   const documents = await findDocuments("events", locale, {
     limit: 200,
@@ -412,11 +582,13 @@ export async function loadGalleryItems(locale: Locale = "ar"): Promise<GalleryIt
 export async function loadEventBySlug(
   slug: string,
   locale: Locale = "ar",
+  draft = false,
 ): Promise<Event | null> {
   const documents = await findDocuments("events", locale, {
     where: { slug: { equals: slug } },
     limit: 1,
     depth: 1,
+    draft,
   });
   const document = documents[0];
   return document ? mapEvent(document, document, locale) : null;
@@ -459,7 +631,7 @@ const mapPerson = ({
         title: localized(arabicWork.title, englishWork.title),
         type: { ar: type[0], en: type[1] },
         year: asNumber(baseWork.publicationYear),
-        externalUrl: asString(baseWork.externalUrl) || undefined,
+        externalUrl: cleanUrl(baseWork.externalUrl),
       };
     });
 
@@ -520,7 +692,7 @@ const mapPerson = ({
           relationField(englishPerson.city, "name"),
         )
       : undefined,
-    website: asString(basePerson.website) || undefined,
+    website: cleanUrl(basePerson.website),
     works,
     eventSlugs,
   };
@@ -552,11 +724,13 @@ export async function loadPeople(
 export async function loadPersonBySlug(
   slug: string,
   locale: Locale = "ar",
+  draft = false,
 ): Promise<Person | null> {
   const people = await findDocuments("people", locale, {
     where: { slug: { equals: slug } },
     limit: 1,
     depth: 1,
+    draft,
   });
   const person = people[0];
   if (!person) return null;
@@ -615,7 +789,7 @@ export async function loadPartnersBySlugs(
       const partner: Partner = {
         slug: asString(document.slug),
         name,
-        website: asString(document.website) || undefined,
+        website: cleanUrl(document.website),
         relationshipType: asString(document.relationshipType) || undefined,
         logo: mediaURL(document.logo)
           ? mediaAsset(document.logo, document.logo, "", name)
@@ -634,7 +808,7 @@ export async function loadSiteSettings(locale: Locale = "ar"): Promise<SiteSetti
   const socialLinks: SocialLink[] = asDocs(settings.socialLinks)
     .map((item) => ({
       platform: asString(item.platform) as SocialLink["platform"],
-      url: asString(item.url),
+      url: cleanUrl(item.url) ?? "",
     }))
     .filter((item) => Boolean(item.url));
 
@@ -643,8 +817,8 @@ export async function loadSiteSettings(locale: Locale = "ar"): Promise<SiteSetti
     slogan: settings.slogan
       ? localized(settings.slogan, settings.slogan)
       : undefined,
-    officialEmail: asString(settings.officialEmail) || undefined,
-    whatsapp: asString(settings.whatsapp) || undefined,
+    officialEmail: cleanEmail(settings.officialEmail),
+    whatsapp: cleanPhone(settings.whatsapp),
     logo:
       mediaURL(settings.logo)
         ? mediaAsset(settings.logo, settings.logo, "/images/logo.png", associationName)
@@ -655,8 +829,9 @@ export async function loadSiteSettings(locale: Locale = "ar"): Promise<SiteSetti
 
 export async function loadHomepageSettings(
   locale: Locale = "ar",
+  draft = false,
 ): Promise<HomepageSettings> {
-  const homepage = await findGlobal("homepage", locale);
+  const homepage = await findGlobal("homepage", locale, 1, draft);
   if (!homepage.id) return { heroMode: "automatic", featuredPeopleSlugs: [], selectedPartnerSlugs: [], associationTeamSlugs: [], statistics: [] };
 
   const hero = asDoc(homepage.institutionalHero) ?? {};

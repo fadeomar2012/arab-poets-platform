@@ -10,6 +10,7 @@ import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
 import { validateCityCountry } from "../relations";
 import { validateOptionalURL } from "../validators";
 import { collectionRevalidationHooks } from "../hooks/revalidate";
+import { EVENTS_CALENDAR_TAG } from "@/lib/content/tags";
 import { collectionPreview } from "../preview";
 
 const validateEnd = (
@@ -41,6 +42,7 @@ export const Events: CollectionConfig = {
     ...collectionRevalidationHooks({
       areas: ["home", "events", "gallery", "participate"],
       detailArea: "events",
+      tags: [EVENTS_CALENDAR_TAG],
     }),
     beforeChange: [
       async ({ data, req }) => {

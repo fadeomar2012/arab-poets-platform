@@ -150,7 +150,19 @@ export default buildConfig({
       ssl: databaseURL.includes("localhost")
         ? undefined
         : { rejectUnauthorized: false },
-      max: 3,
+      // The runtime connection uses the Supabase transaction pooler (pgbouncer).
+      // A max of 3 serialized the homepage's ~5 parallel queries and starved
+      // concurrent dynamic routes (person/event detail issue several queries
+      // each), so allow a moderate amount more without overwhelming the pooler.
+      max: Number(process.env.DATABASE_POOL_MAX) || 8,
+      // Generous acquisition timeout so build-time prerender bursts wait rather
+      // than fail, while a genuinely stuck connection still surfaces eventually.
+      connectionTimeoutMillis: Number(process.env.DATABASE_CONNECT_TIMEOUT_MS) || 30_000,
+      // Keep pooled connections warm: establishing a fresh connection to the
+      // remote pooler is expensive, so reuse them across requests to keep
+      // dynamic routes fast between revalidations.
+      idleTimeoutMillis: 60_000,
+      keepAlive: true,
     },
     push: process.env.PAYLOAD_DB_PUSH === "true",
     migrationDir: path.resolve(dirname, "migrations"),

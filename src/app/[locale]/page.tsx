@@ -9,6 +9,7 @@ import { ArrowLink } from "@/components/ui/ArrowLink";
 import { Icon } from "@/components/ui/Icon";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { isLocale } from "@/i18n/config";
+import { draftMode } from "next/headers";
 import { getDictionary } from "@/i18n/dictionaries";
 import { getEvents, getGalleryItems, getHomepageSettings, getPartnersBySlugs, getPeople, getPeopleBySlugs } from "@/lib/content";
 import { localize } from "@/lib/content/types";
@@ -19,7 +20,8 @@ export const revalidate = 300;
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale: raw } = await params; if (!isLocale(raw)) notFound();
   const locale = raw; const d = getDictionary(locale);
-  const [events, allPeople, homepage, galleryItems] = await Promise.all([getEvents(locale), getPeople(locale), getHomepageSettings(locale), getGalleryItems(locale)]);
+  const { isEnabled: preview } = await draftMode();
+  const [events, allPeople, homepage, galleryItems] = await Promise.all([getEvents(locale), getPeople(locale), getHomepageSettings(locale, preview), getGalleryItems(locale)]);
   const current = events.filter((event) => event.status !== "past").sort((a,b) => +new Date(a.startDate) - +new Date(b.startDate));
   const configured = homepage?.featuredEventSlug ? events.find((event) => event.slug === homepage.featuredEventSlug) : undefined;
   const heroEvent = homepage?.heroMode === "institutional" ? undefined : homepage?.heroMode === "featuredEvent" ? configured : events.find((event) => event.featured && event.status !== "past") || current[0];

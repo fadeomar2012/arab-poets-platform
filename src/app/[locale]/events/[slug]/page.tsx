@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "@/components/ui/SmartImage";
 import Link from "next/link";
+import { draftMode } from "next/headers";
 import { notFound } from "next/navigation";
 import { Gallery } from "@/components/gallery/Gallery";
 import { PersonCard } from "@/components/people/PersonCard";
@@ -20,7 +21,7 @@ const statusLabel = (status: EventStatus, locale: "ar" | "en") => ({ upcoming: {
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }): Promise<Metadata> { const { locale, slug } = await params; if (!isLocale(locale)) return {}; const event = await getEventBySlug(slug, locale); return event ? { title: localize(event.title, locale), description: localize(event.shortDescription, locale) } : {}; }
 
 export default async function EventPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
-  const { locale: raw, slug } = await params; if (!isLocale(raw)) notFound(); const event = await getEventBySlug(slug, raw); if (!event) notFound();
+  const { locale: raw, slug } = await params; if (!isLocale(raw)) notFound(); const { isEnabled: preview } = await draftMode(); const event = await getEventBySlug(slug, raw, preview); if (!event) notFound();
   const participants = await getPeopleBySlugs(event.participantSlugs, raw);
   const gallery: GalleryItem[] = event.gallery.map((image) => ({ ...image, eventSlug: event.slug, eventTitle: event.title, eventDate: event.startDate, eventLocation: event.city }));
   return <main>

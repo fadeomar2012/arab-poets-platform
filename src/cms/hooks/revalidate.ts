@@ -1,4 +1,4 @@
-import { revalidatePath } from "next/cache";
+import { revalidatePath, revalidateTag } from "next/cache";
 import type {
   CollectionAfterChangeHook,
   CollectionAfterDeleteHook,
@@ -20,6 +20,7 @@ type RevalidationOptions = {
   areas?: PublicArea[];
   detailArea?: "events" | "people";
   invalidateLayout?: boolean;
+  tags?: string[];
 };
 
 const areaPath = (locale: (typeof locales)[number], area: PublicArea) =>
@@ -52,6 +53,17 @@ function revalidatePublicContent(
 
     if (options.invalidateLayout) {
       safelyRevalidate(`/${locale}`, "layout");
+    }
+  }
+
+  for (const tag of options.tags ?? []) {
+    try {
+      // Next 16's revalidateTag takes a cache-life profile as its second
+      // argument. This is a best-effort on-demand purge of the tagged data
+      // cache; correctness is still bounded by the loaders' `revalidate: 300`.
+      revalidateTag(tag, "max");
+    } catch (error) {
+      console.warn(`[cache] Unable to revalidate tag ${tag}.`, error);
     }
   }
 
