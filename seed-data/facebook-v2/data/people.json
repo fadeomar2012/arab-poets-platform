@@ -1,0 +1,1794 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "notes": [
+    "profileImage paths point to derived square crops; profileCardImage retains the full official Facebook card.",
+    "Records with seedReadiness=blocked-missing-country should remain drafts until country is confirmed because the Payload People collection requires a country.",
+    "Names and countries were transcribed from the uploaded official graphics; no face identity inference was used."
+  ],
+  "records": [
+    {
+      "slug": "abdelrahim-kafieh",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "عبد الرحيم كافيه",
+        "en": "Abdelrahim Kafieh"
+      },
+      "countrySlug": "jordan",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/abdelrahim-kafieh.webp",
+      "profileImageKey": "person-profile-abdelrahim-kafieh",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-abdelrahim-kafieh.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-abdelrahim-kafieh",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1102189195275938/"
+      ]
+    },
+    {
+      "slug": "abdelrahman-mohieddin",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "عبد الرحمن محيي الدين",
+        "en": "Abdelrahman Mohieddin"
+      },
+      "countrySlug": "eritrea",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "abdul-jawad-al-dahdan",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "عبد الجواد الدحدان",
+        "en": "Abdul Jawad Al-Dahdan"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "guest"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/abdul-jawad-al-dahdan.webp",
+      "profileImageKey": "person-profile-abdul-jawad-al-dahdan",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041724374655754/"
+      ]
+    },
+    {
+      "slug": "abdul-qader-lahib",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "عبد القادر لهيب",
+        "en": "Abdul Qader Lahib"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "media",
+        "presenter"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/abdul-qader-lahib.webp",
+      "profileImageKey": "person-profile-abdul-qader-lahib",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-abdul-qader-lahib.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-presenter-abdul-qader-lahib",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041719127989612/"
+      ]
+    },
+    {
+      "slug": "adi-wald-adab",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "آدي ولد آدب",
+        "en": "Adi Wald Adab"
+      },
+      "countrySlug": "mauritania",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "ahmad-al-akhras",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "أحمد الأخرس",
+        "en": "Ahmad Al-Akhras"
+      },
+      "countrySlug": "jordan",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر أردني مشارك في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Jordanian poet participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1413221427506045/"
+      ]
+    },
+    {
+      "slug": "ahmad-al-sheikh",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "أحمد الشيخ",
+        "en": "Ahmad Al-Sheikh"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "presenter"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "ahmad-bakhit",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "أحمد بخيت",
+        "en": "Ahmad Bakhit"
+      },
+      "countrySlug": "egypt",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر مصري معلن كضيف شرف لملتقى القصيدة العربية في إسطنبول 2026.",
+        "en": "Egyptian poet announced as a guest of honor for the 2026 Arabic Poem Forum in Istanbul."
+      },
+      "profileImage": "images/people/profiles/ahmad-bakhit.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1101254478702743/",
+        "https://www.facebook.com/internationalarabpoets/"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-ahmad-bakhit",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ahmad-bakhit.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-ahmad-bakhit"
+    },
+    {
+      "slug": "al-salka-al-mukhtar",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "السالكة المختار",
+        "en": "Al-Salka Al-Mukhtar"
+      },
+      "countrySlug": "mauritania",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعرة موريتانية مشاركة في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Mauritanian poet participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1413356210825900/"
+      ]
+    },
+    {
+      "slug": "ali-matar",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "علي مطر",
+        "en": "Ali Matar"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/ali-matar.webp",
+      "profileImageKey": "person-profile-ali-matar",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ali-matar.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-ali-matar",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1106102354884622/"
+      ]
+    },
+    {
+      "slug": "ammar-al-shaer",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "عمار الشاعر",
+        "en": "Ammar Al-Shaer"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "media",
+        "presenter"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/ammar-al-shaer.webp",
+      "profileImageKey": "person-profile-ammar-al-shaer",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-ammar-al-shaer.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-presenter-ammar-al-shaer",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041719124656279/"
+      ]
+    },
+    {
+      "slug": "ammar-larbaa",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "عمار لرباع",
+        "en": "Ammar Larbaa"
+      },
+      "countrySlug": "algeria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "anas-al-hajri",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "أنس الحجري",
+        "en": "Anas Al-Hajri"
+      },
+      "countrySlug": "yemen",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر يمني نُشر له نص ضمن ديوان مهرجان الشعر العربي الأول 2018.",
+        "en": "Yemeni poet whose work appeared in the First Arab Poetry Festival anthology in 2018."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://arabpoetsinternational.blogspot.com/"
+      ]
+    },
+    {
+      "slug": "arwa-al-omar",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "أروى العمر",
+        "en": "Arwa Al-Omar"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعرة سورية نُشر لها نص ضمن ديوان مهرجان الشعر العربي الأول 2018.",
+        "en": "Syrian poet whose work appeared in the First Arab Poetry Festival anthology in 2018."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://arabpoetsinternational.blogspot.com/"
+      ]
+    },
+    {
+      "slug": "ashraf-hashish",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "أشرف حشيش",
+        "en": "Ashraf Hashish"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/ashraf-hashish.webp",
+      "profileImageKey": "person-profile-ashraf-hashish",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ashraf-hashish.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-ashraf-hashish",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1108161761345348/"
+      ]
+    },
+    {
+      "slug": "aws-al-iftihat",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "أوس الإفتيحات",
+        "en": "Aws Al-Iftihat"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر عراقي نُشرت له قصيدة ضمن ديوان مهرجان الشعر العربي الأول 2018.",
+        "en": "Iraqi poet whose poem appeared in the First Arab Poetry Festival anthology in 2018."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://arabpoetsinternational.blogspot.com/"
+      ]
+    },
+    {
+      "slug": "ayman-al-jabali",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "أيمن الجبلي",
+        "en": "Ayman Al-Jabali"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "aziza-lamiri",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "عزيزة لعميري",
+        "en": "Aziza Lamiri"
+      },
+      "countrySlug": "morocco",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/aziza-lamiri.webp",
+      "profileImageKey": "person-profile-aziza-lamiri",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-aziza-lamiri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-aziza-lamiri",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1101258665368991/"
+      ]
+    },
+    {
+      "slug": "badriya-al-badri",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "بدرية البدري",
+        "en": "Badriya Al-Badri"
+      },
+      "countrySlug": "oman",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/badriya-al-badri.webp",
+      "profileImageKey": "person-profile-badriya-al-badri",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-badriya-al-badri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-badriya-al-badri",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1105882838239907/"
+      ]
+    },
+    {
+      "slug": "bahr-al-din-abdullah-ahmad",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "بحر الدين عبد الله أحمد",
+        "en": "Bahr Al-Din Abdullah Ahmad"
+      },
+      "countrySlug": "sudan",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/bahr-al-din-abdullah-ahmad.webp",
+      "profileImageKey": "person-profile-bahr-al-din-abdullah-ahmad",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1103039551857569/"
+      ]
+    },
+    {
+      "slug": "fares-saleh",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "فارس صالح",
+        "en": "Fares Saleh"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "hamed-al-dulaimi",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "حامد الدليمي",
+        "en": "Hamed Al-Dulaimi"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "hamid-saeed",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "حميد سعيد",
+        "en": "Hamid Saeed"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "hanan-idris",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "حنان إدريس",
+        "en": "Hanan Idris"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعرة فلسطينية مشاركة في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Palestinian poet participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1413055130856008/"
+      ]
+    },
+    {
+      "slug": "heba-abdelwahab",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "هبة عبدالوهاب",
+        "en": "Heba Abdelwahab"
+      },
+      "countrySlug": "egypt",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "guest"
+      ],
+      "shortBio": {
+        "ar": "شاعرة مصرية ضمن ضيوف الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Egyptian poet listed among the guests of the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1412552890906232/"
+      ]
+    },
+    {
+      "slug": "hussein-hamadi",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "حسين همادي",
+        "en": "Hussein Hamadi"
+      },
+      "countrySlug": "algeria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/hussein-hamadi.webp",
+      "profileImageKey": "person-profile-hussein-hamadi",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-hussein-hamadi.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-hussein-hamadi",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1101556952005829/"
+      ]
+    },
+    {
+      "slug": "ibrahim-al-abbas",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "إبراهيم العباس",
+        "en": "Ibrahim Al-Abbas"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر سوري مشارك في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Syrian poet participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1409597237868464/"
+      ]
+    },
+    {
+      "slug": "ibrahim-hafez",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "إبراهيم حافظ السوداني",
+        "en": "Ibrahim Hafez Al-Sudani"
+      },
+      "countrySlug": "sudan",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/ibrahim-hafez.webp",
+      "profileImageKey": "person-profile-ibrahim-hafez",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ibrahim-hafez.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-ibrahim-hafez",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1108153814679476/"
+      ]
+    },
+    {
+      "slug": "ibrahim-mustafa-jafar",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "إبراهيم مصطفى جعفر",
+        "en": "Ibrahim Mustafa Jafar"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر سوري نُشر له نص ضمن ديوان مهرجان الشعر العربي الأول 2018.",
+        "en": "Syrian poet whose work appeared in the First Arab Poetry Festival anthology in 2018."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://arabpoetsinternational.blogspot.com/"
+      ]
+    },
+    {
+      "slug": "jabr-al-baadani",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "جبر البعداني",
+        "en": "Jabr Al-Baadani"
+      },
+      "countrySlug": "yemen",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/jabr-al-baadani.webp",
+      "profileImageKey": "person-profile-jabr-al-baadani",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jabr-al-baadani.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-jabr-al-baadani",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1106464114848446/"
+      ]
+    },
+    {
+      "slug": "jamal-abdullah-aydan",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "جمال عبد الله أيدان",
+        "en": "Jamal Abdullah Aydan"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "guest"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/jamal-abdullah-aydan.webp",
+      "profileImageKey": "person-profile-jamal-abdullah-aydan",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-jamal-abdullah-aydan.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-speaker-jamal-abdullah-aydan",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041718144656377/"
+      ]
+    },
+    {
+      "slug": "jamila-al-majri",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "جميلة الماجري",
+        "en": "Jamila Al-Majri"
+      },
+      "countrySlug": "tunisia",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعرة تونسية معلنة كضيفة شرف لملتقى القصيدة العربية في إسطنبول 2026.",
+        "en": "Tunisian poet announced as a guest of honor for the 2026 Arabic Poem Forum in Istanbul."
+      },
+      "profileImage": "images/people/profiles/jamila-al-majri.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1103361568492034/",
+        "https://www.facebook.com/internationalarabpoets/"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-jamila-al-majri",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jamila-al-majri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-jamila-al-majri"
+    },
+    {
+      "slug": "kawkab-issa-al-zabati",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "كوكب عيسى الزاباتي",
+        "en": "Kawkab Issa Al-Zabati"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/kawkab-issa-al-zabati.webp",
+      "profileImageKey": "person-profile-kawkab-issa-al-zabati",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-kawkab-issa-al-zabati.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-kawkab-issa-al-zabati",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1104166091744915/"
+      ]
+    },
+    {
+      "slug": "khadija-al-tayeb",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "خديجة الطيب",
+        "en": "Khadija Al-Tayeb"
+      },
+      "countrySlug": "algeria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "khaled-al-muhaimid",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "خالد المحيميد",
+        "en": "Khaled Al-Muhaimid"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "boardMember"
+      ],
+      "shortBio": {
+        "ar": "شاعر وعضو في الهيئة الإدارية للجمعية وفق توثيق الدورة السادسة عام 2024.",
+        "en": "Poet and association board member according to documentation of the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "khaled-al-yasari",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "خالد اليساري",
+        "en": "Khaled Al-Yasari"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "media"
+      ],
+      "shortBio": {
+        "ar": "شاعر وإعلامي عراقي مشارك في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Iraqi poet and media professional participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1413816784113176/"
+      ]
+    },
+    {
+      "slug": "lamis-al-rahbi",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "لميس الرحبي",
+        "en": "Lamis Al-Rahbi"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "boardMember",
+        "teamMember"
+      ],
+      "shortBio": {
+        "ar": "شاعرة سورية وعضو في إدارة الجمعية.",
+        "en": "Syrian poet and association board member."
+      },
+      "profileImage": "images/people/profiles/lamis-al-rahbi.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1105083444986513/",
+        "https://sana.sy/video/2513255/",
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-lamis-al-rahbi",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-lamis-al-rahbi.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-organizer-lamis-al-rahbi"
+    },
+    {
+      "slug": "mahmoud-al-taweel",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "محمود الطويل",
+        "en": "Mahmoud Al-Taweel"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "malek-noor",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "مالك نور",
+        "en": "Malek Noor"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "artist"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/malek-noor.webp",
+      "profileImageKey": "person-profile-malek-noor",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-performer-malek-noor.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-performer-malek-noor",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041719141322944/"
+      ]
+    },
+    {
+      "slug": "mohammed-al-sada",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "محمد السادة",
+        "en": "Mohammed Al-Sada"
+      },
+      "countrySlug": "qatar",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/mohammed-al-sada.webp",
+      "profileImageKey": "person-profile-mohammed-al-sada",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-mohammed-al-sada.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-poet-mohammed-al-sada",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041722111322647/"
+      ]
+    },
+    {
+      "slug": "mohammed-al-shahwani",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "محمد الشهواني",
+        "en": "Mohammed Al-Shahwani"
+      },
+      "countrySlug": "qatar",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/mohammed-al-shahwani.webp",
+      "profileImageKey": "person-profile-mohammed-al-shahwani",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-al-shahwani.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-mohammed-al-shahwani",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1105084144986443/"
+      ]
+    },
+    {
+      "slug": "mohammed-areej",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "محمد عريج",
+        "en": "Mohammed Areej"
+      },
+      "countrySlug": "morocco",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر مغربي مشارك في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Moroccan poet participating in the eighth Arab Poetry Festival."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1409743194520535/"
+      ]
+    },
+    {
+      "slug": "mohammed-saeed-al-muqaddam",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "محمد سعيد المقدّم",
+        "en": "Mohammed Saeed Al-Muqaddam"
+      },
+      "countrySlug": "morocco",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/mohammed-saeed-al-muqaddam.webp",
+      "profileImageKey": "person-profile-mohammed-saeed-al-muqaddam",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1103383791823145/"
+      ]
+    },
+    {
+      "slug": "mohammed-zakaria-al-hamad",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "محمد زكريا الحمد",
+        "en": "Mohammed Zakaria Al-Hamad"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "boardMember",
+        "teamMember"
+      ],
+      "shortBio": {
+        "ar": "دكتور وعضو في إدارة الجمعية ومسؤول العلاقات العامة.",
+        "en": "Doctor, association board member, and public-relations officer."
+      },
+      "profileImage": "images/people/profiles/mohammed-zakaria-al-hamad.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1105884624906395/",
+        "https://sana.sy/video/2513255/",
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-mohammed-zakaria-al-hamad",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad"
+    },
+    {
+      "slug": "mustafa-matar",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "مصطفى مطر",
+        "en": "Mustafa Matar"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "boardMember",
+        "teamMember"
+      ],
+      "shortBio": {
+        "ar": "شاعر وإعلامي فلسطيني ورئيس الجمعية الدولية للشعراء العرب.",
+        "en": "Palestinian poet and media professional; president of the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/mustafa-matar.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1106459288182262/",
+        "https://sana.sy/video/2513255/",
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-mustafa-matar",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mustafa-matar.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-organizer-mustafa-matar"
+    },
+    {
+      "slug": "muti-suleiman",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "مطيع سليمان",
+        "en": "Muti Suleiman"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "mutlaq-al-otaibi",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "مطلق العتيبي",
+        "en": "Mutlaq Al-Otaibi"
+      },
+      "countrySlug": "saudi-arabia",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/mutlaq-al-otaibi.webp",
+      "profileImageKey": "person-profile-mutlaq-al-otaibi",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mutlaq-al-otaibi.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-mutlaq-al-otaibi",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1103375175157340/"
+      ]
+    },
+    {
+      "slug": "nabil-tarabiya",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "نبيل طربية",
+        "en": "Nabil Tarabieh"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": "images/people/profiles/nabil-tarabiya.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041713664656825/",
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-nabil-tarabiya",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-nabil-tarabieh.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-poet-nabil-tarabieh"
+    },
+    {
+      "slug": "nevin-tina",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "نيفين طينة",
+        "en": "Nevin Tina"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "nizar-krikish",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "نزار كريكش",
+        "en": "Nizar Krikish"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "guest"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/nizar-krikish.webp",
+      "profileImageKey": "person-profile-nizar-krikish",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-nizar-krikish.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-speaker-nizar-krikish",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041724254655766/"
+      ]
+    },
+    {
+      "slug": "obaid-khalil-al-aswad",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "عبيد خليل الأسود",
+        "en": "Obaid Khalil Al-Aswad"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "omar-alloush",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "عمر علوش",
+        "en": "Omar Alloush"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "qasim-al-daraghmeh",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "قاسم الدراعمه",
+        "en": "Qasim Al-Daraghmeh"
+      },
+      "countrySlug": "jordan",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/qasim-al-daraghmeh.webp",
+      "profileImageKey": "person-profile-qasim-al-daraghmeh",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-qasim-al-daraghmeh.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-qasim-al-daraghmeh",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1105085684986289/"
+      ]
+    },
+    {
+      "slug": "rabah-al-bahri",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "رابح روايحي",
+        "en": "Rabah Rouaihi"
+      },
+      "countrySlug": "algeria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/rabah-al-bahri.webp",
+      "profileImageKey": "person-profile-rabah-al-bahri",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-rabah-al-bahri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-rabah-al-bahri",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1103045448523646/"
+      ]
+    },
+    {
+      "slug": "ragab-abdelwahab",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "رجب عبد الوهاب",
+        "en": "Ragab Abdelwahab"
+      },
+      "countrySlug": "egypt",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "riman-yassin",
+      "verificationStatus": "verified",
+      "name": {
+        "ar": "ريمان ياسين",
+        "en": "Riman Yassin"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet",
+        "boardMember",
+        "teamMember"
+      ],
+      "shortBio": {
+        "ar": "شاعرة سورية وعضو في إدارة الجمعية، وشاركت في الدورة الثامنة من مهرجان الشعر العربي.",
+        "en": "Syrian poet and association board member; participant in the eighth Arab Poetry Festival."
+      },
+      "profileImage": "images/people/profiles/riman-yassin.webp",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1104165608411630/",
+        "https://sana.sy/video/2513255/",
+        "https://www.facebook.com/internationalarabpoets/posts/1413977257430462/"
+      ],
+      "seedReadiness": "ready",
+      "profileImageKey": "person-profile-riman-yassin",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-riman-yassin.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-organizer-riman-yassin"
+    },
+    {
+      "slug": "saeed-yaqoub",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "سعيد يعقوب",
+        "en": "Saeed Yaqoub"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "samia-abu-aita",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "سميحة أبو عيطة",
+        "en": "Samia Abu Aita"
+      },
+      "countrySlug": "palestine",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "sara-al-zein",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "سارة الزين",
+        "en": "Sara Al-Zein"
+      },
+      "countrySlug": "lebanon",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/sara-al-zein.webp",
+      "profileImageKey": "person-profile-sara-al-zein",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-sara-al-zein.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-sara-al-zein",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1102837138544477/"
+      ]
+    },
+    {
+      "slug": "sherif-al-aqel",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "شريف العاقل",
+        "en": "Sherif Al-Aqel"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "soha-amouri",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "سها أموري",
+        "en": "Soha Amouri"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "writer",
+        "media"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/soha-amouri.webp",
+      "profileImageKey": "person-profile-soha-amouri",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-soha-amouri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-speaker-soha-amouri",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041719131322945/"
+      ]
+    },
+    {
+      "slug": "suleiman-hussein",
+      "verificationStatus": "needsReview",
+      "seedReadiness": "blocked-missing-country",
+      "name": {
+        "ar": "سليمان حسين",
+        "en": "Suleiman Hussein"
+      },
+      "countrySlug": null,
+      "citySlug": null,
+      "roles": [
+        "critic",
+        "guest"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/suleiman-hussein.webp",
+      "profileImageKey": "person-profile-suleiman-hussein",
+      "profileCardImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-suleiman-hussein.jpg",
+      "profileCardImageKey": "arab-poetry-festival-6-speaker-suleiman-hussein",
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1041724377989087/"
+      ]
+    },
+    {
+      "slug": "sultan-al-sabhan",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "سلطان السبهان",
+        "en": "Sultan Al-Sabhan"
+      },
+      "countrySlug": "saudi-arabia",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "talal-al-junaibi",
+      "verificationStatus": "needsReview",
+      "name": {
+        "ar": "طلال الجنيبي",
+        "en": "Talal Al-Junaibi"
+      },
+      "countrySlug": "uae",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر/شاعرة ورد الاسم ضمن المشاركين في الدورة السادسة عام 2024.",
+        "en": "Poet named among participants in the sixth edition in 2024."
+      },
+      "profileImage": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ]
+    },
+    {
+      "slug": "wasfi-al-masri",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "وصفي المعرصاني",
+        "en": "Wasfi Al-Maarasani"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "artist"
+      ],
+      "shortBio": {
+        "ar": "مشارك ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Participant appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/wasfi-al-masri.webp",
+      "profileImageKey": "person-profile-wasfi-al-masri",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-performer-wasfi-al-masri.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-performer-wasfi-al-masri",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1109103751251149/"
+      ]
+    },
+    {
+      "slug": "yasser-tweish",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "ياسر طويش",
+        "en": "Yasser Tweish"
+      },
+      "countrySlug": "syria",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": null,
+      "profileImageKey": null,
+      "profileCardImage": null,
+      "profileCardImageKey": null,
+      "showContactPublicly": false,
+      "showInPublicDirectory": false,
+      "sources": []
+    },
+    {
+      "slug": "youssef-al-khatib",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "يوسف الخطيب",
+        "en": "Youssef Al-Khatib"
+      },
+      "countrySlug": "lebanon",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/youssef-al-khatib.webp",
+      "profileImageKey": "person-profile-youssef-al-khatib",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-youssef-al-khatib.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-youssef-al-khatib",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1106463381515186/"
+      ]
+    },
+    {
+      "slug": "zain-al-abidin-al-haj-al-saeed",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "زين العابدين الحاج السعيد",
+        "en": "Zain Al-Abidin Al-Haj Al-Saeed"
+      },
+      "countrySlug": "yemen",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/zain-al-abidin-al-haj-al-saeed.webp",
+      "profileImageKey": "person-profile-zain-al-abidin-al-haj-al-saeed",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1104166368411554/"
+      ]
+    },
+    {
+      "slug": "zaki-al-ali",
+      "verificationStatus": "verified",
+      "seedReadiness": "ready",
+      "name": {
+        "ar": "زكي العلي",
+        "en": "Zaki Al-Ali"
+      },
+      "countrySlug": "iraq",
+      "citySlug": null,
+      "roles": [
+        "poet"
+      ],
+      "shortBio": {
+        "ar": "شاعر ظهر في المواد الرسمية المنشورة للجمعية الدولية للشعراء العرب.",
+        "en": "Poet appearing in official materials published by the International Association of Arab Poets."
+      },
+      "profileImage": "images/people/profiles/zaki-al-ali.webp",
+      "profileImageKey": "person-profile-zaki-al-ali",
+      "profileCardImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zaki-al-ali.jpg",
+      "profileCardImageKey": "arab-poetry-festival-7-poet-zaki-al-ali",
+      "showContactPublicly": false,
+      "showInPublicDirectory": true,
+      "sources": [
+        "https://www.facebook.com/internationalarabpoets/photos/1102190121942512/"
+      ]
+    }
+  ]
+}

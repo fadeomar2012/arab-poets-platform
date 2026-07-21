@@ -1,0 +1,938 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "notes": [
+    "Media references use stable asset keys and relative file paths; the importer should upload media first and resolve keys to Payload media IDs.",
+    "Program items were transcribed from the uploaded official program graphics.",
+    "The 2026 forum remains needsReview because 5–10 August spans six calendar dates while promotional wording says five days."
+  ],
+  "records": [
+    {
+      "slug": "rabi-al-qawafi-fourth-istanbul-2024",
+      "verificationStatus": "verified",
+      "title": {
+        "ar": "مهرجان ربيع القوافي — الدورة الرابعة",
+        "en": "Rabi Al-Qawafi Festival — Fourth Edition"
+      },
+      "eventTypeSlug": "festival",
+      "editionNumber": 4,
+      "shortDescription": {
+        "ar": "فعالية شعرية أقيمت في إسطنبول بمشاركة شعراء من عدة دول عربية.",
+        "en": "A poetry event in Istanbul featuring poets from several Arab countries."
+      },
+      "startDate": "2024-03-02",
+      "endDate": "2024-03-03",
+      "startTimeLocal": null,
+      "endTimeLocal": null,
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "istanbul",
+      "venueName": {
+        "ar": "مسرح مدارس الأوائل الدولية",
+        "en": "Al-Awael International Schools Theater"
+      },
+      "addressText": {
+        "ar": "منطقة باغجلار، إسطنبول، تركيا",
+        "en": "Bağcılar, Istanbul, Türkiye"
+      },
+      "attendanceMode": "open",
+      "attendanceModeStatus": "needsReview",
+      "programMode": "sharedAcrossDays",
+      "participantSlugs": [
+        "ayman-al-jabali",
+        "lamis-al-rahbi",
+        "mustafa-matar",
+        "khadija-al-tayeb",
+        "ibrahim-hafez",
+        "mahmoud-al-taweel",
+        "yasser-tweish",
+        "samia-abu-aita",
+        "ammar-larbaa",
+        "ragab-abdelwahab",
+        "muti-suleiman",
+        "abdelrahman-mohieddin",
+        "fares-saleh",
+        "hamed-al-dulaimi",
+        "omar-alloush",
+        "ahmad-al-sheikh"
+      ],
+      "posterImageKey": "rabi-al-qawafi-4-participants-poster",
+      "posterImage": "images/events/rabi-al-qawafi-fourth-istanbul-2024/rabi-al-qawafi-4-participants-poster.jpg",
+      "coverImageKey": "rabi-al-qawafi-4-participants-poster",
+      "coverImage": "images/events/rabi-al-qawafi-fourth-istanbul-2024/rabi-al-qawafi-4-participants-poster.jpg",
+      "galleryImageKeys": [
+        "rabi-al-qawafi-4-participants-poster"
+      ],
+      "gallery": [
+        "images/events/rabi-al-qawafi-fourth-istanbul-2024/rabi-al-qawafi-4-participants-poster.jpg"
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/photos/1051008007060724/",
+        "verificationStatus": "verified",
+        "verificationNotes": "Dates, venue, presenter, participant names, and countries are printed on the uploaded official poster."
+      }
+    },
+    {
+      "slug": "arab-poetry-festival-sixth-istanbul-2024",
+      "verificationStatus": "verified",
+      "title": {
+        "ar": "مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "eventTypeSlug": "festival",
+      "editionNumber": 6,
+      "shortDescription": {
+        "ar": "مهرجان شعري وثقافي بمشاركة اثنتي عشرة دولة عربية، تضمن قراءات ومحاضرات وإنشادًا ومعرضًا فنيًا.",
+        "en": "A poetry and cultural festival with participation from twelve Arab countries, featuring readings, lectures, chanting, and an art exhibition."
+      },
+      "startDate": "2024-06-22",
+      "endDate": "2024-06-23",
+      "startTimeLocal": "14:00",
+      "endTimeLocal": "18:00",
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "istanbul",
+      "venueName": {
+        "ar": "مسرح كلية الإلهيات في جامعة مرمرة",
+        "en": "Marmara University Faculty of Theology Theater"
+      },
+      "addressText": {
+        "ar": "إسطنبول، تركيا",
+        "en": "Istanbul, Türkiye"
+      },
+      "programMode": "perDay",
+      "programOutline": [
+        {
+          "title": {
+            "ar": "كلمة افتتاحية لرئيس الجمعية مصطفى مطر",
+            "en": "Opening remarks by association president Mustafa Matar"
+          }
+        },
+        {
+          "title": {
+            "ar": "محاضرات نقدية وثقافية",
+            "en": "Critical and cultural lectures"
+          }
+        },
+        {
+          "title": {
+            "ar": "قراءات شعرية وإنشاد",
+            "en": "Poetry readings and chanting"
+          }
+        },
+        {
+          "title": {
+            "ar": "معرض فني وتكريم المشاركين",
+            "en": "Art exhibition and participant recognition"
+          }
+        }
+      ],
+      "participantSlugs": [
+        "mustafa-matar",
+        "riman-yassin",
+        "mohammed-zakaria-al-hamad",
+        "khaled-al-muhaimid",
+        "lamis-al-rahbi",
+        "saeed-yaqoub",
+        "adi-wald-adab",
+        "talal-al-junaibi",
+        "sultan-al-sabhan",
+        "hamid-saeed",
+        "obaid-khalil-al-aswad",
+        "sherif-al-aqel",
+        "nabil-tarabiya",
+        "nevin-tina",
+        "ibrahim-hafez",
+        "mohammed-al-sada",
+        "soha-amouri",
+        "abdul-qader-lahib",
+        "ammar-al-shaer",
+        "jamal-abdullah-aydan",
+        "abdul-jawad-al-dahdan",
+        "suleiman-hussein",
+        "malek-noor",
+        "nizar-krikish"
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/videos/910160177541730/",
+        "verificationStatus": "verified",
+        "verificationNotes": "Dates and broad program are corroborated by a contemporary press report. The participant list is a partial starter list from the report. Uploaded official program cards now verify the daily 14:00 start and detailed program."
+      },
+      "additionalSources": [
+        "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول"
+      ],
+      "attendanceMode": "open",
+      "attendanceModeStatus": "verified-from-poster",
+      "coverImageKey": "arab-poetry-festival-6-group-photo",
+      "coverImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-group-photo.jpg",
+      "posterImageKey": "arab-poetry-festival-6-poets-roster",
+      "posterImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poets-roster.jpg",
+      "socialImageKey": "arab-poetry-festival-6-poets-roster",
+      "socialImage": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poets-roster.jpg",
+      "galleryImageKeys": [
+        "arab-poetry-festival-6-organizer-mustafa-matar",
+        "arab-poetry-festival-6-poet-ibrahim-hafez",
+        "arab-poetry-festival-6-speaker-soha-amouri",
+        "arab-poetry-festival-6-poet-nabil-tarabieh",
+        "arab-poetry-festival-6-presenter-abdul-qader-lahib",
+        "arab-poetry-festival-6-organizer-mohammed-zakaria-al-hamad",
+        "arab-poetry-festival-6-speaker-jamal-abdullah-aydan",
+        "arab-poetry-festival-6-poet-mohammed-al-sada",
+        "arab-poetry-festival-6-director-riman-yassin",
+        "arab-poetry-festival-6-presenter-ammar-al-shaer",
+        "arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan",
+        "arab-poetry-festival-6-program-day-2",
+        "arab-poetry-festival-6-organizer-lamis-al-rahbi",
+        "arab-poetry-festival-6-speaker-suleiman-hussein",
+        "arab-poetry-festival-6-poets-roster",
+        "arab-poetry-festival-6-program-day-1",
+        "arab-poetry-festival-6-group-photo",
+        "arab-poetry-festival-6-performer-malek-noor",
+        "arab-poetry-festival-6-speaker-nizar-krikish"
+      ],
+      "gallery": [
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-mustafa-matar.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-ibrahim-hafez.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-soha-amouri.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-nabil-tarabieh.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-abdul-qader-lahib.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-mohammed-zakaria-al-hamad.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-jamal-abdullah-aydan.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-mohammed-al-sada.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-director-riman-yassin.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-ammar-al-shaer.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-program-day-2.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-lamis-al-rahbi.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-suleiman-hussein.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poets-roster.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-program-day-1.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-group-photo.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-performer-malek-noor.jpg",
+        "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-nizar-krikish.jpg"
+      ],
+      "programDays": [
+        {
+          "label": {
+            "ar": "اليوم الأول",
+            "en": "Day one"
+          },
+          "date": "2024-06-22",
+          "programImageKey": "arab-poetry-festival-6-program-day-1",
+          "items": [
+            {
+              "title": {
+                "ar": "الافتتاح",
+                "en": "Opening"
+              },
+              "startTime": "14:00",
+              "durationMinutes": 2
+            },
+            {
+              "title": {
+                "ar": "كلمة رئيس الجمعية",
+                "en": "Association president remarks"
+              },
+              "startTime": "14:08",
+              "durationMinutes": 3,
+              "presenterSlug": "mustafa-matar"
+            },
+            {
+              "title": {
+                "ar": "الأمسية الشعرية الأولى",
+                "en": "First poetry reading"
+              },
+              "startTime": "14:15",
+              "durationMinutes": 75,
+              "participantSlugs": [
+                "khaled-al-muhaimid",
+                "sherif-al-aqel",
+                "nabil-tarabiya",
+                "riman-yassin",
+                "talal-al-junaibi"
+              ]
+            },
+            {
+              "title": {
+                "ar": "التوجه الإسلامي لدى الشاعر التركي نجيب فاضل",
+                "en": "The Islamic tendency in the poetry of Necip Fazıl"
+              },
+              "startTime": "15:30",
+              "durationMinutes": 10,
+              "presenterSlug": "jamal-abdullah-aydan"
+            },
+            {
+              "title": {
+                "ar": "استراحة",
+                "en": "Break"
+              },
+              "startTime": "15:40",
+              "durationMinutes": 20
+            },
+            {
+              "title": {
+                "ar": "فقرة إنشادية",
+                "en": "Chanting performance"
+              },
+              "startTime": "16:00",
+              "durationMinutes": 20,
+              "presenterSlug": "malek-noor"
+            },
+            {
+              "title": {
+                "ar": "قيود معاصرة",
+                "en": "Contemporary constraints"
+              },
+              "startTime": "16:20",
+              "durationMinutes": 10,
+              "presenterSlug": "soha-amouri"
+            },
+            {
+              "title": {
+                "ar": "الأمسية الشعرية الثانية",
+                "en": "Second poetry reading"
+              },
+              "startTime": "16:30",
+              "durationMinutes": 75,
+              "participantSlugs": [
+                "sultan-al-sabhan",
+                "nevin-tina",
+                "mohammed-zakaria-al-hamad",
+                "ibrahim-hafez"
+              ]
+            },
+            {
+              "title": {
+                "ar": "الختام",
+                "en": "Closing"
+              },
+              "startTime": "17:45",
+              "durationMinutes": 2
+            }
+          ]
+        },
+        {
+          "label": {
+            "ar": "اليوم الثاني",
+            "en": "Day two"
+          },
+          "date": "2024-06-23",
+          "programImageKey": "arab-poetry-festival-6-program-day-2",
+          "items": [
+            {
+              "title": {
+                "ar": "الافتتاح",
+                "en": "Opening"
+              },
+              "startTime": "14:00",
+              "durationMinutes": 2
+            },
+            {
+              "title": {
+                "ar": "هوامش على ثقافة الناقد والشاعر والمتلقي",
+                "en": "Notes on the culture of critic, poet, and recipient"
+              },
+              "startTime": "14:02",
+              "durationMinutes": 10,
+              "presenterSlug": "suleiman-hussein"
+            },
+            {
+              "title": {
+                "ar": "الأمسية الشعرية الأولى",
+                "en": "First poetry reading"
+              },
+              "startTime": "14:12",
+              "durationMinutes": 78,
+              "participantSlugs": [
+                "mustafa-matar",
+                "mohammed-al-sada",
+                "adi-wald-adab",
+                "lamis-al-rahbi",
+                "saeed-yaqoub"
+              ]
+            },
+            {
+              "title": {
+                "ar": "الإبداع الشعري من منظور علوم الأعصاب والإدراك",
+                "en": "Poetic creativity from a neuroscience and cognition perspective"
+              },
+              "startTime": "15:30",
+              "durationMinutes": 10,
+              "presenterSlug": "nizar-krikish"
+            },
+            {
+              "title": {
+                "ar": "استراحة",
+                "en": "Break"
+              },
+              "startTime": "15:40",
+              "durationMinutes": 20
+            },
+            {
+              "title": {
+                "ar": "فقرة إنشادية",
+                "en": "Chanting performance"
+              },
+              "startTime": "16:00",
+              "durationMinutes": 20,
+              "presenterSlug": "malek-noor"
+            },
+            {
+              "title": {
+                "ar": "الأمسية الشعرية الثانية",
+                "en": "Second poetry reading"
+              },
+              "startTime": "16:20",
+              "durationMinutes": 60,
+              "participantSlugs": [
+                "obaid-khalil-al-aswad"
+              ]
+            },
+            {
+              "title": {
+                "ar": "بناة الفكر وصناع الحضارة",
+                "en": "Builders of thought and makers of civilization"
+              },
+              "startTime": "17:20",
+              "durationMinutes": 10,
+              "presenterSlug": "abdul-jawad-al-dahdan"
+            },
+            {
+              "title": {
+                "ar": "التكريم والختام",
+                "en": "Recognition and closing"
+              },
+              "startTime": "17:30",
+              "durationMinutes": 20,
+              "presenterSlug": "mohammed-zakaria-al-hamad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "verificationStatus": "approvedWithGaps",
+      "title": {
+        "ar": "مهرجان ربيع القوافي — الدورة الخامسة: وفاء للشام",
+        "en": "Rabi Al-Qawafi Festival — Fifth Edition: Tribute to the Levant"
+      },
+      "eventTypeSlug": "festival",
+      "editionNumber": 5,
+      "shortDescription": {
+        "ar": "مهرجان شعري بعنوان وفاء للشام، أقيم في غازي عنتاب بحضور مفتوح ومجاني.",
+        "en": "A poetry festival titled Tribute to the Levant, held in Gaziantep with free public attendance."
+      },
+      "startDate": "2025-04-19",
+      "endDate": "2025-04-19",
+      "startTimeLocal": "15:00",
+      "endTimeLocal": null,
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "gaziantep",
+      "venueName": {
+        "ar": "صالة جتين أماتش — بلدية غازي عنتاب الكبرى",
+        "en": "Çetin Emeç Hall — Gaziantep Metropolitan Municipality"
+      },
+      "addressText": {
+        "ar": "غازي عنتاب، تركيا",
+        "en": "Gaziantep, Türkiye"
+      },
+      "attendanceMode": "open",
+      "attendanceNote": {
+        "ar": "الدعوة عامة والحضور مجاني.",
+        "en": "Open to the public; attendance is free."
+      },
+      "programMode": "single",
+      "participantSlugs": [
+        "mustafa-matar",
+        "mohammed-zakaria-al-hamad",
+        "riman-yassin",
+        "lamis-al-rahbi",
+        "ayman-al-jabali",
+        "khaled-al-muhaimid"
+      ],
+      "unresolvedParticipantNamesAr": [
+        "خليل الأسود",
+        "عبد الرحمن أبوراس",
+        "إبراهيم جعفر",
+        "مجد أبوراس",
+        "أحمد جواش",
+        "ناصر قرة أوغلان",
+        "علي حسن",
+        "حسن قنطار",
+        "أحمد شواخ"
+      ],
+      "posterImageKey": "rabi-al-qawafi-5-main-poster",
+      "posterImage": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-main-poster.jpg",
+      "coverImageKey": "rabi-al-qawafi-5-main-poster",
+      "coverImage": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-main-poster.jpg",
+      "socialImageKey": "rabi-al-qawafi-5-coming-soon",
+      "socialImage": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-coming-soon.jpg",
+      "galleryImageKeys": [
+        "rabi-al-qawafi-5-main-poster",
+        "rabi-al-qawafi-5-management-poster",
+        "rabi-al-qawafi-5-poet-lamis-al-rahbi",
+        "rabi-al-qawafi-5-coming-soon",
+        "rabi-al-qawafi-5-participants-poster",
+        "rabi-al-qawafi-5-awards-photo-01",
+        "rabi-al-qawafi-5-awards-photo-02",
+        "rabi-al-qawafi-5-awards-photo-03",
+        "rabi-al-qawafi-5-awards-photo-04",
+        "rabi-al-qawafi-5-awards-photo-05",
+        "rabi-al-qawafi-5-awards-photo-06"
+      ],
+      "gallery": [
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-main-poster.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-management-poster.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-poet-lamis-al-rahbi.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-coming-soon.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-participants-poster.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-01.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-02.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-03.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-04.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-05.jpg",
+        "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-06.jpg"
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/photos/1054330453395146/",
+        "verificationStatus": "approvedWithGaps",
+        "verificationNotes": "Date, 15:00 start, free attendance, title, venue, management, and a participant roster are visible in official graphics. Some roster countries and exact transliterations still need review."
+      }
+    },
+    {
+      "slug": "arab-poetry-festival-seventh-istanbul-2025",
+      "verificationStatus": "verified",
+      "title": {
+        "ar": "مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "eventTypeSlug": "festival",
+      "editionNumber": 7,
+      "shortDescription": {
+        "ar": "ثلاثة أيام من القراءات الشعرية والفقرات الفنية في مسرح كلية الإلهيات بجامعة مرمرة.",
+        "en": "Three days of poetry readings and artistic performances at Marmara University Faculty of Theology Theater."
+      },
+      "startDate": "2025-06-21",
+      "endDate": "2025-06-23",
+      "startTimeLocal": "15:00",
+      "endTimeLocal": "19:00",
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "istanbul",
+      "venueName": {
+        "ar": "مسرح كلية الإلهيات في جامعة مرمرة",
+        "en": "Marmara University Faculty of Theology Theater"
+      },
+      "addressText": {
+        "ar": "أوسكودار، إسطنبول، تركيا",
+        "en": "Üsküdar, Istanbul, Türkiye"
+      },
+      "attendanceMode": "open",
+      "programMode": "perDay",
+      "participantSlugs": [
+        "aziza-lamiri",
+        "ibrahim-hafez",
+        "wasfi-al-masri",
+        "sara-al-zein",
+        "abdelrahim-kafieh",
+        "badriya-al-badri",
+        "ashraf-hashish",
+        "jamila-al-majri",
+        "zain-al-abidin-al-haj-al-saeed",
+        "zaki-al-ali",
+        "ahmad-bakhit",
+        "bahr-al-din-abdullah-ahmad",
+        "kawkab-issa-al-zabati",
+        "hussein-hamadi",
+        "mohammed-zakaria-al-hamad",
+        "mustafa-matar",
+        "mutlaq-al-otaibi",
+        "youssef-al-khatib",
+        "qasim-al-daraghmeh",
+        "mohammed-saeed-al-muqaddam",
+        "rabah-al-bahri",
+        "ali-matar",
+        "lamis-al-rahbi",
+        "mohammed-al-shahwani",
+        "riman-yassin",
+        "jabr-al-baadani"
+      ],
+      "posterImageKey": "arab-poetry-festival-7-main-poster",
+      "posterImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-main-poster.jpg",
+      "coverImageKey": "arab-poetry-festival-7-main-poster",
+      "coverImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-main-poster.jpg",
+      "socialImageKey": "arab-poetry-festival-7-teaser",
+      "socialImage": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-teaser.jpg",
+      "galleryImageKeys": [
+        "arab-poetry-festival-7-poet-aziza-lamiri",
+        "arab-poetry-festival-7-poet-ibrahim-hafez",
+        "arab-poetry-festival-7-performer-wasfi-al-masri",
+        "arab-poetry-festival-7-poets-roster",
+        "arab-poetry-festival-7-poet-sara-al-zein",
+        "arab-poetry-festival-7-teaser",
+        "arab-poetry-festival-7-poet-abdelrahim-kafieh",
+        "arab-poetry-festival-7-poet-badriya-al-badri",
+        "arab-poetry-festival-7-poet-ashraf-hashish",
+        "arab-poetry-festival-7-poet-jamila-al-majri",
+        "arab-poetry-festival-7-main-poster",
+        "arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed",
+        "arab-poetry-festival-7-poet-zaki-al-ali",
+        "arab-poetry-festival-7-poet-ahmad-bakhit",
+        "arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad",
+        "arab-poetry-festival-7-poet-kawkab-issa-al-zabati",
+        "arab-poetry-festival-7-poet-hussein-hamadi",
+        "arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad",
+        "arab-poetry-festival-7-organizer-mustafa-matar",
+        "arab-poetry-festival-7-poet-mutlaq-al-otaibi",
+        "arab-poetry-festival-7-poet-youssef-al-khatib",
+        "arab-poetry-festival-7-poet-qasim-al-daraghmeh",
+        "arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam",
+        "arab-poetry-festival-7-poet-rabah-al-bahri",
+        "arab-poetry-festival-7-poet-ali-matar",
+        "arab-poetry-festival-7-organizer-lamis-al-rahbi",
+        "arab-poetry-festival-7-poet-mohammed-al-shahwani",
+        "arab-poetry-festival-7-organizer-riman-yassin",
+        "arab-poetry-festival-7-poet-jabr-al-baadani",
+        "arab-poetry-festival-7-program-day-1",
+        "arab-poetry-festival-7-day-1-poets"
+      ],
+      "gallery": [
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-aziza-lamiri.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ibrahim-hafez.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-performer-wasfi-al-masri.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poets-roster.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-sara-al-zein.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-teaser.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-abdelrahim-kafieh.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-badriya-al-badri.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ashraf-hashish.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jamila-al-majri.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-main-poster.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zaki-al-ali.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ahmad-bakhit.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-kawkab-issa-al-zabati.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-hussein-hamadi.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mustafa-matar.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mutlaq-al-otaibi.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-youssef-al-khatib.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-qasim-al-daraghmeh.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-rabah-al-bahri.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ali-matar.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-lamis-al-rahbi.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-al-shahwani.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-riman-yassin.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jabr-al-baadani.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-program-day-1.jpg",
+        "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-day-1-poets.jpg"
+      ],
+      "programDays": [
+        {
+          "label": {
+            "ar": "اليوم الأول",
+            "en": "Day one"
+          },
+          "date": "2025-06-21",
+          "programImageKey": "arab-poetry-festival-7-program-day-1",
+          "items": [
+            {
+              "title": {
+                "ar": "استقبال وضيافة",
+                "en": "Reception and hospitality"
+              },
+              "startTime": "15:00",
+              "durationMinutes": 60
+            },
+            {
+              "title": {
+                "ar": "الافتتاح",
+                "en": "Opening"
+              },
+              "startTime": "16:00",
+              "durationMinutes": 2
+            },
+            {
+              "title": {
+                "ar": "القرآن الكريم",
+                "en": "Quran recitation"
+              },
+              "startTime": "16:02",
+              "durationMinutes": 3
+            },
+            {
+              "title": {
+                "ar": "النشيد الوطني",
+                "en": "National anthem"
+              },
+              "startTime": "16:05",
+              "durationMinutes": 3
+            },
+            {
+              "title": {
+                "ar": "كلمة رئيس الجمعية",
+                "en": "Association president remarks"
+              },
+              "startTime": "16:08",
+              "durationMinutes": 3,
+              "presenterSlug": "mustafa-matar"
+            },
+            {
+              "title": {
+                "ar": "افتتاحية الدورة السابعة",
+                "en": "Seventh edition opening poem"
+              },
+              "startTime": "16:15",
+              "durationMinutes": 15,
+              "presenterSlug": "ahmad-bakhit"
+            },
+            {
+              "title": {
+                "ar": "الأمسية الأولى",
+                "en": "First poetry reading"
+              },
+              "startTime": "16:30",
+              "durationMinutes": 60,
+              "participantSlugs": [
+                "zain-al-abidin-al-haj-al-saeed",
+                "jamila-al-majri",
+                "mutlaq-al-otaibi",
+                "mohammed-saeed-al-muqaddam"
+              ]
+            },
+            {
+              "title": {
+                "ar": "استراحة صلاة",
+                "en": "Prayer break"
+              },
+              "startTime": "17:30",
+              "durationMinutes": 10
+            },
+            {
+              "title": {
+                "ar": "الأمسية الثانية",
+                "en": "Second poetry reading"
+              },
+              "startTime": "17:40",
+              "durationMinutes": 60,
+              "participantSlugs": [
+                "ali-matar",
+                "kawkab-issa-al-zabati",
+                "lamis-al-rahbi",
+                "rabah-al-bahri"
+              ]
+            },
+            {
+              "title": {
+                "ar": "فقرة فنية",
+                "en": "Artistic performance"
+              },
+              "startTime": "18:40",
+              "durationMinutes": 15,
+              "presenterSlug": "wasfi-al-masri"
+            },
+            {
+              "title": {
+                "ar": "الختام",
+                "en": "Closing"
+              },
+              "startTime": "18:55",
+              "durationMinutes": 2
+            }
+          ]
+        }
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/photos/1092463109581880/",
+        "verificationStatus": "verified",
+        "verificationNotes": "Official poster and day-one program verify the dates, venue, daily time window, and detailed first-day schedule."
+      }
+    },
+    {
+      "slug": "arab-poetry-festival-eighth-istanbul-2026",
+      "verificationStatus": "verified",
+      "title": {
+        "ar": "مهرجان الشعر العربي في إسطنبول — الدورة الثامنة",
+        "en": "Arab Poetry Festival in Istanbul — Eighth Edition"
+      },
+      "eventTypeSlug": "festival",
+      "editionNumber": 8,
+      "shortDescription": {
+        "ar": "ثلاثة أيام من القراءات الشعرية واللقاءات الثقافية والمعرض الفني بمشاركة شعراء وأدباء عرب.",
+        "en": "Three days of poetry readings, cultural meetings, and an accompanying art exhibition with Arab poets and writers."
+      },
+      "startDate": "2026-06-27",
+      "endDate": "2026-06-29",
+      "startTimeLocal": "14:00",
+      "endTimeLocal": null,
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "istanbul",
+      "venueName": {
+        "ar": "مسرح كلية الإلهيات في جامعة مرمرة",
+        "en": "Marmara University Faculty of Theology Theater"
+      },
+      "addressText": {
+        "ar": "أوسكودار، إسطنبول، تركيا",
+        "en": "Üsküdar, Istanbul, Türkiye"
+      },
+      "attendanceMode": "open",
+      "attendanceModeStatus": "needs-client-review",
+      "programMode": "sharedAcrossDays",
+      "programOutline": [
+        {
+          "title": {
+            "ar": "قراءات شعرية",
+            "en": "Poetry readings"
+          }
+        },
+        {
+          "title": {
+            "ar": "لقاءات وندوات ثقافية",
+            "en": "Cultural meetings and panels"
+          }
+        },
+        {
+          "title": {
+            "ar": "معرض فني",
+            "en": "Art exhibition"
+          }
+        },
+        {
+          "title": {
+            "ar": "فقرة أقلام واعدة",
+            "en": "Promising Pens segment"
+          }
+        },
+        {
+          "title": {
+            "ar": "تكريم المشاركين",
+            "en": "Participant recognition"
+          }
+        }
+      ],
+      "participantSlugs": [
+        "al-salka-al-mukhtar",
+        "mohammed-areej",
+        "hanan-idris",
+        "ibrahim-al-abbas",
+        "khaled-al-yasari",
+        "ahmad-al-akhras",
+        "heba-abdelwahab",
+        "riman-yassin"
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/posts/1413356210825900/",
+        "verificationStatus": "verified",
+        "verificationNotes": "Dates, venue, and 14:00 daily time are repeated across multiple participant posts and corroborated by SANA. Individual participant list is a starter subset, not the full roster."
+      },
+      "additionalSources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1413356210825900/",
+        "https://www.facebook.com/internationalarabpoets/posts/1409743194520535/",
+        "https://www.facebook.com/internationalarabpoets/posts/1413055130856008/",
+        "https://www.facebook.com/internationalarabpoets/photos/1409597237868464/",
+        "https://www.facebook.com/internationalarabpoets/posts/1413816784113176/",
+        "https://www.facebook.com/internationalarabpoets/posts/1413221427506045/",
+        "https://www.facebook.com/internationalarabpoets/posts/1412552890906232/",
+        "https://www.facebook.com/internationalarabpoets/posts/1413977257430462/",
+        "https://sana.sy/video/2513255/",
+        "https://sana.sy/culture-and-arts/2513804/"
+      ]
+    },
+    {
+      "slug": "arabic-poem-forum-istanbul-2026",
+      "verificationStatus": "needsReview",
+      "title": {
+        "ar": "ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "eventTypeSlug": "forum",
+      "editionNumber": 1,
+      "shortDescription": {
+        "ar": "تجربة ثقافية وشعرية تجمع الشعر والتدريب والورش المتخصصة والضيافة والرحلات والتوثيق والتكريم.",
+        "en": "A cultural and poetry experience combining poetry, training, specialist workshops, hospitality, trips, documentation, and recognition."
+      },
+      "startDate": "2026-08-05",
+      "endDate": "2026-08-10",
+      "startTimeLocal": null,
+      "endTimeLocal": null,
+      "timezone": "Europe/Istanbul",
+      "countrySlug": "turkey",
+      "citySlug": "istanbul",
+      "venueName": null,
+      "addressText": {
+        "ar": "إسطنبول، تركيا",
+        "en": "Istanbul, Türkiye"
+      },
+      "attendanceMode": "requestApproval",
+      "attendanceNote": {
+        "ar": "للاستفسار عن الرسوم والتسجيل عبر واتساب الجمعية.",
+        "en": "For fees and registration, contact the association via WhatsApp."
+      },
+      "honoreeOrGuestSlugs": [
+        "ahmad-bakhit",
+        "jamila-al-majri"
+      ],
+      "programMode": "perDay",
+      "programOutline": [
+        {
+          "title": {
+            "ar": "ورش متخصصة في الشعر والكتابة",
+            "en": "Specialist poetry and writing workshops"
+          }
+        },
+        {
+          "title": {
+            "ar": "أمسيات ولقاءات شعرية",
+            "en": "Poetry readings and meetings"
+          }
+        },
+        {
+          "title": {
+            "ar": "رحلات وضيافة وتوثيق",
+            "en": "Trips, hospitality, and documentation"
+          }
+        },
+        {
+          "title": {
+            "ar": "تكريم المشاركين",
+            "en": "Participant recognition"
+          }
+        }
+      ],
+      "archive": {
+        "sourceFacebookUrl": "https://www.facebook.com/internationalarabpoets/posts/1407147811446740/",
+        "verificationStatus": "needsReview",
+        "verificationNotes": "The announced date range spans six calendar dates, while another promotional caption says “5 days”; confirm the exact duration and daily program with the client. Uploaded official graphics now provide a usable poster and confirm the 5–10 August 2026 date range, while the five-day/six-calendar-day discrepancy remains."
+      },
+      "additionalSources": [
+        "https://www.facebook.com/internationalarabpoets/posts/1407147811446740/",
+        "https://www.facebook.com/internationalarabpoets/photos/1430265362468318/",
+        "https://www.facebook.com/internationalarabpoets/posts/1434516275376560/",
+        "https://www.facebook.com/internationalarabpoets/posts/1433693502125504/"
+      ],
+      "coverImageKey": "arabic-poem-forum-istanbul-2026-cover",
+      "coverImage": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-cover.jpg",
+      "posterImageKey": "arabic-poem-forum-istanbul-2026-main-poster",
+      "posterImage": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-main-poster.jpg",
+      "socialImageKey": "arabic-poem-forum-istanbul-2026-experience-poster",
+      "socialImage": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-experience-poster.jpg",
+      "galleryImageKeys": [
+        "arabic-poem-forum-istanbul-2026-cover",
+        "arabic-poem-forum-istanbul-2026-main-poster",
+        "arabic-poem-forum-istanbul-2026-five-day-program",
+        "arabic-poem-forum-istanbul-2026-experience-poster"
+      ],
+      "gallery": [
+        "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-cover.jpg",
+        "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-main-poster.jpg",
+        "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-five-day-program.jpg",
+        "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-experience-poster.jpg"
+      ]
+    }
+  ]
+}

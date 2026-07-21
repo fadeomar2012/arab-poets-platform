@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "sources": [
+    {
+      "type": "facebook-page",
+      "url": "https://www.facebook.com/internationalarabpoets",
+      "access": "public-but-automated-fetching-is-throttled",
+      "recommendedMethod": "manual review or Meta Graph API with client-provided Page access"
+    },
+    {
+      "type": "press",
+      "url": "https://sana.sy/video/2513255/",
+      "use": "event verification and organization roles"
+    },
+    {
+      "type": "press",
+      "url": "https://sana.sy/culture-and-arts/2513804/",
+      "use": "event description, participant counts, program themes, reference images"
+    },
+    {
+      "type": "press",
+      "url": "https://www.addustour.com/articles/1426524-الجمعيّة-الدوليّة-للشعراء-العرب-تقيم-مهرجانها-الشّعري-في-إسطنبول",
+      "use": "sixth-edition dates, program, board and participant subset"
+    },
+    {
+      "type": "association-blog",
+      "url": "https://arabpoetsinternational.blogspot.com/",
+      "use": "historical literary works and anthology entries"
+    },
+    {
+      "type": "official-developer-doc",
+      "url": "https://developers.facebook.com/docs/graph-api/reference/page/feed/",
+      "use": "long-term Page feed collection through Meta Graph API"
+    }
+  ],
+  "uploadedImageSourceMap": "data/source-image-map.json",
+  "uploadedImageCount": 69
+}

@@ -51,6 +51,15 @@ next-env.d.ts
 /release/
 *.zip
 *.sha256
+# Keep the committed seed dataset checksum (overrides the *.sha256 rule above).
+!/seed-data/facebook-v2/MANIFEST.sha256
+
+# Seed binary assets are NOT tracked in git (they bloat the repo). Only the JSON
+# dataset, README, and MANIFEST are versioned. The images/contact-sheets are kept
+# on disk so `npm run seed` can upload them; obtain them from the client-provided
+# facebook_data_seed_v2 package. See docs/FACEBOOK_SEED.md.
+/seed-data/facebook-v2/images/
+/seed-data/facebook-v2/catalog/
 
 # Local Claude / editor state
 /.claude/
