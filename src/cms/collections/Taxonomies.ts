@@ -1,7 +1,7 @@
 import type { CollectionConfig, Field } from "payload";
 import { activeOrAuthenticated, adminDeleteOnly, adminOrEditor } from "../access";
 import { slugField } from "../fields";
-import { adminGroups, bilingual, collectionLabels } from "../i18n";
+import { adminGroups, bilingual, collectionLabels, hints } from "../i18n";
 import { collectionRevalidationHooks } from "../hooks/revalidate";
 
 const baseFields = (): Field[] => [
@@ -20,6 +20,7 @@ const baseFields = (): Field[] => [
     type: "checkbox",
     required: true,
     defaultValue: true,
+    admin: { description: hints.isActive },
   },
   {
     name: "order",
@@ -27,6 +28,7 @@ const baseFields = (): Field[] => [
     type: "number",
     defaultValue: 0,
     min: 0,
+    admin: { description: hints.order },
   },
 ];
 
@@ -96,10 +98,28 @@ export const EventTypes: CollectionConfig = {
   ],
 };
 
-export const Countries = base("countries", "دولة", "الدول", "Country", "Countries");
+const countriesBase = base("countries", "دولة", "الدول", "Country", "Countries");
+export const Countries: CollectionConfig = {
+  ...countriesBase,
+  admin: {
+    ...countriesBase.admin,
+    description: bilingual(
+      "تصفّح القائمة أولًا للتأكد من عدم وجود الدولة قبل إضافة واحدة جديدة، لتجنّب التكرار.",
+      "Browse the list first to confirm the country doesn't already exist before adding a new one — this avoids duplicates.",
+    ),
+  },
+};
 
+const citiesBase = base("cities", "مدينة", "المدن", "City", "Cities");
 export const Cities: CollectionConfig = {
-  ...base("cities", "مدينة", "المدن", "City", "Cities"),
+  ...citiesBase,
+  admin: {
+    ...citiesBase.admin,
+    description: bilingual(
+      "تصفّح القائمة أولًا للتأكد من عدم وجود المدينة قبل إضافة واحدة جديدة، لتجنّب التكرار.",
+      "Browse the list first to confirm the city doesn't already exist before adding a new one — this avoids duplicates.",
+    ),
+  },
   fields: [
     {
       name: "name",
@@ -117,6 +137,7 @@ export const Cities: CollectionConfig = {
       relationTo: "countries",
       required: true,
       index: true,
+      admin: { description: hints.pickOrCreate },
     },
     {
       name: "isActive",
@@ -124,6 +145,7 @@ export const Cities: CollectionConfig = {
       type: "checkbox",
       required: true,
       defaultValue: true,
+      admin: { description: hints.isActive },
     },
     {
       name: "order",
@@ -131,6 +153,7 @@ export const Cities: CollectionConfig = {
       type: "number",
       defaultValue: 0,
       min: 0,
+      admin: { description: hints.order },
     },
   ],
 };

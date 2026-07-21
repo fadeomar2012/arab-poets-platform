@@ -6,7 +6,7 @@ import {
   publishedOrAuthenticated,
 } from "../access";
 import { seoFields, slugField } from "../fields";
-import { adminGroups, bilingual, collectionLabels, option } from "../i18n";
+import { adminGroups, bilingual, collectionLabels, hints, option } from "../i18n";
 import { validateCityCountry } from "../relations";
 import { validateOptionalURL } from "../validators";
 import { collectionRevalidationHooks } from "../hooks/revalidate";
@@ -75,12 +75,14 @@ export const Events: CollectionConfig = {
       relationTo: "event-types",
       required: true,
       index: true,
+      admin: { description: hints.pickOrCreate },
     },
     {
       name: "series",
       label: bilingual("سلسلة الفعالية", "Event series"),
       type: "relationship",
       relationTo: "event-series",
+      admin: { description: hints.pickOrCreate },
     },
     {
       name: "editionName",
@@ -161,6 +163,7 @@ export const Events: CollectionConfig = {
       relationTo: "countries",
       required: true,
       index: true,
+      admin: { description: hints.pickOrCreate },
     },
     {
       name: "city",
@@ -171,6 +174,12 @@ export const Events: CollectionConfig = {
       filterOptions: ({ siblingData }) => {
         const country = (siblingData as { country?: unknown })?.country;
         return country ? { country: { equals: country } } : true;
+      },
+      admin: {
+        description: bilingual(
+          "اختر الدولة أولًا، ثم ستُعرض مدنها فقط. انقر للاختيار من القائمة قبل استخدام زر + لإضافة مدينة جديدة.",
+          "Pick the country first — only its cities are then listed. Click to choose from the list before using + to add a new city.",
+        ),
       },
     },
     {
@@ -280,6 +289,7 @@ export const Events: CollectionConfig = {
           required: true,
           defaultValue: 0,
           min: 0,
+          admin: { description: hints.order },
         },
       ],
     },

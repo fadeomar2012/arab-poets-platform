@@ -213,7 +213,13 @@ export interface Event {
    * Generated automatically when empty and editable before publishing.
    */
   slug: string;
+  /**
+   * Click to pick an existing item from the list before adding a new one. Use the + button only if it doesn't already exist.
+   */
   eventType: number | EventType;
+  /**
+   * Click to pick an existing item from the list before adding a new one. Use the + button only if it doesn't already exist.
+   */
   series?: (number | null) | EventSery;
   editionName?: string | null;
   editionNumber?: number | null;
@@ -245,7 +251,13 @@ export interface Event {
     | 'Asia/Riyadh'
     | 'Asia/Dubai'
     | 'UTC';
+  /**
+   * Click to pick an existing item from the list before adding a new one. Use the + button only if it doesn't already exist.
+   */
   country: number | Country;
+  /**
+   * Pick the country first — only its cities are then listed. Click to choose from the list before using + to add a new city.
+   */
   city?: (number | null) | City;
   venueName?: string | null;
   addressText?: string | null;
@@ -262,6 +274,9 @@ export interface Event {
         eventRole: 'poet' | 'presenter' | 'guest' | 'judge' | 'honoree' | 'organizer' | 'other';
         customRoleLabel?: string | null;
         isFeatured?: boolean | null;
+        /**
+         * Sets the display order in lists — smaller numbers appear first. Leave it 0 if order doesn't matter.
+         */
         order: number;
         id?: string | null;
       }[]
@@ -347,7 +362,13 @@ export interface EventType {
    * Generated automatically when empty and editable before publishing.
    */
   slug: string;
+  /**
+   * When enabled, this item is visible to visitors and in pickers. Uncheck to hide it without deleting it.
+   */
   isActive: boolean;
+  /**
+   * Sets the display order in lists — smaller numbers appear first. Leave it 0 if order doesn't matter.
+   */
   order?: number | null;
   /**
    * لون النقطة والوسم داخل الروزنامة. مثال: #B88A2C / Dot and badge color in the calendar.
@@ -376,6 +397,8 @@ export interface EventSery {
   _status?: ('draft' | 'published') | null;
 }
 /**
+ * Browse the list first to confirm the country doesn't already exist before adding a new one — this avoids duplicates.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "countries".
  */
@@ -386,12 +409,20 @@ export interface Country {
    * Generated automatically when empty and editable before publishing.
    */
   slug: string;
+  /**
+   * When enabled, this item is visible to visitors and in pickers. Uncheck to hide it without deleting it.
+   */
   isActive: boolean;
+  /**
+   * Sets the display order in lists — smaller numbers appear first. Leave it 0 if order doesn't matter.
+   */
   order?: number | null;
   updatedAt: string;
   createdAt: string;
 }
 /**
+ * Browse the list first to confirm the city doesn't already exist before adding a new one — this avoids duplicates.
+ *
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "cities".
  */
@@ -402,8 +433,17 @@ export interface City {
    * Generated automatically when empty and editable before publishing.
    */
   slug: string;
+  /**
+   * Click to pick an existing item from the list before adding a new one. Use the + button only if it doesn't already exist.
+   */
   country: number | Country;
+  /**
+   * When enabled, this item is visible to visitors and in pickers. Uncheck to hide it without deleting it.
+   */
   isActive: boolean;
+  /**
+   * Sets the display order in lists — smaller numbers appear first. Leave it 0 if order doesn't matter.
+   */
   order?: number | null;
   updatedAt: string;
   createdAt: string;
