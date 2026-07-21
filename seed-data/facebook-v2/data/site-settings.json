@@ -1,0 +1,87 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "recordStatus": "starter-data-needs-editorial-review",
+  "data": {
+    "associationName": {
+      "ar": "الجمعية الدولية للشعراء العرب",
+      "en": "International Association of Arab Poets"
+    },
+    "slogan": {
+      "ar": "لأن الشعر يجمعنا",
+      "en": "Because poetry brings us together"
+    },
+    "secondarySlogan": {
+      "ar": "نعيش لفكرة حرة",
+      "en": "We live for a free idea"
+    },
+    "foundedYear": 2018,
+    "headquarters": {
+      "cityAr": "إسطنبول",
+      "cityEn": "Istanbul",
+      "countryAr": "تركيا",
+      "countryEn": "Türkiye"
+    },
+    "officialEmail": null,
+    "officialEmailStatus": "not-found-in-publicly-indexed-sources-do-not-use-info@example.org",
+    "whatsapp": "+905386442312",
+    "whatsappDisplay": "+90 538 644 23 12",
+    "socialLinks": [
+      {
+        "platform": "facebook",
+        "url": "https://www.facebook.com/internationalarabpoets",
+        "verificationStatus": "verified"
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/@arabpoets",
+        "verificationStatus": "needs-client-review"
+      },
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/arabpoetsinternational/",
+        "verificationStatus": "needs-client-review"
+      },
+      {
+        "platform": "x",
+        "url": "https://x.com/arabpoetsworld",
+        "verificationStatus": "needs-client-review"
+      }
+    ],
+    "logoImageKey": "association-round-seal-ar-tr",
+    "logoImagePath": "images/branding/association-round-seal-ar-tr.jpg",
+    "logoImageStatus": "usable-brand-variant-needs-client-confirmation-as-primary-logo"
+  },
+  "sources": [
+    {
+      "url": "https://www.facebook.com/internationalarabpoets/?locale=ar_AR",
+      "supports": [
+        "associationName",
+        "whatsapp"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/internationalarabpoets/posts/1407147811446740/",
+      "supports": [
+        "whatsapp",
+        "slogans"
+      ]
+    },
+    {
+      "url": "https://www.instagram.com/arabpoetsinternational/",
+      "supports": [
+        "foundedYear",
+        "associationDescription"
+      ],
+      "verificationStatus": "needs-client-review"
+    },
+    {
+      "url": "https://x.com/arabpoetsworld",
+      "supports": [
+        "headquarters",
+        "associationDescription"
+      ],
+      "verificationStatus": "needs-client-review"
+    }
+  ]
+}

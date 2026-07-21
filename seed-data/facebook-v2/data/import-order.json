@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "steps": [
+    "taxonomies.json",
+    "media-manifest.json (upload files and map key -> media ID)",
+    "people.json (resolve profileImageKey)",
+    "events.json (resolve media keys and participant slugs)",
+    "literary-works.json",
+    "site-settings.json"
+  ]
+}

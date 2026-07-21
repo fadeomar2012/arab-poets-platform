@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-07-21T00:00:00Z",
+  "records": [
+    {
+      "slug": "al-watan-fikra-shuuriya",
+      "verificationStatus": "needsReview",
+      "personSlug": "ibrahim-mustafa-jafar",
+      "title": {
+        "ar": "الوطن فكرة شعورية",
+        "en": "Homeland Is an Emotional Idea"
+      },
+      "type": "poem",
+      "publicationYear": 2018,
+      "description": {
+        "ar": "قصيدة منشورة ضمن مواد ديوان مهرجان الشعر العربي الأول في إسطنبول 2018.",
+        "en": "A poem published among materials from the First Arab Poetry Festival anthology, Istanbul 2018."
+      },
+      "externalUrl": "https://arabpoetsinternational.blogspot.com/",
+      "notes": "The indexed snippet confirms the opening/title wording; open the original post and verify the final canonical title before publishing."
+    },
+    {
+      "slug": "aws-al-iftihat-festival-anthology-poem",
+      "verificationStatus": "needsReview",
+      "personSlug": "aws-al-iftihat",
+      "title": {
+        "ar": "قصيدة من ديوان مهرجان الشعر العربي الأول 2018",
+        "en": "Poem from the First Arab Poetry Festival Anthology 2018"
+      },
+      "type": "poem",
+      "publicationYear": 2018,
+      "description": {
+        "ar": "قصيدة للشاعر العراقي أوس الإفتيحات ضمن ديوان المهرجان الأول.",
+        "en": "A poem by Iraqi poet Aws Al-Iftihat in the first festival anthology."
+      },
+      "externalUrl": "https://arabpoetsinternational.blogspot.com/",
+      "notes": "Canonical poem title was not visible in the indexed snippet."
+    },
+    {
+      "slug": "anas-al-hajri-festival-anthology-text",
+      "verificationStatus": "needsReview",
+      "personSlug": "anas-al-hajri",
+      "title": {
+        "ar": "نص من ديوان مهرجان الشعر العربي الأول 2018",
+        "en": "Text from the First Arab Poetry Festival Anthology 2018"
+      },
+      "type": "poem",
+      "publicationYear": 2018,
+      "description": {
+        "ar": "نص للشاعر أنس الحجري من اليمن ضمن ديوان المهرجان.",
+        "en": "A text by Yemeni poet Anas Al-Hajri in the festival anthology."
+      },
+      "externalUrl": "https://arabpoetsinternational.blogspot.com/",
+      "notes": "Canonical title requires manual review."
+    },
+    {
+      "slug": "arwa-al-omar-festival-anthology-text",
+      "verificationStatus": "needsReview",
+      "personSlug": "arwa-al-omar",
+      "title": {
+        "ar": "الدمعة حقيقة",
+        "en": "A Tear Is Real"
+      },
+      "type": "poem",
+      "publicationYear": 2018,
+      "description": {
+        "ar": "نص للشاعرة أروى العمر من سوريا ضمن ديوان مهرجان الشعر العربي الأول.",
+        "en": "A text by Syrian poet Arwa Al-Omar in the First Arab Poetry Festival anthology."
+      },
+      "externalUrl": "https://arabpoetsinternational.blogspot.com/",
+      "notes": "Title is inferred from the visible opening phrase and must be confirmed before publication."
+    }
+  ]
+}

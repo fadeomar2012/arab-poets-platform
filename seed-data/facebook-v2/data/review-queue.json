@@ -1,0 +1,98 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "records": [
+    {
+      "assetKey": "unclassified-2021-literary-event-banner",
+      "filePath": "images/review/unclassified-2021-literary-event-banner.jpg",
+      "reasonAr": "الفعالية غير محددة بشكل كافٍ",
+      "reasonEn": "The related event is not sufficiently identified",
+      "recommendedAction": "manual-review"
+    },
+    {
+      "assetKey": "arab-poetry-festival-7-eid-al-adha-greeting",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-eid-al-adha-greeting.jpg",
+      "reasonAr": "منشور تهنئة غير مناسب كصورة كيان أساسية",
+      "reasonEn": "Greeting post excluded from primary entity imagery",
+      "recommendedAction": "keep-archive-only"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "soha-amouri",
+      "nameAr": "سها أموري",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "abdul-qader-lahib",
+      "nameAr": "عبد القادر لهيب",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "jamal-abdullah-aydan",
+      "nameAr": "جمال عبد الله أيدان",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "ammar-al-shaer",
+      "nameAr": "عمار الشاعر",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "abdul-jawad-al-dahdan",
+      "nameAr": "عبد الجواد الدحدان",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "suleiman-hussein",
+      "nameAr": "سليمان حسين",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "malek-noor",
+      "nameAr": "مالك نور",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "person",
+      "entitySlug": "nizar-krikish",
+      "nameAr": "نزار كريكش",
+      "reasonAr": "الدولة غير مذكورة في البطاقة، بينما حقل الدولة إلزامي في مجموعة People.",
+      "reasonEn": "Country is not shown on the card, while country is required by the People collection.",
+      "recommendedAction": "confirm-country-before-seeding"
+    },
+    {
+      "entityType": "event",
+      "entitySlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "reasonAr": "تحتاج كتابة اسم القاعة بالعربية إلى مراجعة نهائية مقابل الاسم التركي Çetin Emeç.",
+      "reasonEn": "The Arabic venue transliteration should be checked against the Turkish name Çetin Emeç.",
+      "recommendedAction": "confirm-venue-spelling"
+    },
+    {
+      "entityType": "event",
+      "entitySlug": "arabic-poem-forum-istanbul-2026",
+      "reasonAr": "الفترة 5–10 أغسطس تشمل ستة تواريخ، بينما الملصق يصف البرنامج بأنه خمسة أيام.",
+      "reasonEn": "August 5–10 spans six calendar dates, while the poster describes a five-day program.",
+      "recommendedAction": "confirm-duration-and-program-days"
+    }
+  ]
+}

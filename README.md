@@ -50,7 +50,27 @@ npm run seed
 npm run seed:verify
 ```
 
-Run `npm run seed` twice. The second normal run is read-only for existing versioned fixtures, preventing duplicate records and unnecessary Versions. Then run `npm run seed:verify` to validate per-locale publication status, public visibility, all seed media URLs, and homepage configuration. Set `SEED_UPDATE_EXISTING=true` only when fixture content must intentionally be refreshed.
+The default seed is data-driven and sources all content from the canonical
+dataset in `seed-data/facebook-v2/` (organized JSON plus client-owned,
+approved images from the association's official Facebook page). It populates
+countries and capitals, cities, media, people, events, participants, programs,
+literary works, site settings, and homepage featured content, replacing legacy
+placeholders where verified real values exist.
+
+```bash
+npm run seed -- --dry-run --update-existing --prune-legacy-placeholders   # preview only
+npm run seed -- --update-existing --prune-legacy-placeholders             # write
+npm run seed -- --update-existing --prune-legacy-placeholders             # idempotency check
+npm run seed:verify
+```
+
+The seed is idempotent: media are keyed by `internalSeedKey`, everything else by
+slug, and `--update-existing` writes only when content actually changed, so a
+second run creates no duplicates and no new versions. `SEED_UPDATE_EXISTING=true`
+remains supported as an equivalent to `--update-existing`. Provide a verified
+official email with `SEED_OFFICIAL_EMAIL` when available. See
+[docs/FACEBOOK_SEED.md](docs/FACEBOOK_SEED.md) for the full workflow, the meaning
+of `country-unconfirmed`, and which records remain drafts and why.
 
 ## CMS strict mode
 

@@ -1,0 +1,2386 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "policy": "All included originals were supplied from the client-controlled Facebook page and marked approved for this project. Derived profile crops retain the original card as their source.",
+  "records": [
+    {
+      "key": "arab-poetry-festival-6-director-riman-yassin",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-director-riman-yassin.jpg",
+      "originalFilename": "485375961_1041716867989838_5311549166412722677_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041716867989838/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "riman-yassin",
+      "alt": {
+        "ar": "بطاقة ريمان ياسين المنشورة ضمن مواد الفعالية",
+        "en": "Riman Yassin participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة ريمان ياسين المنشورة ضمن مواد الفعالية",
+        "en": "Riman Yassin participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "007bef09d6737167726a70e25519ed157a788c9feb690297e6fc92b76f59c2c4",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-group-photo",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-group-photo.jpg",
+      "originalFilename": "486123823_1042878767873648_8787316521331757501_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1042878767873648/",
+      "assetType": "event-photo",
+      "seedUsage": "cover",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event photo: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event photo: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "2f216505b1f4d6a6d25bd08cb8f4f97f7b656f55bd24bf1c6491af059a3ac3a8",
+      "width": 1280,
+      "height": 853
+    },
+    {
+      "key": "arab-poetry-festival-6-organizer-lamis-al-rahbi",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-lamis-al-rahbi.jpg",
+      "originalFilename": "485820582_1041717027989822_3516231279025137258_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041717027989822/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "lamis-al-rahbi",
+      "alt": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "29f165b10277bcd9fbb77a0f061a07e31964eb98553831e9b7b9253a817df8cf",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-organizer-mohammed-zakaria-al-hamad",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-mohammed-zakaria-al-hamad.jpg",
+      "originalFilename": "485353771_1041717031323155_5212913158036724678_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041717031323155/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "mohammed-zakaria-al-hamad",
+      "alt": {
+        "ar": "بطاقة محمد زكريا الحمد المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Zakaria Al-Hamad participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة محمد زكريا الحمد المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Zakaria Al-Hamad participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "3fc130e7bf81831972f5131da6f8fcbbe476a847578c799a5a6e76e17955b71c",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-organizer-mustafa-matar",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-organizer-mustafa-matar.jpg",
+      "originalFilename": "484970186_1041716694656522_4597288944033701890_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041716694656522/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "mustafa-matar",
+      "alt": {
+        "ar": "بطاقة مصطفى مطر المنشورة ضمن مواد الفعالية",
+        "en": "Mustafa Matar participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة مصطفى مطر المنشورة ضمن مواد الفعالية",
+        "en": "Mustafa Matar participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "1051f04dc505ca22b010c35a37163f9dcb839b61270997e416bec1f3cf753d49",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-performer-malek-noor",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-performer-malek-noor.jpg",
+      "originalFilename": "486128095_1041719141322944_114407513112530714_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719141322944/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "malek-noor",
+      "alt": {
+        "ar": "بطاقة مالك نور المنشورة ضمن مواد الفعالية",
+        "en": "Malek Noor participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة مالك نور المنشورة ضمن مواد الفعالية",
+        "en": "Malek Noor participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "8db05b5fd3933dd934b06943a136a9c38478d2a06f860939f392ed16ab2c4a6b",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-poet-ibrahim-hafez",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-ibrahim-hafez.jpg",
+      "originalFilename": "485160918_1041713711323487_704222734915797174_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041713711323487/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "ibrahim-hafez",
+      "alt": {
+        "ar": "بطاقة إبراهيم حافظ السوداني المنشورة ضمن مواد الفعالية",
+        "en": "Ibrahim Hafez Al-Sudani participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة إبراهيم حافظ السوداني المنشورة ضمن مواد الفعالية",
+        "en": "Ibrahim Hafez Al-Sudani participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "2dd48f2981f2a49a7fd401f27718e672504941ee62d785bf0fd546500a08f2c5",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-poet-mohammed-al-sada",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-mohammed-al-sada.jpg",
+      "originalFilename": "485367489_1041722111322647_6128418855618270540_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041722111322647/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "mohammed-al-sada",
+      "alt": {
+        "ar": "بطاقة محمد السادة المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Al-Sada participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة محمد السادة المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Al-Sada participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b436da7e435ad15c024f24fc2958213e7275a7ec2846fc725f5cb9f3fb59e5bf",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-poet-nabil-tarabieh",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poet-nabil-tarabieh.jpg",
+      "originalFilename": "485343684_1041713664656825_7164187792799827858_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041713664656825/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "nabil-tarabiya",
+      "alt": {
+        "ar": "بطاقة نبيل طربية المنشورة ضمن مواد الفعالية",
+        "en": "Nabil Tarabieh participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة نبيل طربية المنشورة ضمن مواد الفعالية",
+        "en": "Nabil Tarabieh participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "3f8c10a3d1745efbb9eee2bcf1ebf3b482dc0fa6b37e4d341b898f23f6965930",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-poets-roster",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-poets-roster.jpg",
+      "originalFilename": "485957847_1041726127988912_2551327216221607984_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041726127988912/",
+      "assetType": "roster-poster",
+      "seedUsage": "poster",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "caption": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b0ce87e9414be7f874ee5856d8576cc221532ea8f5508b01377d21d233357237",
+      "width": 911,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-presenter-abdul-qader-lahib",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-abdul-qader-lahib.jpg",
+      "originalFilename": "485353767_1041719127989612_977057925053164902_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719127989612/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "abdul-qader-lahib",
+      "alt": {
+        "ar": "بطاقة عبد القادر لهيب المنشورة ضمن مواد الفعالية",
+        "en": "Abdul Qader Lahib participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة عبد القادر لهيب المنشورة ضمن مواد الفعالية",
+        "en": "Abdul Qader Lahib participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5d57d27377d5bc3635e0494a0025d8616965593f664f40c06c6b1623442897c3",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-presenter-ammar-al-shaer",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-presenter-ammar-al-shaer.jpg",
+      "originalFilename": "485395568_1041719124656279_8198491055251086075_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719124656279/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "ammar-al-shaer",
+      "alt": {
+        "ar": "بطاقة عمار الشاعر المنشورة ضمن مواد الفعالية",
+        "en": "Ammar Al-Shaer participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة عمار الشاعر المنشورة ضمن مواد الفعالية",
+        "en": "Ammar Al-Shaer participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "ac26695e18a04336c7116f9deda02ff6027dab6b87783308204b58f2bfa2c6e5",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-program-day-1",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-program-day-1.jpg",
+      "originalFilename": "486072713_1041725977988927_3111899125932863716_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041725977988927/",
+      "assetType": "program",
+      "seedUsage": "program",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": null,
+      "alt": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "caption": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5527fbd36b3fa5e4c0740523c9381dabe65053684ded39bd430e95fa66f98ab2",
+      "width": 768,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-program-day-2",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-program-day-2.jpg",
+      "originalFilename": "485805416_1041725987988926_4694504400032854475_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041725987988926/",
+      "assetType": "program",
+      "seedUsage": "program",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": null,
+      "alt": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "caption": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السادسة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Sixth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "1ea648552aaa41bcda5cc678d9c64553700a25d1ffce13628a16e0616ba6823e",
+      "width": 768,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan.jpg",
+      "originalFilename": "485778966_1041724374655754_5097613452877164229_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724374655754/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "abdul-jawad-al-dahdan",
+      "alt": {
+        "ar": "بطاقة عبد الجواد الدحدان المنشورة ضمن مواد الفعالية",
+        "en": "Abdul Jawad Al-Dahdan participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة عبد الجواد الدحدان المنشورة ضمن مواد الفعالية",
+        "en": "Abdul Jawad Al-Dahdan participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c20a6ae4fa5e829f4d5ab15e9b6464830e739332bfb59acaee533f079d31f8fe",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-speaker-jamal-abdullah-aydan",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-jamal-abdullah-aydan.jpg",
+      "originalFilename": "485359744_1041718144656377_4543384347922932009_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041718144656377/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "jamal-abdullah-aydan",
+      "alt": {
+        "ar": "بطاقة جمال عبد الله أيدان المنشورة ضمن مواد الفعالية",
+        "en": "Jamal Abdullah Aydan participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة جمال عبد الله أيدان المنشورة ضمن مواد الفعالية",
+        "en": "Jamal Abdullah Aydan participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "cdbaed0615a8b758a4417eb7c8e5b4bc50b6e0f7dafdb0dc3a6449c867799bef",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-speaker-nizar-krikish",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-nizar-krikish.jpg",
+      "originalFilename": "486310912_1041724254655766_3291261365052459220_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724254655766/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "nizar-krikish",
+      "alt": {
+        "ar": "بطاقة نزار كريكش المنشورة ضمن مواد الفعالية",
+        "en": "Nizar Krikish participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة نزار كريكش المنشورة ضمن مواد الفعالية",
+        "en": "Nizar Krikish participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b57d1875606851c5cdaf69459e1851e2f72a468f6c79bb02e42add0ecd0174f4",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-speaker-soha-amouri",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-soha-amouri.jpg",
+      "originalFilename": "485179171_1041719131322945_3012688479718090797_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719131322945/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "soha-amouri",
+      "alt": {
+        "ar": "بطاقة سها أموري المنشورة ضمن مواد الفعالية",
+        "en": "Soha Amouri participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة سها أموري المنشورة ضمن مواد الفعالية",
+        "en": "Soha Amouri participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "43f6169e456e3b055a1c40b124b9ef0c26d92bbe9c85627d4eac9b1b91b6865d",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-6-speaker-suleiman-hussein",
+      "filePath": "images/events/arab-poetry-festival-sixth-istanbul-2024/arab-poetry-festival-6-speaker-suleiman-hussein.jpg",
+      "originalFilename": "485876264_1041724377989087_3953977154155212697_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724377989087/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-sixth-istanbul-2024",
+      "personSlug": "suleiman-hussein",
+      "alt": {
+        "ar": "بطاقة سليمان حسين المنشورة ضمن مواد الفعالية",
+        "en": "Suleiman Hussein participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة سليمان حسين المنشورة ضمن مواد الفعالية",
+        "en": "Suleiman Hussein participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "cc09ec59fcd31fc8ec9fc32ba8deb80d9c8789119a64fdad65df8b5cfa1c66c0",
+      "width": 960,
+      "height": 960
+    },
+    {
+      "key": "arab-poetry-festival-7-day-1-poets",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-day-1-poets.jpg",
+      "originalFilename": "510999143_1111731924321665_9074447572219687747_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1111731924321665/",
+      "assetType": "roster-poster",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "3d9f66a880b5c194f245d375e629953a921093bb45054d390fee00f3e3a1967b",
+      "width": 1600,
+      "height": 1304
+    },
+    {
+      "key": "arab-poetry-festival-7-eid-al-adha-greeting",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-eid-al-adha-greeting.jpg",
+      "originalFilename": "503918440_1100481718780019_875251198244553092_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1100481718780019/",
+      "assetType": "greeting",
+      "seedUsage": "excluded",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "منشور تهنئة مرتبط بالفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "greeting post related to the event: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "منشور تهنئة مرتبط بالفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "greeting post related to the event: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "12963734e5d7ca077b9154d083bf694d0ac5a20bac8123fc50ffa2d865f457d1",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-main-poster",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-main-poster.jpg",
+      "originalFilename": "500046880_1092463109581880_7272537684465131107_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1092463109581880/",
+      "assetType": "event-poster",
+      "seedUsage": "poster",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "ملصق الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "7fabb0da7b98d959a2363d6f387fb994c3993c7499211b671aaba6b3e2dc4911",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-organizer-lamis-al-rahbi",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-lamis-al-rahbi.jpg",
+      "originalFilename": "506396770_1105083444986513_2897023098242630087_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105083444986513/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "lamis-al-rahbi",
+      "alt": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "7825a4c534484fea8dc5ebd923674198cd8f3f202b0b3fd12882f99e9976c03d",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad.jpg",
+      "originalFilename": "504277685_1105884624906395_8305078422486276646_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105884624906395/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "mohammed-zakaria-al-hamad",
+      "alt": {
+        "ar": "بطاقة محمد زكريا الحمد المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Zakaria Al-Hamad participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة محمد زكريا الحمد المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Zakaria Al-Hamad participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "8947854baf0b5d0d8aa42479aff61c750e420ffad162b755012fe7422ede97bf",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-organizer-mustafa-matar",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-mustafa-matar.jpg",
+      "originalFilename": "505077638_1106459288182262_5307591955973202779_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106459288182262/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "mustafa-matar",
+      "alt": {
+        "ar": "بطاقة مصطفى مطر المنشورة ضمن مواد الفعالية",
+        "en": "Mustafa Matar participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة مصطفى مطر المنشورة ضمن مواد الفعالية",
+        "en": "Mustafa Matar participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5bb4905c65d7780741ae8fb7fd8e1571350dff81859a29dca6aff54d52ff5e86",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-organizer-riman-yassin",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-organizer-riman-yassin.jpg",
+      "originalFilename": "506605965_1104165608411630_4587297048058394171_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104165608411630/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "riman-yassin",
+      "alt": {
+        "ar": "بطاقة ريمان ياسين المنشورة ضمن مواد الفعالية",
+        "en": "Riman Yassin participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة ريمان ياسين المنشورة ضمن مواد الفعالية",
+        "en": "Riman Yassin participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "7e255d2bed45f67cb6bdac632be6b086b3b7ce2e97fd31201f220137ebe8214b",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-performer-wasfi-al-masri",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-performer-wasfi-al-masri.jpg",
+      "originalFilename": "493940267_1109103751251149_2418054246992506030_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1109103751251149/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "wasfi-al-masri",
+      "alt": {
+        "ar": "بطاقة وصفي المعرصاني المنشورة ضمن مواد الفعالية",
+        "en": "Wasfi Al-Maarasani participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة وصفي المعرصاني المنشورة ضمن مواد الفعالية",
+        "en": "Wasfi Al-Maarasani participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "6af9152d8e506ba69c2e5b5097d9abeaffb3601eb96bb9f5c1921db0c70acebf",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-abdelrahim-kafieh",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-abdelrahim-kafieh.jpg",
+      "originalFilename": "499577005_1102189195275938_5739926143734882677_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102189195275938/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "abdelrahim-kafieh",
+      "alt": {
+        "ar": "بطاقة عبد الرحيم كافيه المنشورة ضمن مواد الفعالية",
+        "en": "Abdelrahim Kafieh participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة عبد الرحيم كافيه المنشورة ضمن مواد الفعالية",
+        "en": "Abdelrahim Kafieh participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "e2177b91b849134dd38fef29ca07b4f9ea8fc98dc0006999d4869298135caf05",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-ahmad-bakhit",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ahmad-bakhit.jpg",
+      "originalFilename": "502661106_1101254478702743_826662278110279808_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101254478702743/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "ahmad-bakhit",
+      "alt": {
+        "ar": "بطاقة أحمد بخيت المنشورة ضمن مواد الفعالية",
+        "en": "Ahmad Bakhit participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة أحمد بخيت المنشورة ضمن مواد الفعالية",
+        "en": "Ahmad Bakhit participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "274d1139f343d6083e4d4c1479206d16659a9035201c6b27c48a76cb5d7d7787",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-ali-matar",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ali-matar.jpg",
+      "originalFilename": "506053640_1106102354884622_57074612248190346_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106102354884622/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "ali-matar",
+      "alt": {
+        "ar": "بطاقة علي مطر المنشورة ضمن مواد الفعالية",
+        "en": "Ali Matar participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة علي مطر المنشورة ضمن مواد الفعالية",
+        "en": "Ali Matar participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "eb925b08521dd10e887b59b9206e43dee1acfc7d279aaad5b4671859f3687ea7",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-ashraf-hashish",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ashraf-hashish.jpg",
+      "originalFilename": "499782867_1108161761345348_3474350977353556374_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1108161761345348/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "ashraf-hashish",
+      "alt": {
+        "ar": "بطاقة أشرف حشيش المنشورة ضمن مواد الفعالية",
+        "en": "Ashraf Hashish participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة أشرف حشيش المنشورة ضمن مواد الفعالية",
+        "en": "Ashraf Hashish participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "f3f89c28fd99caaded086437c408cf6674dfc51d3ef5944a475777e0195612e1",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-aziza-lamiri",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-aziza-lamiri.jpg",
+      "originalFilename": "491017243_1101258665368991_4166629833990410053_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101258665368991/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "aziza-lamiri",
+      "alt": {
+        "ar": "بطاقة عزيزة لعميري المنشورة ضمن مواد الفعالية",
+        "en": "Aziza Lamiri participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة عزيزة لعميري المنشورة ضمن مواد الفعالية",
+        "en": "Aziza Lamiri participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "25e6096e71c606851c8b2c5af54af0312f76ee3f26c68af36b0d6bf8f45ed36f",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-badriya-al-badri",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-badriya-al-badri.jpg",
+      "originalFilename": "499763849_1105882838239907_3806539036010057418_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105882838239907/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "badriya-al-badri",
+      "alt": {
+        "ar": "بطاقة بدرية البدري المنشورة ضمن مواد الفعالية",
+        "en": "Badriya Al-Badri participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة بدرية البدري المنشورة ضمن مواد الفعالية",
+        "en": "Badriya Al-Badri participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "43e8427f9ff33caf9729beb11937464491ee02944e6b9cb034b6812fc12e5422",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad.jpg",
+      "originalFilename": "502903021_1103039551857569_5934776627948444398_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103039551857569/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "bahr-al-din-abdullah-ahmad",
+      "alt": {
+        "ar": "بطاقة بحر الدين عبد الله أحمد المنشورة ضمن مواد الفعالية",
+        "en": "Bahr Al-Din Abdullah Ahmad participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة بحر الدين عبد الله أحمد المنشورة ضمن مواد الفعالية",
+        "en": "Bahr Al-Din Abdullah Ahmad participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a682fc2efa1c8cd29d8b450a4183afeccb1b862a1d0c92cdd0d19bf264cc9337",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-hussein-hamadi",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-hussein-hamadi.jpg",
+      "originalFilename": "504272857_1101556952005829_3915312029159929646_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101556952005829/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "hussein-hamadi",
+      "alt": {
+        "ar": "بطاقة حسين همادي المنشورة ضمن مواد الفعالية",
+        "en": "Hussein Hamadi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة حسين همادي المنشورة ضمن مواد الفعالية",
+        "en": "Hussein Hamadi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "ab4d7ab5523c1ae29b2373f5f3f526297ea3827e2862750862ea7237fa14a5af",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-ibrahim-hafez",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-ibrahim-hafez.jpg",
+      "originalFilename": "493891049_1108153814679476_8814868054966416967_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1108153814679476/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "ibrahim-hafez",
+      "alt": {
+        "ar": "بطاقة إبراهيم حافظ السوداني المنشورة ضمن مواد الفعالية",
+        "en": "Ibrahim Hafez Al-Sudani participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة إبراهيم حافظ السوداني المنشورة ضمن مواد الفعالية",
+        "en": "Ibrahim Hafez Al-Sudani participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "0a3eb1b38a5715324e1d01388f7c473043e927084b862bb4266ac5bfb18abd39",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-jabr-al-baadani",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jabr-al-baadani.jpg",
+      "originalFilename": "506620967_1106464114848446_5753287605515115697_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106464114848446/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "jabr-al-baadani",
+      "alt": {
+        "ar": "بطاقة جبر البعداني المنشورة ضمن مواد الفعالية",
+        "en": "Jabr Al-Baadani participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة جبر البعداني المنشورة ضمن مواد الفعالية",
+        "en": "Jabr Al-Baadani participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "69e81d5ced49a9c60fa59b7f4c7cc5e632216ea3d5685bb8bec6b61eabf52b06",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-jamila-al-majri",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-jamila-al-majri.jpg",
+      "originalFilename": "499793634_1103361568492034_545628064353717373_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103361568492034/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "jamila-al-majri",
+      "alt": {
+        "ar": "بطاقة جميلة الماجري المنشورة ضمن مواد الفعالية",
+        "en": "Jamila Al-Majri participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة جميلة الماجري المنشورة ضمن مواد الفعالية",
+        "en": "Jamila Al-Majri participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a56625b49a24ce57a7cc652c65729a25666d1dc532077b59e9e6a1333d1d1447",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-kawkab-issa-al-zabati",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-kawkab-issa-al-zabati.jpg",
+      "originalFilename": "503859078_1104166091744915_3110989349093115465_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104166091744915/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "kawkab-issa-al-zabati",
+      "alt": {
+        "ar": "بطاقة كوكب عيسى الزاباتي المنشورة ضمن مواد الفعالية",
+        "en": "Kawkab Issa Al-Zabati participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة كوكب عيسى الزاباتي المنشورة ضمن مواد الفعالية",
+        "en": "Kawkab Issa Al-Zabati participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "92efe449f06fa45eacb6329b84ea8a17e9761cbc01223ffbcd50b8939241638c",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-mohammed-al-shahwani",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-al-shahwani.jpg",
+      "originalFilename": "506443010_1105084144986443_1123612968283705040_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105084144986443/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "mohammed-al-shahwani",
+      "alt": {
+        "ar": "بطاقة محمد الشهواني المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Al-Shahwani participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة محمد الشهواني المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Al-Shahwani participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "60a2913ed968188c4459ea96fe49099730420a41ab70665da1201ee6f8a92d86",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam.jpg",
+      "originalFilename": "505510046_1103383791823145_90673867942243229_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103383791823145/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "mohammed-saeed-al-muqaddam",
+      "alt": {
+        "ar": "بطاقة محمد سعيد المقدّم المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Saeed Al-Muqaddam participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة محمد سعيد المقدّم المنشورة ضمن مواد الفعالية",
+        "en": "Mohammed Saeed Al-Muqaddam participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5830786f8884b0828c15a4cd2dfe1ed288219eb232fba95a7db61eb467fe85f7",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-mutlaq-al-otaibi",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-mutlaq-al-otaibi.jpg",
+      "originalFilename": "505371194_1103375175157340_9057763027675097591_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103375175157340/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "mutlaq-al-otaibi",
+      "alt": {
+        "ar": "بطاقة مطلق العتيبي المنشورة ضمن مواد الفعالية",
+        "en": "Mutlaq Al-Otaibi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة مطلق العتيبي المنشورة ضمن مواد الفعالية",
+        "en": "Mutlaq Al-Otaibi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "0b75a528bb54729409258d9ac640624332e0c73e8b9b348ebbb7989a0dfaac47",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-qasim-al-daraghmeh",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-qasim-al-daraghmeh.jpg",
+      "originalFilename": "505509541_1105085684986289_2617712066336013180_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105085684986289/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "qasim-al-daraghmeh",
+      "alt": {
+        "ar": "بطاقة قاسم الدراعمه المنشورة ضمن مواد الفعالية",
+        "en": "Qasim Al-Daraghmeh participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة قاسم الدراعمه المنشورة ضمن مواد الفعالية",
+        "en": "Qasim Al-Daraghmeh participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "1b63cae8393b4c4ec904746dc3a4235817455b21f8f68f206fc7d5008aefbd3e",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-rabah-al-bahri",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-rabah-al-bahri.jpg",
+      "originalFilename": "505641510_1103045448523646_7617129103082712154_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103045448523646/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "rabah-al-bahri",
+      "alt": {
+        "ar": "بطاقة رابح روايحي المنشورة ضمن مواد الفعالية",
+        "en": "Rabah Rouaihi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة رابح روايحي المنشورة ضمن مواد الفعالية",
+        "en": "Rabah Rouaihi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "cdbe52ff19167a716861ad6e690465581c1e8b886c620ce078fd04871d04d1a3",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-sara-al-zein",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-sara-al-zein.jpg",
+      "originalFilename": "497948367_1102837138544477_5157557261221692134_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102837138544477/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "sara-al-zein",
+      "alt": {
+        "ar": "بطاقة سارة الزين المنشورة ضمن مواد الفعالية",
+        "en": "Sara Al-Zein participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة سارة الزين المنشورة ضمن مواد الفعالية",
+        "en": "Sara Al-Zein participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "43a0b3edc4367b2570fcdf3cd65b590687886b49647829baecf46644dc16270f",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-youssef-al-khatib",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-youssef-al-khatib.jpg",
+      "originalFilename": "505459789_1106463381515186_3981813013618279838_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106463381515186/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "youssef-al-khatib",
+      "alt": {
+        "ar": "بطاقة يوسف الخطيب المنشورة ضمن مواد الفعالية",
+        "en": "Youssef Al-Khatib participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة يوسف الخطيب المنشورة ضمن مواد الفعالية",
+        "en": "Youssef Al-Khatib participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "8226f07f5b9f1da065381454073e4e989a7d0094d93a707474b24e2d07cc1e5f",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed.jpg",
+      "originalFilename": "500420954_1104166368411554_7603611873092119452_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104166368411554/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "zain-al-abidin-al-haj-al-saeed",
+      "alt": {
+        "ar": "بطاقة زين العابدين الحاج السعيد المنشورة ضمن مواد الفعالية",
+        "en": "Zain Al-Abidin Al-Haj Al-Saeed participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة زين العابدين الحاج السعيد المنشورة ضمن مواد الفعالية",
+        "en": "Zain Al-Abidin Al-Haj Al-Saeed participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c833ca1b32de1a26589573f5242aa5fbada84322ae5ee344e0d219b2641742ff",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poet-zaki-al-ali",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poet-zaki-al-ali.jpg",
+      "originalFilename": "500697574_1102190121942512_4344570507220995266_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102190121942512/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": "zaki-al-ali",
+      "alt": {
+        "ar": "بطاقة زكي العلي المنشورة ضمن مواد الفعالية",
+        "en": "Zaki Al-Ali participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة زكي العلي المنشورة ضمن مواد الفعالية",
+        "en": "Zaki Al-Ali participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a80dfbf9a1a8db0485ae66abfbec0d75f5e138a87d7217bcc5fbbd5924ab54b8",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "key": "arab-poetry-festival-7-poets-roster",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-poets-roster.jpg",
+      "originalFilename": "495042239_1109859594508898_75188763383551297_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1109859594508898/",
+      "assetType": "roster-poster",
+      "seedUsage": "gallery",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "ملصق المشاركين: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "participant roster poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a197bdd7fb0898ee32776c400861e852a0f6ef9cdd8d37dec5438e7edc94fa06",
+      "width": 1600,
+      "height": 1178
+    },
+    {
+      "key": "arab-poetry-festival-7-program-day-1",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-program-day-1.jpg",
+      "originalFilename": "509426731_1111731917654999_9073175637394781630_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1111731917654999/",
+      "assetType": "program",
+      "seedUsage": "program",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "برنامج الفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event program: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5237025829cc68bc668527092a823856e6a896d3562840d23161a5a2c3cc5159",
+      "width": 905,
+      "height": 1280
+    },
+    {
+      "key": "arab-poetry-festival-7-teaser",
+      "filePath": "images/events/arab-poetry-festival-seventh-istanbul-2025/arab-poetry-festival-7-teaser.jpg",
+      "originalFilename": "499206666_1086810210147170_2795831428209818956_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1086810210147170/",
+      "assetType": "social-poster",
+      "seedUsage": "social",
+      "eventSlug": "arab-poetry-festival-seventh-istanbul-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق ترويجي للفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event promotional poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "caption": {
+        "ar": "ملصق ترويجي للفعالية: مهرجان الشعر العربي في إسطنبول — الدورة السابعة",
+        "en": "event promotional poster: Arab Poetry Festival in Istanbul — Seventh Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "49989c7c3241ad1317c53f1567472a2a49f08958db9006712ad15a8fae0b2b8d",
+      "width": 1500,
+      "height": 1500
+    },
+    {
+      "key": "arabic-poem-forum-istanbul-2026-cover",
+      "filePath": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-cover.jpg",
+      "originalFilename": "747962838_18251994928307604_4879261340631212426_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/18251994928307604/",
+      "assetType": "event-poster",
+      "seedUsage": "cover",
+      "eventSlug": "arabic-poem-forum-istanbul-2026",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "caption": {
+        "ar": "ملصق الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "7793aaaf67c5f49df93d8c984b54584eafde3f1996b54bd897db13aa9edc133d",
+      "width": 1402,
+      "height": 1753
+    },
+    {
+      "key": "arabic-poem-forum-istanbul-2026-experience-poster",
+      "filePath": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-experience-poster.jpg",
+      "originalFilename": "749767376_18252136342307604_4181090757135061875_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/18252136342307604/",
+      "assetType": "social-poster",
+      "seedUsage": "social",
+      "eventSlug": "arabic-poem-forum-istanbul-2026",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق ترويجي للفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event promotional poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "caption": {
+        "ar": "ملصق ترويجي للفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event promotional poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "96f93226b9fb9a79cddd852dae96a61e4cc19dc43b5df27c1b1b0494fe2bbb12",
+      "width": 1402,
+      "height": 1753
+    },
+    {
+      "key": "arabic-poem-forum-istanbul-2026-five-day-program",
+      "filePath": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-five-day-program.jpg",
+      "originalFilename": "748419019_1430183959143125_6903158273765887772_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1430183959143125/",
+      "assetType": "program-poster",
+      "seedUsage": "gallery",
+      "eventSlug": "arabic-poem-forum-istanbul-2026",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق برنامج الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event program poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "caption": {
+        "ar": "ملصق برنامج الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event program poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "1fdb7907f0ae5ab80d9ae4ae98f84ac7d0b19c014be4c0444d6da1592a57ca6b",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "key": "arabic-poem-forum-istanbul-2026-main-poster",
+      "filePath": "images/events/arabic-poem-forum-istanbul-2026/arabic-poem-forum-istanbul-2026-main-poster.jpg",
+      "originalFilename": "748097067_1431321259029395_5614231641924942468_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1431321259029395/",
+      "assetType": "event-poster",
+      "seedUsage": "poster",
+      "eventSlug": "arabic-poem-forum-istanbul-2026",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "caption": {
+        "ar": "ملصق الفعالية: ملتقى القصيدة العربية في إسطنبول — الدورة الأولى",
+        "en": "event poster: Arabic Poem Forum in Istanbul — First Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "24ee35881d400d3e6fe88ac65b06ed7069ca7933190ef9605b05658c4d77079e",
+      "width": 1080,
+      "height": 1920
+    },
+    {
+      "key": "association-round-seal-ar-tr",
+      "filePath": "images/branding/association-round-seal-ar-tr.jpg",
+      "originalFilename": "495379139_1082583587236499_812274135590508981_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1082583587236499/",
+      "assetType": "branding",
+      "seedUsage": "logo",
+      "eventSlug": null,
+      "personSlug": null,
+      "alt": {
+        "ar": "ختم دائري للجمعية الدولية للشعراء العرب",
+        "en": "Round seal of the International Association of Arab Poets"
+      },
+      "caption": {
+        "ar": "ختم دائري للجمعية الدولية للشعراء العرب",
+        "en": "Round seal of the International Association of Arab Poets"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "38096554ceca0fa8b029ceefdb2135d9a5c6f0793093f075aa2eeed73f15d783",
+      "width": 1080,
+      "height": 1054
+    },
+    {
+      "key": "person-profile-abdelrahim-kafieh",
+      "filePath": "images/people/profiles/abdelrahim-kafieh.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-abdelrahim-kafieh",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "abdelrahim-kafieh",
+      "alt": {
+        "ar": "صورة عبد الرحيم كافيه",
+        "en": "Portrait of Abdelrahim Kafieh"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ عبد الرحيم كافيه.",
+        "en": "Portrait crop from the official published card for Abdelrahim Kafieh."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "923778fa1584879ff79ca04ae2e3f95d2d630a971171a1cbc76d4ce31a6c5822",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102189195275938/"
+    },
+    {
+      "key": "person-profile-abdul-jawad-al-dahdan",
+      "filePath": "images/people/profiles/abdul-jawad-al-dahdan.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-speaker-abdul-jawad-al-dahdan",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "abdul-jawad-al-dahdan",
+      "alt": {
+        "ar": "صورة عبد الجواد الدحدان",
+        "en": "Portrait of Abdul Jawad Al-Dahdan"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ عبد الجواد الدحدان.",
+        "en": "Portrait crop from the official published card for Abdul Jawad Al-Dahdan."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "094c967f240512054019cd5fea8e6032e3ca92eb73874eb37cb1009ba3c974ab",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724374655754/"
+    },
+    {
+      "key": "person-profile-abdul-qader-lahib",
+      "filePath": "images/people/profiles/abdul-qader-lahib.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-presenter-abdul-qader-lahib",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "abdul-qader-lahib",
+      "alt": {
+        "ar": "صورة عبد القادر لهيب",
+        "en": "Portrait of Abdul Qader Lahib"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ عبد القادر لهيب.",
+        "en": "Portrait crop from the official published card for Abdul Qader Lahib."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "0cb2664b51fbef21120a48941a6cbd109827ad19bbcff75617544e8f4bfbff80",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719127989612/"
+    },
+    {
+      "key": "person-profile-ahmad-bakhit",
+      "filePath": "images/people/profiles/ahmad-bakhit.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-ahmad-bakhit",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "ahmad-bakhit",
+      "alt": {
+        "ar": "صورة أحمد بخيت",
+        "en": "Portrait of Ahmad Bakhit"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ أحمد بخيت.",
+        "en": "Portrait crop from the official published card for Ahmad Bakhit."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "30e604a9da2bbc2fb4b3dfa3e37d733757984f1ef4f51921e559c40f8f9ac117",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101254478702743/"
+    },
+    {
+      "key": "person-profile-ali-matar",
+      "filePath": "images/people/profiles/ali-matar.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-ali-matar",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "ali-matar",
+      "alt": {
+        "ar": "صورة علي مطر",
+        "en": "Portrait of Ali Matar"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ علي مطر.",
+        "en": "Portrait crop from the official published card for Ali Matar."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "36d00281f8a4ee0770ba060b387c08983b5244ddf2b46b0140bc95c69bc9d02f",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106102354884622/"
+    },
+    {
+      "key": "person-profile-ammar-al-shaer",
+      "filePath": "images/people/profiles/ammar-al-shaer.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-presenter-ammar-al-shaer",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "ammar-al-shaer",
+      "alt": {
+        "ar": "صورة عمار الشاعر",
+        "en": "Portrait of Ammar Al-Shaer"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ عمار الشاعر.",
+        "en": "Portrait crop from the official published card for Ammar Al-Shaer."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "d095dd76e3e6e4ce099b7936c7ab7697e9643aaa325d961e1c6fa329f9585d2c",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719124656279/"
+    },
+    {
+      "key": "person-profile-ashraf-hashish",
+      "filePath": "images/people/profiles/ashraf-hashish.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-ashraf-hashish",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "ashraf-hashish",
+      "alt": {
+        "ar": "صورة أشرف حشيش",
+        "en": "Portrait of Ashraf Hashish"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ أشرف حشيش.",
+        "en": "Portrait crop from the official published card for Ashraf Hashish."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "eefe0b2f7d3dbc152f10e792071470204c32a51559c1d698ee664bdce166de8d",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1108161761345348/"
+    },
+    {
+      "key": "person-profile-aziza-lamiri",
+      "filePath": "images/people/profiles/aziza-lamiri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-aziza-lamiri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "aziza-lamiri",
+      "alt": {
+        "ar": "صورة عزيزة لعميري",
+        "en": "Portrait of Aziza Lamiri"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ عزيزة لعميري.",
+        "en": "Portrait crop from the official published card for Aziza Lamiri."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "10f1b7c5ad7c4074f5abbface12549cf5482e785b3af87502fe155b89682ddef",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101258665368991/"
+    },
+    {
+      "key": "person-profile-badriya-al-badri",
+      "filePath": "images/people/profiles/badriya-al-badri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-badriya-al-badri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "badriya-al-badri",
+      "alt": {
+        "ar": "صورة بدرية البدري",
+        "en": "Portrait of Badriya Al-Badri"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ بدرية البدري.",
+        "en": "Portrait crop from the official published card for Badriya Al-Badri."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "abeece1f919c39d79ae50b3d1faed890da996e9532ebecd7e778c74f57a1c768",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105882838239907/"
+    },
+    {
+      "key": "person-profile-bahr-al-din-abdullah-ahmad",
+      "filePath": "images/people/profiles/bahr-al-din-abdullah-ahmad.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-bahr-al-din-abdullah-ahmad",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "bahr-al-din-abdullah-ahmad",
+      "alt": {
+        "ar": "صورة بحر الدين عبد الله أحمد",
+        "en": "Portrait of Bahr Al-Din Abdullah Ahmad"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ بحر الدين عبد الله أحمد.",
+        "en": "Portrait crop from the official published card for Bahr Al-Din Abdullah Ahmad."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "43d653c2ffa344d0a6e6161194c1cc2f92efe0b4825f8f379e3b42ac9ef7b599",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103039551857569/"
+    },
+    {
+      "key": "person-profile-hussein-hamadi",
+      "filePath": "images/people/profiles/hussein-hamadi.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-hussein-hamadi",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "hussein-hamadi",
+      "alt": {
+        "ar": "صورة حسين همادي",
+        "en": "Portrait of Hussein Hamadi"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ حسين همادي.",
+        "en": "Portrait crop from the official published card for Hussein Hamadi."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "e5831563f9718dcdacfa7501ac974a279925365678273df2921efd48630ffb55",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1101556952005829/"
+    },
+    {
+      "key": "person-profile-ibrahim-hafez",
+      "filePath": "images/people/profiles/ibrahim-hafez.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-ibrahim-hafez",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "ibrahim-hafez",
+      "alt": {
+        "ar": "صورة إبراهيم حافظ السوداني",
+        "en": "Portrait of Ibrahim Hafez Al-Sudani"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ إبراهيم حافظ السوداني.",
+        "en": "Portrait crop from the official published card for Ibrahim Hafez Al-Sudani."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a13c065837bf3c8641bce35823e2db304ac15536ad3d70b60f75ae062e627c15",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1108153814679476/"
+    },
+    {
+      "key": "person-profile-jabr-al-baadani",
+      "filePath": "images/people/profiles/jabr-al-baadani.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-jabr-al-baadani",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "jabr-al-baadani",
+      "alt": {
+        "ar": "صورة جبر البعداني",
+        "en": "Portrait of Jabr Al-Baadani"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ جبر البعداني.",
+        "en": "Portrait crop from the official published card for Jabr Al-Baadani."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "d39211bcf6a6d9e7a6aa66c726f5f2118f17eb0a37775730b37af0d4ac85b5fc",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106464114848446/"
+    },
+    {
+      "key": "person-profile-jamal-abdullah-aydan",
+      "filePath": "images/people/profiles/jamal-abdullah-aydan.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-speaker-jamal-abdullah-aydan",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "jamal-abdullah-aydan",
+      "alt": {
+        "ar": "صورة جمال عبد الله أيدان",
+        "en": "Portrait of Jamal Abdullah Aydan"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ جمال عبد الله أيدان.",
+        "en": "Portrait crop from the official published card for Jamal Abdullah Aydan."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c14c093aa5e0ec1ca5891a42d63b4e4b30bf13698282d87669d69c9791331f3b",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041718144656377/"
+    },
+    {
+      "key": "person-profile-jamila-al-majri",
+      "filePath": "images/people/profiles/jamila-al-majri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-jamila-al-majri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "jamila-al-majri",
+      "alt": {
+        "ar": "صورة جميلة الماجري",
+        "en": "Portrait of Jamila Al-Majri"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ جميلة الماجري.",
+        "en": "Portrait crop from the official published card for Jamila Al-Majri."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "bf07ed85d795c0608a367499ae09e986ce76b8d924b519b24b01192b21b56059",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103361568492034/"
+    },
+    {
+      "key": "person-profile-kawkab-issa-al-zabati",
+      "filePath": "images/people/profiles/kawkab-issa-al-zabati.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-kawkab-issa-al-zabati",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "kawkab-issa-al-zabati",
+      "alt": {
+        "ar": "صورة كوكب عيسى الزاباتي",
+        "en": "Portrait of Kawkab Issa Al-Zabati"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ كوكب عيسى الزاباتي.",
+        "en": "Portrait crop from the official published card for Kawkab Issa Al-Zabati."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "f03c2b2e202353b6a6cce961c4453461eb1f7a7346b4d58e1600da6eec05ff9b",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104166091744915/"
+    },
+    {
+      "key": "person-profile-lamis-al-rahbi",
+      "filePath": "images/people/profiles/lamis-al-rahbi.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-organizer-lamis-al-rahbi",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "lamis-al-rahbi",
+      "alt": {
+        "ar": "صورة لميس الرحبي",
+        "en": "Portrait of Lamis Al-Rahbi"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ لميس الرحبي.",
+        "en": "Portrait crop from the official published card for Lamis Al-Rahbi."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "ff6d364d7f9e3138e9c8b59465f7f3ee98a193726be68c4d25a52ea88a1edce5",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105083444986513/"
+    },
+    {
+      "key": "person-profile-malek-noor",
+      "filePath": "images/people/profiles/malek-noor.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-performer-malek-noor",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "malek-noor",
+      "alt": {
+        "ar": "صورة مالك نور",
+        "en": "Portrait of Malek Noor"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ مالك نور.",
+        "en": "Portrait crop from the official published card for Malek Noor."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "ed4d64d29148a93c1c7591087cf67ded3c89640391f2902ab97414824065d040",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719141322944/"
+    },
+    {
+      "key": "person-profile-mohammed-al-sada",
+      "filePath": "images/people/profiles/mohammed-al-sada.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-poet-mohammed-al-sada",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mohammed-al-sada",
+      "alt": {
+        "ar": "صورة محمد السادة",
+        "en": "Portrait of Mohammed Al-Sada"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ محمد السادة.",
+        "en": "Portrait crop from the official published card for Mohammed Al-Sada."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "38406053e98739380b6bf9c637ee7a6e2034f35124fe44b44e270388673ee5ad",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041722111322647/"
+    },
+    {
+      "key": "person-profile-mohammed-al-shahwani",
+      "filePath": "images/people/profiles/mohammed-al-shahwani.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-mohammed-al-shahwani",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mohammed-al-shahwani",
+      "alt": {
+        "ar": "صورة محمد الشهواني",
+        "en": "Portrait of Mohammed Al-Shahwani"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ محمد الشهواني.",
+        "en": "Portrait crop from the official published card for Mohammed Al-Shahwani."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b6109587955545d0a6b95fbc20e9c292a1b9f730978480df79ae3b1d0818b7df",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105084144986443/"
+    },
+    {
+      "key": "person-profile-mohammed-saeed-al-muqaddam",
+      "filePath": "images/people/profiles/mohammed-saeed-al-muqaddam.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-mohammed-saeed-al-muqaddam",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mohammed-saeed-al-muqaddam",
+      "alt": {
+        "ar": "صورة محمد سعيد المقدّم",
+        "en": "Portrait of Mohammed Saeed Al-Muqaddam"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ محمد سعيد المقدّم.",
+        "en": "Portrait crop from the official published card for Mohammed Saeed Al-Muqaddam."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "f8fe88f98f5cfbf52632c02f6b1756cfe4f56a829ef22129b3ed1c8861adedda",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103383791823145/"
+    },
+    {
+      "key": "person-profile-mohammed-zakaria-al-hamad",
+      "filePath": "images/people/profiles/mohammed-zakaria-al-hamad.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-organizer-mohammed-zakaria-al-hamad",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mohammed-zakaria-al-hamad",
+      "alt": {
+        "ar": "صورة محمد زكريا الحمد",
+        "en": "Portrait of Mohammed Zakaria Al-Hamad"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ محمد زكريا الحمد.",
+        "en": "Portrait crop from the official published card for Mohammed Zakaria Al-Hamad."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "dfc58b822bdeb7ac0a81de4aae00f0216c2b00c1087f305dfbf8ec1cf5d723f0",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105884624906395/"
+    },
+    {
+      "key": "person-profile-mustafa-matar",
+      "filePath": "images/people/profiles/mustafa-matar.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-organizer-mustafa-matar",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mustafa-matar",
+      "alt": {
+        "ar": "صورة مصطفى مطر",
+        "en": "Portrait of Mustafa Matar"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ مصطفى مطر.",
+        "en": "Portrait crop from the official published card for Mustafa Matar."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "2413fa6886e389243f7fee7e6356d2338d24fc8b4911cea0c261c144ed15a42d",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106459288182262/"
+    },
+    {
+      "key": "person-profile-mutlaq-al-otaibi",
+      "filePath": "images/people/profiles/mutlaq-al-otaibi.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-mutlaq-al-otaibi",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "mutlaq-al-otaibi",
+      "alt": {
+        "ar": "صورة مطلق العتيبي",
+        "en": "Portrait of Mutlaq Al-Otaibi"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ مطلق العتيبي.",
+        "en": "Portrait crop from the official published card for Mutlaq Al-Otaibi."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b0112ea8123396c6454e65724dece410c194e8b7a648142877993d06e8268275",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103375175157340/"
+    },
+    {
+      "key": "person-profile-nabil-tarabiya",
+      "filePath": "images/people/profiles/nabil-tarabiya.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-poet-nabil-tarabieh",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "nabil-tarabiya",
+      "alt": {
+        "ar": "صورة نبيل طربية",
+        "en": "Portrait of Nabil Tarabieh"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ نبيل طربية.",
+        "en": "Portrait crop from the official published card for Nabil Tarabieh."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a535d128a25d1ffa823fa0c2b2a8d289d1175d2180c17a19f4b4ea8e0abba11e",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041713664656825/"
+    },
+    {
+      "key": "person-profile-nizar-krikish",
+      "filePath": "images/people/profiles/nizar-krikish.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-speaker-nizar-krikish",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "nizar-krikish",
+      "alt": {
+        "ar": "صورة نزار كريكش",
+        "en": "Portrait of Nizar Krikish"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ نزار كريكش.",
+        "en": "Portrait crop from the official published card for Nizar Krikish."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "956eb892ba34d0ec610389e23a2557bc1323a9e18e3be3787493fb69e3fef23a",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724254655766/"
+    },
+    {
+      "key": "person-profile-qasim-al-daraghmeh",
+      "filePath": "images/people/profiles/qasim-al-daraghmeh.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-qasim-al-daraghmeh",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "qasim-al-daraghmeh",
+      "alt": {
+        "ar": "صورة قاسم الدراعمه",
+        "en": "Portrait of Qasim Al-Daraghmeh"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ قاسم الدراعمه.",
+        "en": "Portrait crop from the official published card for Qasim Al-Daraghmeh."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c4fef393e6f30e46bd059efdbb8a9cf50c65e8d519ca84b8c7f8ca6c26c0bd4e",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1105085684986289/"
+    },
+    {
+      "key": "person-profile-rabah-al-bahri",
+      "filePath": "images/people/profiles/rabah-al-bahri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-rabah-al-bahri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "rabah-al-bahri",
+      "alt": {
+        "ar": "صورة رابح روايحي",
+        "en": "Portrait of Rabah Rouaihi"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ رابح روايحي.",
+        "en": "Portrait crop from the official published card for Rabah Rouaihi."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "4cfda015653b3e3ff9e75c56ca8399aa1208b765d53343869393a42652ee778d",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1103045448523646/"
+    },
+    {
+      "key": "person-profile-riman-yassin",
+      "filePath": "images/people/profiles/riman-yassin.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-organizer-riman-yassin",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "riman-yassin",
+      "alt": {
+        "ar": "صورة ريمان ياسين",
+        "en": "Portrait of Riman Yassin"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ ريمان ياسين.",
+        "en": "Portrait crop from the official published card for Riman Yassin."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "e997a10c4cb3c936056e29948b51bd609fb7160cd9b630e58f7aed74ed30245f",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104165608411630/"
+    },
+    {
+      "key": "person-profile-sara-al-zein",
+      "filePath": "images/people/profiles/sara-al-zein.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-sara-al-zein",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "sara-al-zein",
+      "alt": {
+        "ar": "صورة سارة الزين",
+        "en": "Portrait of Sara Al-Zein"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ سارة الزين.",
+        "en": "Portrait crop from the official published card for Sara Al-Zein."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "e3fdcd3d7ed2a1720ef4d1f81ac9ba047354f671941a2d0285ec4b2422db82f7",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102837138544477/"
+    },
+    {
+      "key": "person-profile-soha-amouri",
+      "filePath": "images/people/profiles/soha-amouri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-speaker-soha-amouri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "soha-amouri",
+      "alt": {
+        "ar": "صورة سها أموري",
+        "en": "Portrait of Soha Amouri"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ سها أموري.",
+        "en": "Portrait crop from the official published card for Soha Amouri."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "116df95b5255448ebb35124255a05c7b0e01b79874d7006139ef9de2c5f45a43",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041719131322945/"
+    },
+    {
+      "key": "person-profile-suleiman-hussein",
+      "filePath": "images/people/profiles/suleiman-hussein.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-6-speaker-suleiman-hussein",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "suleiman-hussein",
+      "alt": {
+        "ar": "صورة سليمان حسين",
+        "en": "Portrait of Suleiman Hussein"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ سليمان حسين.",
+        "en": "Portrait crop from the official published card for Suleiman Hussein."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a63c7913cbb98714805d0c5f99735414effaf84676ffb3f72fe3e590d6cba0bd",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1041724377989087/"
+    },
+    {
+      "key": "person-profile-wasfi-al-masri",
+      "filePath": "images/people/profiles/wasfi-al-masri.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-performer-wasfi-al-masri",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "wasfi-al-masri",
+      "alt": {
+        "ar": "صورة وصفي المعرصاني",
+        "en": "Portrait of Wasfi Al-Maarasani"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ وصفي المعرصاني.",
+        "en": "Portrait crop from the official published card for Wasfi Al-Maarasani."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "34015db9c0d0490f794268ce1ed0fe7e28c01c81b7a4fb98689692d74004a8bd",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1109103751251149/"
+    },
+    {
+      "key": "person-profile-youssef-al-khatib",
+      "filePath": "images/people/profiles/youssef-al-khatib.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-youssef-al-khatib",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "youssef-al-khatib",
+      "alt": {
+        "ar": "صورة يوسف الخطيب",
+        "en": "Portrait of Youssef Al-Khatib"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ يوسف الخطيب.",
+        "en": "Portrait crop from the official published card for Youssef Al-Khatib."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "75d16d3658d22e0e811954da04be61e69301df6e11c317c76bd50eb8f9241d6e",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1106463381515186/"
+    },
+    {
+      "key": "person-profile-zain-al-abidin-al-haj-al-saeed",
+      "filePath": "images/people/profiles/zain-al-abidin-al-haj-al-saeed.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-zain-al-abidin-al-haj-al-saeed",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "zain-al-abidin-al-haj-al-saeed",
+      "alt": {
+        "ar": "صورة زين العابدين الحاج السعيد",
+        "en": "Portrait of Zain Al-Abidin Al-Haj Al-Saeed"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ زين العابدين الحاج السعيد.",
+        "en": "Portrait crop from the official published card for Zain Al-Abidin Al-Haj Al-Saeed."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "63027ede0418baea4a3dc7a1c7567451ed92728e7dc411ee5e901a927b544985",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1104166368411554/"
+    },
+    {
+      "key": "person-profile-zaki-al-ali",
+      "filePath": "images/people/profiles/zaki-al-ali.webp",
+      "derivedFromAssetKey": "arab-poetry-festival-7-poet-zaki-al-ali",
+      "assetType": "profile-crop",
+      "seedUsage": "profile",
+      "personSlug": "zaki-al-ali",
+      "alt": {
+        "ar": "صورة زكي العلي",
+        "en": "Portrait of Zaki Al-Ali"
+      },
+      "caption": {
+        "ar": "صورة مقتصة من البطاقة الرسمية المنشورة لـ زكي العلي.",
+        "en": "Portrait crop from the official published card for Zaki Al-Ali."
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "93338fbf4465875db7246aae977b1bcedc2eca69d80f7d9c343df1e44d0355ca",
+      "width": 640,
+      "height": 640,
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1102190121942512/"
+    },
+    {
+      "key": "rabi-al-qawafi-4-participants-poster",
+      "filePath": "images/events/rabi-al-qawafi-fourth-istanbul-2024/rabi-al-qawafi-4-participants-poster.jpg",
+      "originalFilename": "487412236_1051008007060724_5492254094828363221_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1051008007060724/",
+      "assetType": "roster-poster",
+      "seedUsage": "poster",
+      "eventSlug": "rabi-al-qawafi-fourth-istanbul-2024",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق المشاركين: مهرجان ربيع القوافي — الدورة الرابعة",
+        "en": "participant roster poster: Rabi Al-Qawafi Festival — Fourth Edition"
+      },
+      "caption": {
+        "ar": "ملصق المشاركين: مهرجان ربيع القوافي — الدورة الرابعة",
+        "en": "participant roster poster: Rabi Al-Qawafi Festival — Fourth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "8673490849352a0d4780ea89ba9935c7848037b05b22881256614641e079b5e7",
+      "width": 960,
+      "height": 705
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-01",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-01.jpg",
+      "originalFilename": "493068473_1075763711251820_5196771685936147277_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763711251820/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a618dc9d494bf6c8814e42d7a1d31646ff0579fef90151e6073122f0c51d2493",
+      "width": 1153,
+      "height": 2048
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-02",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-02.jpg",
+      "originalFilename": "493538889_1075763234585201_7228736451162584594_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763234585201/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "64bc86bb036b283255979a32d963778daf3eff1f52fc0630264caf4aefa65177",
+      "width": 2048,
+      "height": 1153
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-03",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-03.jpg",
+      "originalFilename": "493550715_1075763584585166_3750588440764321387_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763584585166/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "da232c4bcf3466b9ada98010fd6b9745c63b6366141718f3ea04bda782f498cf",
+      "width": 2048,
+      "height": 1153
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-04",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-04.jpg",
+      "originalFilename": "493890067_1075763754585149_3723914914618008975_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763754585149/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "1015778b9cea9b04f77504d0e48bd1c332c3f67e2a04180bcb729fc7243ed0b9",
+      "width": 2048,
+      "height": 1153
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-05",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-05.jpg",
+      "originalFilename": "494209970_1075763631251828_3041110096814578179_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763631251828/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "33e3fe4c16c0fb0d1711353c01f40ef34a80dba5c0995cf6df8ee330cff01381",
+      "width": 2048,
+      "height": 1153
+    },
+    {
+      "key": "rabi-al-qawafi-5-awards-photo-06",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-awards-photo-06.jpg",
+      "originalFilename": "494451578_1075763657918492_3384848546566467771_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1075763657918492/",
+      "assetType": "event-photo",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "صورة من الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event photo: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "515070b038d75d2ffaeeec5bfb036d8587fc084f693f276d96c040644fdcee75",
+      "width": 2048,
+      "height": 1153
+    },
+    {
+      "key": "rabi-al-qawafi-5-coming-soon",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-coming-soon.jpg",
+      "originalFilename": "491938230_1064703585691166_1768397744964243805_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1064703585691166/",
+      "assetType": "social-poster",
+      "seedUsage": "social",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق ترويجي للفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event promotional poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "ملصق ترويجي للفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event promotional poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "5d297f2b7f105b03b927b1038613e60b04bf807b2b1500297d3d8e29d2dd3ace",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "key": "rabi-al-qawafi-5-main-poster",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-main-poster.jpg",
+      "originalFilename": "487215167_1054330453395146_4998305594878756156_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1054330453395146/",
+      "assetType": "event-poster",
+      "seedUsage": "poster",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "ملصق الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c3a11fb473551df2c7e72303bf0f5933228cf12220608d38699a67e1476a8146",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "key": "rabi-al-qawafi-5-management-poster",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-management-poster.jpg",
+      "originalFilename": "489580675_1058200056341519_9023592016661683444_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1058200056341519/",
+      "assetType": "organizer-poster",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق إدارة الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event management poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "ملصق إدارة الفعالية: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "event management poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "95141ab329934230470ffd3ddc4c36324e145daf1e2da6d18effb5aa233dcace",
+      "width": 1600,
+      "height": 1600
+    },
+    {
+      "key": "rabi-al-qawafi-5-participants-poster",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-participants-poster.jpg",
+      "originalFilename": "492005797_1063957702432421_4651010339699597094_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1063957702432421/",
+      "assetType": "roster-poster",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": null,
+      "alt": {
+        "ar": "ملصق المشاركين: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "participant roster poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "caption": {
+        "ar": "ملصق المشاركين: مهرجان ربيع القوافي — الدورة الخامسة",
+        "en": "participant roster poster: Rabi Al-Qawafi Festival — Fifth Edition"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "a81bf5a28a317fd0cac1dc3a87d0faf9295987e29f41183ee2566ddfd3f34a13",
+      "width": 1755,
+      "height": 1410
+    },
+    {
+      "key": "rabi-al-qawafi-5-poet-lamis-al-rahbi",
+      "filePath": "images/events/rabi-al-qawafi-fifth-gaziantep-2025/rabi-al-qawafi-5-poet-lamis-al-rahbi.jpg",
+      "originalFilename": "491803348_1062377789257079_369101142620068226_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1062377789257079/",
+      "assetType": "person-card",
+      "seedUsage": "gallery",
+      "eventSlug": "rabi-al-qawafi-fifth-gaziantep-2025",
+      "personSlug": "lamis-al-rahbi",
+      "alt": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "caption": {
+        "ar": "بطاقة لميس الرحبي المنشورة ضمن مواد الفعالية",
+        "en": "Lamis Al-Rahbi participant card published for the event"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "c5a949a2cfa4f256b448b3542d7dc1d6be0318310773feab1bb9cce4b5df8fa4",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "key": "unclassified-2021-literary-event-banner",
+      "filePath": "images/review/unclassified-2021-literary-event-banner.jpg",
+      "originalFilename": "499517401_1088974263264098_3471649888867039669_n.jpg",
+      "sourceUrl": "https://www.facebook.com/internationalarabpoets/photos/1088974263264098/",
+      "assetType": "unclassified",
+      "seedUsage": "review",
+      "eventSlug": null,
+      "personSlug": null,
+      "alt": {
+        "ar": "صورة أرشيفية تحتاج إلى تحديد الفعالية",
+        "en": "Archive image requiring event identification"
+      },
+      "caption": {
+        "ar": "صورة أرشيفية تحتاج إلى تحديد الفعالية",
+        "en": "Archive image requiring event identification"
+      },
+      "credit": "الجمعية الدولية للشعراء العرب",
+      "rightsStatus": "client-owned-approved-for-project-use",
+      "sha256": "b66bbd845156916c18e82009ba5b8f56c0b9e24d275f51be9a8c30f8daf8ad55",
+      "width": 1080,
+      "height": 1665
+    }
+  ]
+}

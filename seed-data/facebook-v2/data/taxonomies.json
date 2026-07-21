@@ -1,0 +1,224 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-07-21T19:00:00+03:00",
+  "eventTypes": [
+    {
+      "slug": "festival",
+      "name": {
+        "ar": "مهرجان",
+        "en": "Festival"
+      }
+    },
+    {
+      "slug": "forum",
+      "name": {
+        "ar": "ملتقى",
+        "en": "Forum"
+      }
+    },
+    {
+      "slug": "poetry-evening",
+      "name": {
+        "ar": "أمسية شعرية",
+        "en": "Poetry evening"
+      }
+    }
+  ],
+  "countries": [
+    {
+      "slug": "palestine",
+      "name": {
+        "ar": "فلسطين",
+        "en": "Palestine"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "turkey",
+      "name": {
+        "ar": "تركيا",
+        "en": "Türkiye"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "egypt",
+      "name": {
+        "ar": "مصر",
+        "en": "Egypt"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "jordan",
+      "name": {
+        "ar": "الأردن",
+        "en": "Jordan"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "syria",
+      "name": {
+        "ar": "سوريا",
+        "en": "Syria"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "iraq",
+      "name": {
+        "ar": "العراق",
+        "en": "Iraq"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "mauritania",
+      "name": {
+        "ar": "موريتانيا",
+        "en": "Mauritania"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "morocco",
+      "name": {
+        "ar": "المغرب",
+        "en": "Morocco"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "tunisia",
+      "name": {
+        "ar": "تونس",
+        "en": "Tunisia"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "saudi-arabia",
+      "name": {
+        "ar": "السعودية",
+        "en": "Saudi Arabia"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "uae",
+      "name": {
+        "ar": "الإمارات العربية المتحدة",
+        "en": "United Arab Emirates"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "yemen",
+      "name": {
+        "ar": "اليمن",
+        "en": "Yemen"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "sudan",
+      "name": {
+        "ar": "السودان",
+        "en": "Sudan"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "qatar",
+      "name": {
+        "ar": "قطر",
+        "en": "Qatar"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "lebanon",
+      "name": {
+        "ar": "لبنان",
+        "en": "Lebanon"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "oman",
+      "name": {
+        "ar": "عُمان",
+        "en": "Oman"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "algeria",
+      "name": {
+        "ar": "الجزائر",
+        "en": "Algeria"
+      },
+      "isActive": true
+    },
+    {
+      "slug": "eritrea",
+      "name": {
+        "ar": "إريتريا",
+        "en": "Eritrea"
+      },
+      "isActive": true
+    }
+  ],
+  "cities": [
+    {
+      "slug": "istanbul",
+      "name": {
+        "ar": "إسطنبول",
+        "en": "Istanbul"
+      },
+      "countrySlug": "turkey",
+      "isActive": true
+    },
+    {
+      "slug": "gaza",
+      "name": {
+        "ar": "غزة",
+        "en": "Gaza"
+      },
+      "countrySlug": "palestine",
+      "isActive": true
+    },
+    {
+      "slug": "amman",
+      "name": {
+        "ar": "عمّان",
+        "en": "Amman"
+      },
+      "countrySlug": "jordan",
+      "isActive": true
+    },
+    {
+      "slug": "cairo",
+      "name": {
+        "ar": "القاهرة",
+        "en": "Cairo"
+      },
+      "countrySlug": "egypt",
+      "isActive": true
+    },
+    {
+      "slug": "gaziantep",
+      "name": {
+        "ar": "غازي عنتاب",
+        "en": "Gaziantep"
+      },
+      "countrySlug": "turkey",
+      "isActive": true
+    }
+  ],
+  "notes": [
+    "The current project seed already includes Palestine, Türkiye, Egypt, Jordan, Gaza, Istanbul, Cairo, and Amman. Import only missing records or upsert by slug.",
+    "v2 adds countries and Gaziantep required by the uploaded Facebook imagery."
+  ]
+}
