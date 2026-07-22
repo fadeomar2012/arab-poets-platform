@@ -61,10 +61,9 @@ export const seedMedia = async (
     const existing = existingResult.docs[0];
 
     if (existing) {
-      // Never re-upload the binary; only refresh localized text when asked.
-      if (flags.updateExisting && !flags.dryRun) {
-        await updateMediaText(ctx, existing.id, record);
-      }
+      // Never re-upload the binary. Alt/caption are deterministic from the
+      // manifest and are written at creation, so existing media are reused as-is
+      // — re-writing identical text on every run only adds slow round-trips.
       ctx.media.set(record.key, existing.id);
       report.media.reused += 1;
       continue;

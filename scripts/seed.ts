@@ -14,6 +14,11 @@ import { seedGlobals } from "./seed/seed-globals";
 import { pruneLegacyPlaceholders } from "./seed/seed-legacy";
 import type { SeedContext, SeedPayload, SeedReport } from "./seed/types";
 
+// On-demand Next revalidation cannot run inside this standalone script; skipping
+// it keeps bulk writes fast and quiet. Must be set before the Payload config
+// (and its collection hooks) are imported below.
+process.env.SEED_SKIP_REVALIDATION = "true";
+
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 dotenv.config({ path: path.join(projectRoot, ".env.local") });
 dotenv.config({ path: path.join(projectRoot, ".env") });
@@ -113,13 +118,19 @@ const run = async (): Promise<void> => {
     imagesDir,
   };
 
-  await seedTaxonomies(ctx, dataset);
-  await seedMedia(ctx, dataset);
-  await seedPeople(ctx, dataset);
-  await seedEvents(ctx, dataset);
-  await seedLiteraryWorks(ctx, dataset);
-  await seedGlobals(ctx, dataset);
-  await pruneLegacyPlaceholders(ctx);
+  try {
+    await seedTaxonomies(ctx, dataset);
+    await seedMedia(ctx, dataset);
+    await seedPeople(ctx, dataset);
+    await seedEvents(ctx, dataset);
+    await seedLiteraryWorks(ctx, dataset);
+    await seedGlobals(ctx, dataset);
+    await pruneLegacyPlaceholders(ctx);
+  } finally {
+    // Release the pooled connections cleanly so repeated runs don't leak
+    // sessions on the remote pooler.
+    await payload.destroy?.();
+  }
 
   printReport(report, mode);
 

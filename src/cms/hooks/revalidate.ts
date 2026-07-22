@@ -26,7 +26,14 @@ type RevalidationOptions = {
 const areaPath = (locale: (typeof locales)[number], area: PublicArea) =>
   area === "home" ? `/${locale}` : `/${locale}/${area}`;
 
+// Standalone maintenance scripts (e.g. the seed) run these hooks outside Next's
+// request context, where on-demand revalidation always fails harmlessly. Setting
+// SEED_SKIP_REVALIDATION short-circuits the no-op work so bulk writes stay fast
+// and quiet. Deployed runtime never sets this flag, so its behavior is unchanged.
+const skipRevalidation = () => process.env.SEED_SKIP_REVALIDATION === "true";
+
 function safelyRevalidate(path: string, type?: "layout" | "page") {
+  if (skipRevalidation()) return;
   try {
     if (type) revalidatePath(path, type);
     else revalidatePath(path);
@@ -56,6 +63,7 @@ function revalidatePublicContent(
     }
   }
 
+  if (skipRevalidation()) return;
   for (const tag of options.tags ?? []) {
     try {
       // Next 16's revalidateTag takes a cache-life profile as its second
