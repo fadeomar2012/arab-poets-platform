@@ -351,6 +351,11 @@ export const upsertLocalized = async (
       ...(versioned ? { draft: !published } : {}),
       data: enData,
     });
+    // Passing `draft: true` on an already-published document only stashes a draft
+    // version — the live published projection stays visible. Reconcile the live
+    // status explicitly so a demotion (published fixture -> draft) actually
+    // unpublishes, and a promotion actually publishes.
+    if (versioned) await reconcileStatus(payload, collection, updated.id, published);
     return { doc: updated, outcome: "updated" };
   }
 

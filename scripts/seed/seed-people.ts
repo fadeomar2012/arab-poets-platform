@@ -63,12 +63,15 @@ export const seedPeople = async (
 
     const common: Record<string, unknown> = {
       country: plan.countryId,
+      // Always set city explicitly. When the dataset has no city, clear it to
+      // null so an existing record's stale city (e.g. adopted from the old
+      // fixture seed) can never mismatch the new country and fail validation.
+      city: cityId ?? null,
       roles: person.roles ?? [],
       showContactPublicly: plan.showContactPublicly,
       showInPublicDirectory: plan.showInPublicDirectory,
       displayOrder: order++,
     };
-    if (cityId !== undefined) common.city = cityId;
     if (profileImage !== undefined) common.profileImage = profileImage;
 
     ctx.peopleStatus.set(person.slug, plan.published ? "published" : "draft");

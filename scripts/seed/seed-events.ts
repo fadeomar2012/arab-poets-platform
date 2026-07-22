@@ -30,34 +30,50 @@ const deriveEventRole = (roles: string[] | undefined): string => {
 const localizedDate = (value?: string | null): string | undefined =>
   value ? new Date(`${value}T00:00:00.000Z`).toISOString() : undefined;
 
+type DocRow = { id?: unknown; items?: unknown };
+
 // Build the localized programDays array for one locale. Non-localized fields
 // (date, times, relationships) are identical across locales; localized text
 // (label, title, description, venue) is swapped per locale.
+//
+// Payload stores one shared set of array rows with per-locale values for the
+// localized subfields. To write the second locale correctly, the existing row
+// ids must be supplied so Payload matches rows instead of treating them as new
+// (which would leave the required localized fields empty). `existingDays` — the
+// rows read back after the first-locale write — supplies those ids.
 const buildProgramDays = (
   ctx: SeedContext,
   days: ProgramDayRecord[] | undefined,
   locale: Locale,
+  existingDays?: DocRow[],
 ): Record<string, unknown>[] =>
-  (days ?? []).map((day) => ({
-    label: day.label[locale],
-    date: localizedDate(day.date),
-    items: (day.items ?? []).map((item) => {
-      const presenter = item.presenterSlug ? ctx.people.get(item.presenterSlug) : undefined;
-      const participants = (item.participantSlugs ?? [])
-        .map((slug) => ctx.people.get(slug))
-        .filter((id): id is string | number => id !== undefined && !(typeof id === "string" && id.startsWith("dry:")));
-      const row: Record<string, unknown> = { title: item.title[locale] };
-      if (item.startTime) row.startTime = item.startTime;
-      if (item.durationMinutes) row.durationMinutes = item.durationMinutes;
-      if (presenter !== undefined && !(typeof presenter === "string" && presenter.startsWith("dry:"))) {
-        row.presenter = presenter;
-      }
-      if (participants.length) row.participants = participants;
-      if (item.description) row.description = item.description[locale];
-      if (item.venue) row.venue = item.venue[locale];
-      return row;
-    }),
-  }));
+  (days ?? []).map((day, dayIndex) => {
+    const existingDay = existingDays?.[dayIndex];
+    const existingItems = Array.isArray(existingDay?.items) ? (existingDay!.items as DocRow[]) : [];
+    return {
+      ...(existingDay?.id !== undefined ? { id: existingDay.id } : {}),
+      label: day.label[locale],
+      date: localizedDate(day.date),
+      items: (day.items ?? []).map((item, itemIndex) => {
+        const presenter = item.presenterSlug ? ctx.people.get(item.presenterSlug) : undefined;
+        const participants = (item.participantSlugs ?? [])
+          .map((slug) => ctx.people.get(slug))
+          .filter((id): id is string | number => id !== undefined && !(typeof id === "string" && id.startsWith("dry:")));
+        const existingItem = existingItems[itemIndex];
+        const row: Record<string, unknown> = { title: item.title[locale] };
+        if (existingItem?.id !== undefined) row.id = existingItem.id;
+        if (item.startTime) row.startTime = item.startTime;
+        if (item.durationMinutes) row.durationMinutes = item.durationMinutes;
+        if (presenter !== undefined && !(typeof presenter === "string" && presenter.startsWith("dry:"))) {
+          row.presenter = presenter;
+        }
+        if (participants.length) row.participants = participants;
+        if (item.description) row.description = item.description[locale];
+        if (item.venue) row.venue = item.venue[locale];
+        return row;
+      }),
+    };
+  });
 
 const eventPublishable = (event: EventRecord): boolean => {
   const status = event.archive?.verificationStatus ?? event.verificationStatus;
@@ -79,12 +95,16 @@ const adoptLegacyEvent = async (ctx: SeedContext, canonicalSlug: string): Promis
 
   if (!canonical) {
     if (!ctx.flags.dryRun) {
+      // Clear programDays while renaming. The legacy fixture may carry an old
+      // programDays block (whose localized subfields Payload now re-validates on
+      // any write); the adopted events have no program in the new dataset, and
+      // the subsequent upsert sets the canonical content regardless.
       await ctx.payload.update({
         collection: "events",
         id: legacy.id,
         locale: "ar",
         overrideAccess: true,
-        data: { slug: canonicalSlug },
+        data: { slug: canonicalSlug, programDays: [] },
       });
     }
     ctx.report.legacy.adopted.push(`${legacySlug} -> ${canonicalSlug}`);
@@ -182,7 +202,13 @@ export const seedEvents = async (
       archive,
     };
     if (city !== undefined) common.city = city;
-    if (end) common.endDateTime = end.iso;
+    // Only set an end when it is strictly after the start. A single-day event
+    // whose end time is unknown would otherwise normalize to a placeholder that
+    // can fall before the start; endDateTime is optional, so omit it instead of
+    // inventing an end earlier than the start.
+    if (end && new Date(end.iso).getTime() > new Date(start.iso).getTime()) {
+      common.endDateTime = end.iso;
+    }
     const cover = resolveMedia(ctx, event.coverImageKey, `event ${event.slug} cover`);
     const social = resolveMedia(ctx, event.socialImageKey, `event ${event.slug} social`);
     const poster = resolveMedia(ctx, event.posterImageKey, `event ${event.slug} poster`);
@@ -195,7 +221,11 @@ export const seedEvents = async (
 
     if (flags.dryRun) continue;
 
-    const { outcome } = await upsertLocalized(payload, flags, {
+    // programDays is written only in the AR block here (establishing the shared
+    // rows). English values for its localized subfields are applied afterwards,
+    // matched to the freshly-generated row ids, to avoid Payload leaving the
+    // required localized fields empty on the second-locale write.
+    const { doc, outcome } = await upsertLocalized(payload, flags, {
       collection: "events",
       slug: event.slug,
       common,
@@ -211,11 +241,44 @@ export const seedEvents = async (
         shortDescription: event.shortDescription.en,
         venueName: event.venueName?.en,
         addressText: event.addressText?.en,
-        programDays: buildProgramDays(ctx, event.programDays, "en"),
       },
       versioned: true,
       published,
     });
     tallyOutcome(report.events, outcome);
+
+    if (outcome !== "unchanged" && (event.programDays?.length ?? 0) > 0) {
+      await applyEnglishProgramDays(ctx, doc.id, event, published);
+    }
   }
+};
+
+// Fill the English localized values of an event's programDays, matched to the
+// row ids Payload generated during the AR write. Runs only after a real write.
+const applyEnglishProgramDays = async (
+  ctx: SeedContext,
+  eventId: string | number,
+  event: EventRecord,
+  published: boolean,
+): Promise<void> => {
+  const fresh = await ctx.payload.findByID({
+    collection: "events",
+    id: eventId,
+    locale: "ar",
+    fallbackLocale: false,
+    depth: 0,
+    overrideAccess: true,
+    draft: true,
+  });
+  const existingDays = Array.isArray(fresh.programDays)
+    ? (fresh.programDays as DocRow[])
+    : [];
+  await ctx.payload.update({
+    collection: "events",
+    id: eventId,
+    locale: "en",
+    overrideAccess: true,
+    draft: !published,
+    data: { programDays: buildProgramDays(ctx, event.programDays, "en", existingDays) },
+  });
 };
